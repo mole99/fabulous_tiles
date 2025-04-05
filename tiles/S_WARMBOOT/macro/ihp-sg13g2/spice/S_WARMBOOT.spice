@@ -1,0 +1,1018 @@
+* NGSPICE file created from S_WARMBOOT.ext - technology: ihp-sg13g2
+
+* Black-box entry subcircuit for sg13g2_decap_8 abstract view
+.subckt sg13g2_decap_8 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_buf_1 abstract view
+.subckt sg13g2_buf_1 A X VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_decap_4 abstract view
+.subckt sg13g2_decap_4 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_dlhq_1 abstract view
+.subckt sg13g2_dlhq_1 D GATE Q VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_mux4_1 abstract view
+.subckt sg13g2_mux4_1 S0 A0 A1 A2 A3 S1 X VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_antennanp abstract view
+.subckt sg13g2_antennanp VDD VSS A
+.ends
+
+* Black-box entry subcircuit for sg13g2_fill_1 abstract view
+.subckt sg13g2_fill_1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_fill_2 abstract view
+.subckt sg13g2_fill_2 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_mux2_1 abstract view
+.subckt sg13g2_mux2_1 A0 A1 S X VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_a221oi_1 abstract view
+.subckt sg13g2_a221oi_1 VSS VDD B2 C1 B1 A1 Y A2
+.ends
+
+* Black-box entry subcircuit for sg13g2_a21oi_1 abstract view
+.subckt sg13g2_a21oi_1 VSS VDD A1 A2 Y B1
+.ends
+
+* Black-box entry subcircuit for sg13g2_tielo abstract view
+.subckt sg13g2_tielo VDD VSS L_LO
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2b_1 abstract view
+.subckt sg13g2_nand2b_1 Y B A_N VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_inv_1 abstract view
+.subckt sg13g2_inv_1 VDD Y A VSS
+.ends
+
+.subckt S_WARMBOOT BOOT_top CONFIGURED_top Co FrameData[0] FrameData[10] FrameData[11]
++ FrameData[12] FrameData[13] FrameData[14] FrameData[15] FrameData[16] FrameData[17]
++ FrameData[18] FrameData[19] FrameData[1] FrameData[20] FrameData[21] FrameData[22]
++ FrameData[23] FrameData[24] FrameData[25] FrameData[26] FrameData[27] FrameData[28]
++ FrameData[29] FrameData[2] FrameData[30] FrameData[31] FrameData[3] FrameData[4]
++ FrameData[5] FrameData[6] FrameData[7] FrameData[8] FrameData[9] FrameData_O[0]
++ FrameData_O[10] FrameData_O[11] FrameData_O[12] FrameData_O[13] FrameData_O[14]
++ FrameData_O[15] FrameData_O[16] FrameData_O[17] FrameData_O[18] FrameData_O[19]
++ FrameData_O[1] FrameData_O[20] FrameData_O[21] FrameData_O[22] FrameData_O[23] FrameData_O[24]
++ FrameData_O[25] FrameData_O[26] FrameData_O[27] FrameData_O[28] FrameData_O[29]
++ FrameData_O[2] FrameData_O[30] FrameData_O[31] FrameData_O[3] FrameData_O[4] FrameData_O[5]
++ FrameData_O[6] FrameData_O[7] FrameData_O[8] FrameData_O[9] FrameStrobe[0] FrameStrobe[10]
++ FrameStrobe[11] FrameStrobe[12] FrameStrobe[13] FrameStrobe[14] FrameStrobe[15]
++ FrameStrobe[16] FrameStrobe[17] FrameStrobe[18] FrameStrobe[19] FrameStrobe[1] FrameStrobe[2]
++ FrameStrobe[3] FrameStrobe[4] FrameStrobe[5] FrameStrobe[6] FrameStrobe[7] FrameStrobe[8]
++ FrameStrobe[9] FrameStrobe_O[0] FrameStrobe_O[10] FrameStrobe_O[11] FrameStrobe_O[12]
++ FrameStrobe_O[13] FrameStrobe_O[14] FrameStrobe_O[15] FrameStrobe_O[16] FrameStrobe_O[17]
++ FrameStrobe_O[18] FrameStrobe_O[19] FrameStrobe_O[1] FrameStrobe_O[2] FrameStrobe_O[3]
++ FrameStrobe_O[4] FrameStrobe_O[5] FrameStrobe_O[6] FrameStrobe_O[7] FrameStrobe_O[8]
++ FrameStrobe_O[9] N1BEG[0] N1BEG[1] N1BEG[2] N1BEG[3] N2BEG[0] N2BEG[1] N2BEG[2]
++ N2BEG[3] N2BEG[4] N2BEG[5] N2BEG[6] N2BEG[7] N2BEGb[0] N2BEGb[1] N2BEGb[2] N2BEGb[3]
++ N2BEGb[4] N2BEGb[5] N2BEGb[6] N2BEGb[7] N4BEG[0] N4BEG[10] N4BEG[11] N4BEG[12] N4BEG[13]
++ N4BEG[14] N4BEG[15] N4BEG[1] N4BEG[2] N4BEG[3] N4BEG[4] N4BEG[5] N4BEG[6] N4BEG[7]
++ N4BEG[8] N4BEG[9] NN4BEG[0] NN4BEG[10] NN4BEG[11] NN4BEG[12] NN4BEG[13] NN4BEG[14]
++ NN4BEG[15] NN4BEG[1] NN4BEG[2] NN4BEG[3] NN4BEG[4] NN4BEG[5] NN4BEG[6] NN4BEG[7]
++ NN4BEG[8] NN4BEG[9] RESET_top S1END[0] S1END[1] S1END[2] S1END[3] S2END[0] S2END[1]
++ S2END[2] S2END[3] S2END[4] S2END[5] S2END[6] S2END[7] S2MID[0] S2MID[1] S2MID[2]
++ S2MID[3] S2MID[4] S2MID[5] S2MID[6] S2MID[7] S4END[0] S4END[10] S4END[11] S4END[12]
++ S4END[13] S4END[14] S4END[15] S4END[1] S4END[2] S4END[3] S4END[4] S4END[5] S4END[6]
++ S4END[7] S4END[8] S4END[9] SLOT_top0 SLOT_top1 SLOT_top2 SLOT_top3 SS4END[0] SS4END[10]
++ SS4END[11] SS4END[12] SS4END[13] SS4END[14] SS4END[15] SS4END[1] SS4END[2] SS4END[3]
++ SS4END[4] SS4END[5] SS4END[6] SS4END[7] SS4END[8] SS4END[9] UserCLK UserCLKo VGND
++ VPWR
+XFILLER_5_387 VPWR VGND sg13g2_decap_8
+XFILLER_5_310 VPWR VGND sg13g2_decap_8
+XFILLER_3_56 VPWR VGND sg13g2_decap_8
+XFILLER_8_192 VPWR VGND sg13g2_decap_8
+XFILLER_2_346 VPWR VGND sg13g2_decap_8
+XFILLER_5_184 VPWR VGND sg13g2_decap_8
+X_131_ net30 net128 VPWR VGND sg13g2_buf_1
+X_062_ FrameData[1] net69 VPWR VGND sg13g2_buf_1
+XFILLER_9_44 VPWR VGND sg13g2_decap_8
+XFILLER_0_24 VPWR VGND sg13g2_decap_4
+XFILLER_4_419 VPWR VGND sg13g2_decap_8
+XFILLER_7_224 VPWR VGND sg13g2_decap_4
+X_045_ net6 net9 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit17.Q VPWR VGND sg13g2_dlhq_1
+X_114_ Inst_S_WARMBOOT_switch_matrix.N1BEG1 net111 VPWR VGND sg13g2_buf_1
+Xfanout7 net9 net7 VPWR VGND sg13g2_buf_1
+XFILLER_4_238 VPWR VGND sg13g2_decap_8
+X_028_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit26.Q net43 net47 net51 net55 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit27.Q
++ _010_ VPWR VGND sg13g2_mux4_1
+XANTENNA_5 VPWR VGND FrameData[3] sg13g2_antennanp
+Xoutput75 net78 FrameData_O[28] VPWR VGND sg13g2_buf_1
+Xoutput97 net100 FrameStrobe_O[19] VPWR VGND sg13g2_buf_1
+XFILLER_8_374 VPWR VGND sg13g2_decap_8
+XFILLER_8_363 VPWR VGND sg13g2_fill_1
+Xoutput64 net67 FrameData_O[18] VPWR VGND sg13g2_buf_1
+XFILLER_0_241 VPWR VGND sg13g2_decap_8
+Xoutput86 net89 FrameData_O[9] VPWR VGND sg13g2_buf_1
+XFILLER_7_8 VPWR VGND sg13g2_decap_8
+XFILLER_5_366 VPWR VGND sg13g2_decap_8
+XFILLER_3_35 VPWR VGND sg13g2_decap_8
+XFILLER_5_163 VPWR VGND sg13g2_decap_8
+X_130_ net31 net127 VPWR VGND sg13g2_buf_1
+XFILLER_7_406 VPWR VGND sg13g2_decap_8
+XFILLER_9_23 VPWR VGND sg13g2_decap_8
+X_061_ FrameData[0] net58 VPWR VGND sg13g2_buf_1
+XFILLER_7_258 VPWR VGND sg13g2_fill_2
+XFILLER_7_247 VPWR VGND sg13g2_decap_8
+X_113_ Inst_S_WARMBOOT_switch_matrix.N1BEG0 net110 VPWR VGND sg13g2_buf_1
+X_044_ net5 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit16.Q VPWR VGND sg13g2_dlhq_1
+Xfanout8 net9 net8 VPWR VGND sg13g2_buf_1
+XFILLER_6_280 VPWR VGND sg13g2_decap_8
+XFILLER_0_434 VPWR VGND sg13g2_fill_1
+XFILLER_4_217 VPWR VGND sg13g2_decap_8
+X_027_ _009_ _008_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit31.Q net165 VPWR VGND
++ sg13g2_mux2_1
+XFILLER_6_79 VPWR VGND sg13g2_fill_2
+XANTENNA_6 VPWR VGND FrameData[5] sg13g2_antennanp
+XFILLER_1_209 VPWR VGND sg13g2_decap_8
+Xoutput76 net79 FrameData_O[29] VPWR VGND sg13g2_buf_1
+Xoutput98 net101 FrameStrobe_O[1] VPWR VGND sg13g2_buf_1
+Xoutput87 net90 FrameStrobe_O[0] VPWR VGND sg13g2_buf_1
+Xoutput65 net68 FrameData_O[19] VPWR VGND sg13g2_buf_1
+XFILLER_0_220 VPWR VGND sg13g2_decap_8
+Xoutput54 net57 BOOT_top VPWR VGND sg13g2_buf_1
+XFILLER_0_297 VPWR VGND sg13g2_decap_8
+XFILLER_5_345 VPWR VGND sg13g2_decap_8
+XFILLER_8_172 VPWR VGND sg13g2_fill_2
+XFILLER_3_14 VPWR VGND sg13g2_decap_8
+XFILLER_5_142 VPWR VGND sg13g2_decap_8
+XFILLER_1_370 VPWR VGND sg13g2_decap_8
+XFILLER_9_79 VPWR VGND sg13g2_decap_8
+X_112_ FrameStrobe[19] net100 VPWR VGND sg13g2_buf_1
+X_043_ net4 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit15.Q VPWR VGND sg13g2_dlhq_1
+Xfanout9 FrameStrobe[0] net9 VPWR VGND sg13g2_buf_1
+XFILLER_1_0 VPWR VGND sg13g2_decap_8
+XFILLER_3_421 VPWR VGND sg13g2_decap_4
+XFILLER_0_413 VPWR VGND sg13g2_decap_8
+XFILLER_6_36 VPWR VGND sg13g2_decap_8
+X_026_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit29.Q net28 net40 net32 net36 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit30.Q
++ _009_ VPWR VGND sg13g2_mux4_1
+XANTENNA_7 VPWR VGND FrameData[6] sg13g2_antennanp
+XFILLER_3_295 VPWR VGND sg13g2_decap_4
+Xoutput88 net91 FrameStrobe_O[10] VPWR VGND sg13g2_buf_1
+Xoutput99 net102 FrameStrobe_O[2] VPWR VGND sg13g2_buf_1
+XFILLER_0_276 VPWR VGND sg13g2_decap_8
+Xoutput77 net80 FrameData_O[2] VPWR VGND sg13g2_buf_1
+Xoutput55 net58 FrameData_O[0] VPWR VGND sg13g2_buf_1
+Xoutput66 net69 FrameData_O[1] VPWR VGND sg13g2_buf_1
+XFILLER_8_332 VPWR VGND sg13g2_fill_1
+XFILLER_5_324 VPWR VGND sg13g2_decap_8
+XFILLER_5_198 VPWR VGND sg13g2_decap_8
+XFILLER_1_393 VPWR VGND sg13g2_fill_2
+XFILLER_4_91 VPWR VGND sg13g2_decap_8
+XFILLER_0_49 VPWR VGND sg13g2_decap_8
+XFILLER_9_58 VPWR VGND sg13g2_decap_8
+XFILLER_6_441 VPWR VGND sg13g2_fill_1
+XFILLER_9_290 VPWR VGND sg13g2_fill_1
+X_111_ FrameStrobe[18] net99 VPWR VGND sg13g2_buf_1
+X_042_ net3 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit14.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_400 VPWR VGND sg13g2_decap_8
+XANTENNA_8 VPWR VGND FrameData[9] sg13g2_antennanp
+X_025_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit29.Q net44 net48 net52 net56 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit30.Q
++ _008_ VPWR VGND sg13g2_mux4_1
+XFILLER_6_15 VPWR VGND sg13g2_decap_8
+XFILLER_3_274 VPWR VGND sg13g2_decap_8
+Xoutput78 net81 FrameData_O[30] VPWR VGND sg13g2_buf_1
+Xoutput89 net92 FrameStrobe_O[11] VPWR VGND sg13g2_buf_1
+Xoutput67 net70 FrameData_O[20] VPWR VGND sg13g2_buf_1
+XFILLER_0_255 VPWR VGND sg13g2_decap_8
+Xoutput56 net59 FrameData_O[10] VPWR VGND sg13g2_buf_1
+XFILLER_8_388 VPWR VGND sg13g2_decap_8
+XFILLER_5_303 VPWR VGND sg13g2_decap_8
+XFILLER_3_49 VPWR VGND sg13g2_decap_8
+XFILLER_8_185 VPWR VGND sg13g2_decap_8
+XFILLER_8_163 VPWR VGND sg13g2_fill_1
+XFILLER_4_391 VPWR VGND sg13g2_decap_8
+XFILLER_2_339 VPWR VGND sg13g2_decap_8
+XFILLER_5_177 VPWR VGND sg13g2_decap_8
+XFILLER_4_70 VPWR VGND sg13g2_decap_8
+XFILLER_9_37 VPWR VGND sg13g2_decap_8
+XFILLER_6_420 VPWR VGND sg13g2_decap_8
+XFILLER_0_28 VPWR VGND sg13g2_fill_1
+XFILLER_0_17 VPWR VGND sg13g2_decap_8
+X_110_ FrameStrobe[17] net98 VPWR VGND sg13g2_buf_1
+XFILLER_7_228 VPWR VGND sg13g2_fill_2
+XFILLER_7_217 VPWR VGND sg13g2_decap_8
+X_041_ net2 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit13.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_6_294 VPWR VGND sg13g2_decap_8
+XFILLER_10_80 VPWR VGND sg13g2_decap_8
+X_024_ VGND VPWR _007_ _001_ _005_ _000_ net57 _003_ sg13g2_a221oi_1
+XANTENNA_9 VPWR VGND net68 sg13g2_antennanp
+Xoutput57 net60 FrameData_O[11] VPWR VGND sg13g2_buf_1
+Xoutput79 net82 FrameData_O[31] VPWR VGND sg13g2_buf_1
+Xoutput68 net71 FrameData_O[21] VPWR VGND sg13g2_buf_1
+XFILLER_8_356 VPWR VGND sg13g2_decap_8
+XFILLER_8_323 VPWR VGND sg13g2_fill_2
+XFILLER_8_312 VPWR VGND sg13g2_decap_4
+XFILLER_0_234 VPWR VGND sg13g2_decap_8
+XFILLER_5_359 VPWR VGND sg13g2_decap_8
+XFILLER_3_28 VPWR VGND sg13g2_decap_8
+XFILLER_4_370 VPWR VGND sg13g2_decap_8
+XFILLER_5_156 VPWR VGND sg13g2_decap_8
+XFILLER_5_123 VPWR VGND sg13g2_fill_2
+XFILLER_1_351 VPWR VGND sg13g2_decap_8
+XFILLER_9_16 VPWR VGND sg13g2_decap_8
+X_040_ net28 net24 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit13.Q Inst_S_WARMBOOT_switch_matrix.N1BEG0
++ VPWR VGND sg13g2_mux2_1
+XFILLER_6_273 VPWR VGND sg13g2_decap_8
+XFILLER_0_427 VPWR VGND sg13g2_decap_8
+X_023_ VGND VPWR Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit18.Q _006_ _007_ _000_ sg13g2_a21oi_1
+Xoutput69 net72 FrameData_O[22] VPWR VGND sg13g2_buf_1
+Xoutput58 net61 FrameData_O[12] VPWR VGND sg13g2_buf_1
+XFILLER_0_213 VPWR VGND sg13g2_decap_8
+XS_WARMBOOT_164 VPWR VGND Co sg13g2_tielo
+XFILLER_7_71 VPWR VGND sg13g2_decap_8
+XFILLER_5_338 VPWR VGND sg13g2_decap_8
+XFILLER_5_135 VPWR VGND sg13g2_decap_8
+XFILLER_1_330 VPWR VGND sg13g2_decap_8
+XFILLER_3_7 VPWR VGND sg13g2_decap_8
+XFILLER_9_271 VPWR VGND sg13g2_fill_1
+XFILLER_7_208 VPWR VGND sg13g2_decap_4
+XFILLER_3_414 VPWR VGND sg13g2_decap_8
+XFILLER_6_252 VPWR VGND sg13g2_decap_8
+X_099_ FrameStrobe[6] net106 VPWR VGND sg13g2_buf_1
+X_022_ net52 net56 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit17.Q _006_ VPWR VGND sg13g2_mux2_1
+XFILLER_6_29 VPWR VGND sg13g2_decap_8
+XFILLER_3_288 VPWR VGND sg13g2_decap_8
+XFILLER_3_299 VPWR VGND sg13g2_fill_1
+XFILLER_0_269 VPWR VGND sg13g2_decap_8
+Xoutput59 net62 FrameData_O[13] VPWR VGND sg13g2_buf_1
+XFILLER_7_50 VPWR VGND sg13g2_decap_8
+XFILLER_5_317 VPWR VGND sg13g2_decap_8
+XFILLER_8_199 VPWR VGND sg13g2_decap_8
+XFILLER_8_122 VPWR VGND sg13g2_decap_8
+XFILLER_4_84 VPWR VGND sg13g2_decap_8
+XFILLER_2_106 VPWR VGND sg13g2_decap_4
+XFILLER_6_434 VPWR VGND sg13g2_decap_8
+XFILLER_1_172 VPWR VGND sg13g2_decap_4
+XFILLER_6_231 VPWR VGND sg13g2_decap_8
+X_098_ FrameStrobe[5] net105 VPWR VGND sg13g2_buf_1
+XFILLER_1_85 VPWR VGND sg13g2_fill_1
+XFILLER_1_63 VPWR VGND sg13g2_fill_1
+X_021_ _005_ _004_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit18.Q VPWR VGND sg13g2_nand2b_1
+XFILLER_3_201 VPWR VGND sg13g2_decap_4
+XFILLER_0_248 VPWR VGND sg13g2_decap_8
+XFILLER_7_392 VPWR VGND sg13g2_decap_8
+XFILLER_8_178 VPWR VGND sg13g2_decap_8
+XFILLER_4_384 VPWR VGND sg13g2_decap_8
+XFILLER_1_365 VPWR VGND sg13g2_fill_1
+XFILLER_4_63 VPWR VGND sg13g2_decap_8
+XFILLER_6_413 VPWR VGND sg13g2_decap_8
+XFILLER_6_210 VPWR VGND sg13g2_decap_8
+XFILLER_6_287 VPWR VGND sg13g2_decap_8
+XFILLER_1_42 VPWR VGND sg13g2_decap_8
+X_097_ FrameStrobe[4] net104 VPWR VGND sg13g2_buf_1
+XFILLER_10_73 VPWR VGND sg13g2_decap_8
+X_020_ net44 net48 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit17.Q _004_ VPWR VGND sg13g2_mux2_1
+X_149_ SS4END[15] net146 VPWR VGND sg13g2_buf_1
+XFILLER_0_227 VPWR VGND sg13g2_decap_8
+XFILLER_8_305 VPWR VGND sg13g2_decap_8
+XFILLER_7_85 VPWR VGND sg13g2_fill_2
+XFILLER_8_168 VPWR VGND sg13g2_decap_4
+XFILLER_4_363 VPWR VGND sg13g2_decap_8
+XFILLER_5_149 VPWR VGND sg13g2_decap_8
+XFILLER_5_116 VPWR VGND sg13g2_decap_8
+XFILLER_9_411 VPWR VGND sg13g2_decap_8
+XFILLER_1_300 VPWR VGND sg13g2_decap_8
+XFILLER_1_344 VPWR VGND sg13g2_decap_8
+XFILLER_1_377 VPWR VGND sg13g2_fill_1
+XFILLER_4_42 VPWR VGND sg13g2_decap_8
+XFILLER_4_182 VPWR VGND sg13g2_decap_8
+XFILLER_10_421 VPWR VGND sg13g2_fill_2
+XFILLER_6_458 VPWR VGND sg13g2_fill_1
+XFILLER_1_7 VPWR VGND sg13g2_decap_8
+XFILLER_6_266 VPWR VGND sg13g2_decap_8
+XFILLER_1_21 VPWR VGND sg13g2_decap_8
+X_165_ UserCLK net166 VPWR VGND sg13g2_buf_1
+X_096_ FrameStrobe[3] net103 VPWR VGND sg13g2_buf_1
+XFILLER_10_52 VPWR VGND sg13g2_decap_8
+X_148_ net41 net136 VPWR VGND sg13g2_buf_1
+X_079_ net10 net67 VPWR VGND sg13g2_buf_1
+XFILLER_0_206 VPWR VGND sg13g2_decap_8
+XFILLER_7_64 VPWR VGND sg13g2_decap_8
+XFILLER_8_136 VPWR VGND sg13g2_fill_2
+XFILLER_4_342 VPWR VGND sg13g2_decap_8
+XFILLER_7_180 VPWR VGND sg13g2_decap_8
+XFILLER_9_445 VPWR VGND sg13g2_fill_2
+XFILLER_5_128 VPWR VGND sg13g2_decap_8
+XFILLER_1_323 VPWR VGND sg13g2_decap_8
+XFILLER_4_21 VPWR VGND sg13g2_decap_8
+XFILLER_4_98 VPWR VGND sg13g2_decap_8
+XFILLER_4_161 VPWR VGND sg13g2_decap_8
+XFILLER_10_400 VPWR VGND sg13g2_decap_8
+XFILLER_1_142 VPWR VGND sg13g2_decap_4
+XFILLER_9_286 VPWR VGND sg13g2_decap_4
+XFILLER_1_197 VPWR VGND sg13g2_fill_1
+XFILLER_3_407 VPWR VGND sg13g2_decap_8
+XFILLER_6_245 VPWR VGND sg13g2_decap_8
+X_164_ net49 net152 VPWR VGND sg13g2_buf_1
+X_095_ FrameStrobe[2] net102 VPWR VGND sg13g2_buf_1
+XFILLER_10_31 VPWR VGND sg13g2_decap_8
+X_078_ net6 net66 VPWR VGND sg13g2_buf_1
+X_147_ net42 net135 VPWR VGND sg13g2_buf_1
+XFILLER_7_87 VPWR VGND sg13g2_fill_1
+XFILLER_7_43 VPWR VGND sg13g2_decap_8
+XFILLER_8_159 VPWR VGND sg13g2_decap_4
+XFILLER_4_398 VPWR VGND sg13g2_decap_8
+XFILLER_4_77 VPWR VGND sg13g2_decap_8
+XFILLER_4_140 VPWR VGND sg13g2_decap_8
+XFILLER_10_423 VPWR VGND sg13g2_fill_1
+XFILLER_6_427 VPWR VGND sg13g2_decap_8
+XFILLER_1_165 VPWR VGND sg13g2_decap_8
+XFILLER_1_110 VPWR VGND sg13g2_decap_8
+XFILLER_6_224 VPWR VGND sg13g2_decap_8
+X_094_ FrameStrobe[1] net101 VPWR VGND sg13g2_buf_1
+X_163_ net50 net151 VPWR VGND sg13g2_buf_1
+XFILLER_1_56 VPWR VGND sg13g2_decap_8
+XFILLER_10_87 VPWR VGND sg13g2_decap_4
+XFILLER_3_205 VPWR VGND sg13g2_fill_2
+X_146_ net43 net134 VPWR VGND sg13g2_buf_1
+X_077_ net5 net65 VPWR VGND sg13g2_buf_1
+XANTENNA_60 VPWR VGND FrameData[11] sg13g2_antennanp
+XFILLER_7_22 VPWR VGND sg13g2_decap_8
+XFILLER_7_385 VPWR VGND sg13g2_decap_8
+X_129_ net32 net126 VPWR VGND sg13g2_buf_1
+XFILLER_4_377 VPWR VGND sg13g2_decap_8
+XFILLER_1_358 VPWR VGND sg13g2_decap_8
+XFILLER_9_425 VPWR VGND sg13g2_decap_4
+XFILLER_4_56 VPWR VGND sg13g2_decap_8
+XFILLER_4_196 VPWR VGND sg13g2_decap_8
+XFILLER_10_435 VPWR VGND sg13g2_fill_1
+XFILLER_9_244 VPWR VGND sg13g2_decap_8
+XFILLER_6_406 VPWR VGND sg13g2_decap_8
+XFILLER_9_299 VPWR VGND sg13g2_decap_8
+X_162_ net51 net150 VPWR VGND sg13g2_buf_1
+XFILLER_6_203 VPWR VGND sg13g2_decap_8
+X_093_ net8 net90 VPWR VGND sg13g2_buf_1
+XFILLER_1_35 VPWR VGND sg13g2_decap_8
+XFILLER_10_66 VPWR VGND sg13g2_decap_8
+Xinput1 CONFIGURED_top net1 VPWR VGND sg13g2_buf_1
+XFILLER_3_228 VPWR VGND sg13g2_decap_8
+X_145_ net44 net133 VPWR VGND sg13g2_buf_1
+X_076_ net4 net64 VPWR VGND sg13g2_buf_1
+XANTENNA_61 VPWR VGND FrameData[4] sg13g2_antennanp
+XANTENNA_50 VPWR VGND FrameData[6] sg13g2_antennanp
+XFILLER_7_78 VPWR VGND sg13g2_decap_8
+X_059_ net23 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit31.Q VPWR VGND sg13g2_dlhq_1
+X_128_ net33 net125 VPWR VGND sg13g2_buf_1
+XFILLER_4_301 VPWR VGND sg13g2_decap_8
+XFILLER_7_194 VPWR VGND sg13g2_decap_8
+XFILLER_4_356 VPWR VGND sg13g2_decap_8
+XFILLER_5_109 VPWR VGND sg13g2_decap_8
+XFILLER_1_337 VPWR VGND sg13g2_decap_8
+XFILLER_9_404 VPWR VGND sg13g2_decap_8
+XFILLER_0_381 VPWR VGND sg13g2_decap_8
+XFILLER_4_35 VPWR VGND sg13g2_decap_8
+XFILLER_4_175 VPWR VGND sg13g2_decap_8
+XFILLER_10_414 VPWR VGND sg13g2_decap_8
+XFILLER_5_440 VPWR VGND sg13g2_fill_2
+XFILLER_10_277 VPWR VGND sg13g2_decap_4
+X_161_ net52 net149 VPWR VGND sg13g2_buf_1
+XFILLER_6_259 VPWR VGND sg13g2_decap_8
+X_092_ net23 net82 VPWR VGND sg13g2_buf_1
+XFILLER_1_14 VPWR VGND sg13g2_decap_8
+XFILLER_2_432 VPWR VGND sg13g2_fill_1
+XFILLER_10_45 VPWR VGND sg13g2_decap_8
+Xinput2 FrameData[13] net2 VPWR VGND sg13g2_buf_1
+XFILLER_2_273 VPWR VGND sg13g2_fill_2
+X_144_ net45 net132 VPWR VGND sg13g2_buf_1
+X_075_ net3 net63 VPWR VGND sg13g2_buf_1
+XANTENNA_51 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_40 VPWR VGND net62 sg13g2_antennanp
+XANTENNA_62 VPWR VGND FrameData[7] sg13g2_antennanp
+XFILLER_7_57 VPWR VGND sg13g2_decap_8
+X_127_ net34 net124 VPWR VGND sg13g2_buf_1
+X_058_ net22 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit30.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_8_129 VPWR VGND sg13g2_decap_8
+XFILLER_4_335 VPWR VGND sg13g2_decap_8
+XFILLER_7_173 VPWR VGND sg13g2_decap_8
+XFILLER_4_14 VPWR VGND sg13g2_decap_8
+XFILLER_4_154 VPWR VGND sg13g2_decap_8
+XFILLER_0_360 VPWR VGND sg13g2_decap_8
+XFILLER_1_146 VPWR VGND sg13g2_fill_2
+XFILLER_1_135 VPWR VGND sg13g2_decap_8
+XFILLER_1_124 VPWR VGND sg13g2_decap_8
+XFILLER_8_290 VPWR VGND sg13g2_decap_4
+XFILLER_6_238 VPWR VGND sg13g2_decap_8
+X_160_ net53 net148 VPWR VGND sg13g2_buf_1
+X_091_ net22 net81 VPWR VGND sg13g2_buf_1
+XFILLER_5_282 VPWR VGND sg13g2_decap_8
+Xinput3 FrameData[14] net3 VPWR VGND sg13g2_buf_1
+XFILLER_10_24 VPWR VGND sg13g2_decap_8
+X_074_ net2 net62 VPWR VGND sg13g2_buf_1
+X_143_ net46 net131 VPWR VGND sg13g2_buf_1
+XFILLER_2_296 VPWR VGND sg13g2_decap_4
+XANTENNA_63 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_41 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_52 VPWR VGND FrameData[0] sg13g2_antennanp
+XANTENNA_30 VPWR VGND net62 sg13g2_antennanp
+XFILLER_7_399 VPWR VGND sg13g2_decap_8
+XFILLER_7_322 VPWR VGND sg13g2_fill_2
+X_126_ net35 net123 VPWR VGND sg13g2_buf_1
+XFILLER_7_36 VPWR VGND sg13g2_decap_8
+X_057_ net21 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit29.Q VPWR VGND sg13g2_dlhq_1
+Xinput50 SS4END[4] net53 VPWR VGND sg13g2_buf_1
+X_109_ FrameStrobe[16] net97 VPWR VGND sg13g2_buf_1
+XFILLER_7_141 VPWR VGND sg13g2_fill_1
+XFILLER_4_133 VPWR VGND sg13g2_decap_8
+XFILLER_1_158 VPWR VGND sg13g2_decap_8
+XFILLER_1_103 VPWR VGND sg13g2_decap_8
+XFILLER_0_180 VPWR VGND sg13g2_fill_1
+XFILLER_6_217 VPWR VGND sg13g2_decap_8
+X_090_ net21 net79 VPWR VGND sg13g2_buf_1
+XFILLER_1_49 VPWR VGND sg13g2_decap_8
+XFILLER_2_412 VPWR VGND sg13g2_decap_8
+XFILLER_5_261 VPWR VGND sg13g2_decap_8
+Xinput4 FrameData[15] net4 VPWR VGND sg13g2_buf_1
+X_142_ net47 net145 VPWR VGND sg13g2_buf_1
+X_073_ FrameData[12] net61 VPWR VGND sg13g2_buf_1
+XFILLER_2_231 VPWR VGND sg13g2_decap_8
+XFILLER_4_0 VPWR VGND sg13g2_decap_8
+XANTENNA_31 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_53 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_42 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_20 VPWR VGND FrameData[0] sg13g2_antennanp
+XFILLER_2_70 VPWR VGND sg13g2_decap_8
+X_056_ net20 net9 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit28.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_7_15 VPWR VGND sg13g2_decap_8
+X_125_ net36 net122 VPWR VGND sg13g2_buf_1
+Xoutput160 net163 SLOT_top1 VPWR VGND sg13g2_buf_1
+Xinput51 SS4END[5] net54 VPWR VGND sg13g2_buf_1
+Xinput40 S4END[2] net43 VPWR VGND sg13g2_buf_1
+X_108_ FrameStrobe[15] net96 VPWR VGND sg13g2_buf_1
+X_039_ net27 net24 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit14.Q Inst_S_WARMBOOT_switch_matrix.N1BEG1
++ VPWR VGND sg13g2_mux2_1
+XFILLER_1_307 VPWR VGND sg13g2_decap_4
+XFILLER_9_418 VPWR VGND sg13g2_decap_8
+XFILLER_4_49 VPWR VGND sg13g2_decap_8
+XFILLER_4_112 VPWR VGND sg13g2_decap_8
+XFILLER_4_189 VPWR VGND sg13g2_decap_8
+XFILLER_9_237 VPWR VGND sg13g2_decap_8
+XFILLER_9_226 VPWR VGND sg13g2_decap_8
+XFILLER_0_192 VPWR VGND sg13g2_decap_8
+XFILLER_1_28 VPWR VGND sg13g2_decap_8
+Xinput5 FrameData[16] net5 VPWR VGND sg13g2_buf_1
+XFILLER_5_240 VPWR VGND sg13g2_decap_8
+XFILLER_10_59 VPWR VGND sg13g2_decap_8
+X_141_ net48 net144 VPWR VGND sg13g2_buf_1
+X_072_ FrameData[11] net60 VPWR VGND sg13g2_buf_1
+XANTENNA_10 VPWR VGND net79 sg13g2_antennanp
+XANTENNA_21 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_54 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_43 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_32 VPWR VGND FrameData[10] sg13g2_antennanp
+Xoutput150 net153 NN4BEG[1] VPWR VGND sg13g2_buf_1
+X_055_ net19 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit27.Q VPWR VGND sg13g2_dlhq_1
+X_124_ net37 net121 VPWR VGND sg13g2_buf_1
+Xoutput161 net164 SLOT_top2 VPWR VGND sg13g2_buf_1
+Xinput52 SS4END[6] net55 VPWR VGND sg13g2_buf_1
+Xinput41 S4END[3] net44 VPWR VGND sg13g2_buf_1
+Xinput30 S2END[4] net33 VPWR VGND sg13g2_buf_1
+XFILLER_4_349 VPWR VGND sg13g2_decap_8
+X_107_ FrameStrobe[14] net95 VPWR VGND sg13g2_buf_1
+XFILLER_7_187 VPWR VGND sg13g2_decap_8
+XFILLER_7_132 VPWR VGND sg13g2_decap_8
+X_038_ net26 net24 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit15.Q Inst_S_WARMBOOT_switch_matrix.N1BEG2
++ VPWR VGND sg13g2_mux2_1
+XFILLER_3_393 VPWR VGND sg13g2_decap_8
+XFILLER_0_374 VPWR VGND sg13g2_decap_8
+XFILLER_4_28 VPWR VGND sg13g2_decap_8
+XFILLER_4_168 VPWR VGND sg13g2_decap_8
+XFILLER_10_407 VPWR VGND sg13g2_decap_8
+XFILLER_8_8 VPWR VGND sg13g2_decap_4
+XFILLER_5_422 VPWR VGND sg13g2_decap_8
+XFILLER_5_82 VPWR VGND sg13g2_fill_2
+XFILLER_5_296 VPWR VGND sg13g2_decap_8
+XFILLER_10_38 VPWR VGND sg13g2_decap_8
+Xinput6 FrameData[17] net6 VPWR VGND sg13g2_buf_1
+X_071_ FrameData[10] net59 VPWR VGND sg13g2_buf_1
+X_140_ S4END[8] net143 VPWR VGND sg13g2_buf_1
+Xoutput151 net154 NN4BEG[2] VPWR VGND sg13g2_buf_1
+Xoutput140 net143 N4BEG[7] VPWR VGND sg13g2_buf_1
+XANTENNA_11 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_33 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_22 VPWR VGND FrameData[11] sg13g2_antennanp
+Xoutput162 net165 SLOT_top3 VPWR VGND sg13g2_buf_1
+XANTENNA_44 VPWR VGND FrameData[6] sg13g2_antennanp
+XANTENNA_55 VPWR VGND FrameData[4] sg13g2_antennanp
+Xinput31 S2END[5] net34 VPWR VGND sg13g2_buf_1
+Xinput20 FrameData[31] net23 VPWR VGND sg13g2_buf_1
+X_054_ net18 net9 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit26.Q VPWR VGND sg13g2_dlhq_1
+X_123_ net38 net120 VPWR VGND sg13g2_buf_1
+Xinput53 SS4END[7] net56 VPWR VGND sg13g2_buf_1
+Xinput42 S4END[4] net45 VPWR VGND sg13g2_buf_1
+X_106_ FrameStrobe[13] net94 VPWR VGND sg13g2_buf_1
+XFILLER_7_166 VPWR VGND sg13g2_decap_8
+X_037_ net25 net24 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit16.Q Inst_S_WARMBOOT_switch_matrix.N1BEG3
++ VPWR VGND sg13g2_mux2_1
+XFILLER_3_383 VPWR VGND sg13g2_fill_2
+XFILLER_0_353 VPWR VGND sg13g2_decap_8
+XFILLER_4_147 VPWR VGND sg13g2_decap_8
+XFILLER_8_420 VPWR VGND sg13g2_fill_1
+XFILLER_1_117 VPWR VGND sg13g2_decap_8
+XFILLER_5_401 VPWR VGND sg13g2_decap_8
+XFILLER_10_227 VPWR VGND sg13g2_fill_2
+XFILLER_5_61 VPWR VGND sg13g2_decap_8
+XFILLER_2_426 VPWR VGND sg13g2_fill_2
+Xinput7 FrameData[18] net10 VPWR VGND sg13g2_buf_1
+XFILLER_5_275 VPWR VGND sg13g2_decap_8
+X_070_ FrameData[9] net89 VPWR VGND sg13g2_buf_1
+Xoutput163 net166 UserCLKo VPWR VGND sg13g2_buf_1
+Xoutput152 net155 NN4BEG[3] VPWR VGND sg13g2_buf_1
+Xoutput130 net133 N4BEG[12] VPWR VGND sg13g2_buf_1
+Xoutput141 net144 N4BEG[8] VPWR VGND sg13g2_buf_1
+XANTENNA_12 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_34 VPWR VGND FrameData[6] sg13g2_antennanp
+XANTENNA_23 VPWR VGND FrameData[6] sg13g2_antennanp
+XANTENNA_56 VPWR VGND FrameData[7] sg13g2_antennanp
+XANTENNA_45 VPWR VGND net62 sg13g2_antennanp
+X_122_ net39 net119 VPWR VGND sg13g2_buf_1
+XFILLER_7_315 VPWR VGND sg13g2_decap_8
+XFILLER_7_29 VPWR VGND sg13g2_decap_8
+XFILLER_2_0 VPWR VGND sg13g2_decap_8
+X_053_ net17 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit25.Q VPWR VGND sg13g2_dlhq_1
+Xinput43 S4END[5] net46 VPWR VGND sg13g2_buf_1
+Xinput32 S2END[6] net35 VPWR VGND sg13g2_buf_1
+Xinput10 FrameData[21] net13 VPWR VGND sg13g2_buf_1
+XFILLER_6_392 VPWR VGND sg13g2_decap_8
+Xinput21 RESET_top net24 VPWR VGND sg13g2_buf_1
+X_105_ FrameStrobe[12] net93 VPWR VGND sg13g2_buf_1
+XFILLER_8_72 VPWR VGND sg13g2_decap_8
+X_036_ _015_ _014_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit22.Q net162 VPWR VGND
++ sg13g2_mux2_1
+XFILLER_3_362 VPWR VGND sg13g2_decap_8
+XFILLER_4_126 VPWR VGND sg13g2_decap_8
+X_019_ VPWR _003_ _002_ VGND sg13g2_inv_1
+XFILLER_0_332 VPWR VGND sg13g2_decap_8
+XFILLER_3_192 VPWR VGND sg13g2_fill_1
+XFILLER_0_162 VPWR VGND sg13g2_decap_8
+XFILLER_5_40 VPWR VGND sg13g2_decap_8
+XFILLER_2_405 VPWR VGND sg13g2_decap_8
+XFILLER_2_449 VPWR VGND sg13g2_fill_2
+Xinput8 FrameData[19] net11 VPWR VGND sg13g2_buf_1
+XFILLER_5_254 VPWR VGND sg13g2_decap_8
+XFILLER_2_224 VPWR VGND sg13g2_decap_8
+XFILLER_2_257 VPWR VGND sg13g2_fill_2
+XFILLER_9_390 VPWR VGND sg13g2_decap_8
+Xoutput153 net156 NN4BEG[4] VPWR VGND sg13g2_buf_1
+Xoutput131 net134 N4BEG[13] VPWR VGND sg13g2_buf_1
+Xoutput142 net145 N4BEG[9] VPWR VGND sg13g2_buf_1
+Xoutput120 net123 N2BEGb[1] VPWR VGND sg13g2_buf_1
+XANTENNA_13 VPWR VGND FrameData[12] sg13g2_antennanp
+XANTENNA_57 VPWR VGND net68 sg13g2_antennanp
+XFILLER_2_63 VPWR VGND sg13g2_decap_8
+XANTENNA_24 VPWR VGND net62 sg13g2_antennanp
+XANTENNA_35 VPWR VGND net62 sg13g2_antennanp
+XANTENNA_46 VPWR VGND net68 sg13g2_antennanp
+X_121_ net40 net118 VPWR VGND sg13g2_buf_1
+X_052_ net16 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit24.Q VPWR VGND sg13g2_dlhq_1
+Xinput44 S4END[6] net47 VPWR VGND sg13g2_buf_1
+Xinput33 S2END[7] net36 VPWR VGND sg13g2_buf_1
+Xinput22 S1END[0] net25 VPWR VGND sg13g2_buf_1
+Xinput11 FrameData[22] net14 VPWR VGND sg13g2_buf_1
+XFILLER_6_371 VPWR VGND sg13g2_decap_8
+XFILLER_4_308 VPWR VGND sg13g2_fill_2
+XFILLER_8_51 VPWR VGND sg13g2_decap_8
+XFILLER_7_102 VPWR VGND sg13g2_fill_1
+X_035_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit20.Q net25 net37 net29 net33 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit21.Q
++ _015_ VPWR VGND sg13g2_mux4_1
+X_104_ FrameStrobe[11] net92 VPWR VGND sg13g2_buf_1
+XFILLER_3_385 VPWR VGND sg13g2_fill_1
+XFILLER_4_105 VPWR VGND sg13g2_decap_8
+X_018_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit17.Q net28 net40 net32 net36 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit18.Q
++ _002_ VPWR VGND sg13g2_mux4_1
+XFILLER_0_311 VPWR VGND sg13g2_decap_8
+XFILLER_0_388 VPWR VGND sg13g2_decap_8
+XFILLER_9_219 VPWR VGND sg13g2_decap_8
+XFILLER_5_436 VPWR VGND sg13g2_decap_4
+XFILLER_0_185 VPWR VGND sg13g2_decap_8
+XFILLER_0_141 VPWR VGND sg13g2_decap_8
+XFILLER_6_8 VPWR VGND sg13g2_decap_8
+Xinput9 FrameData[20] net12 VPWR VGND sg13g2_buf_1
+XFILLER_5_233 VPWR VGND sg13g2_decap_8
+Xoutput143 net146 NN4BEG[0] VPWR VGND sg13g2_buf_1
+Xoutput132 net135 N4BEG[14] VPWR VGND sg13g2_buf_1
+Xoutput121 net124 N2BEGb[2] VPWR VGND sg13g2_buf_1
+Xoutput110 net113 N1BEG[3] VPWR VGND sg13g2_buf_1
+XANTENNA_25 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_47 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_36 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_58 VPWR VGND FrameData[0] sg13g2_antennanp
+XANTENNA_14 VPWR VGND FrameData[4] sg13g2_antennanp
+XFILLER_2_42 VPWR VGND sg13g2_decap_8
+Xoutput154 net157 NN4BEG[5] VPWR VGND sg13g2_buf_1
+X_120_ S2MID[4] net117 VPWR VGND sg13g2_buf_1
+X_051_ net15 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit23.Q VPWR VGND sg13g2_dlhq_1
+Xinput45 S4END[7] net48 VPWR VGND sg13g2_buf_1
+Xinput23 S1END[1] net26 VPWR VGND sg13g2_buf_1
+Xinput34 S2MID[0] net37 VPWR VGND sg13g2_buf_1
+Xinput12 FrameData[23] net15 VPWR VGND sg13g2_buf_1
+XFILLER_6_350 VPWR VGND sg13g2_decap_8
+XFILLER_7_125 VPWR VGND sg13g2_decap_8
+X_034_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit20.Q net41 net45 net49 net53 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit21.Q
++ _014_ VPWR VGND sg13g2_mux4_1
+X_103_ FrameStrobe[10] net91 VPWR VGND sg13g2_buf_1
+XFILLER_0_367 VPWR VGND sg13g2_decap_8
+X_017_ VPWR _001_ net1 VGND sg13g2_inv_1
+XFILLER_5_415 VPWR VGND sg13g2_decap_8
+XFILLER_8_220 VPWR VGND sg13g2_fill_2
+XFILLER_5_75 VPWR VGND sg13g2_decap_8
+XFILLER_0_120 VPWR VGND sg13g2_decap_8
+XFILLER_5_289 VPWR VGND sg13g2_decap_8
+XFILLER_5_212 VPWR VGND sg13g2_decap_8
+XANTENNA_59 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_48 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_37 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_26 VPWR VGND FrameData[0] sg13g2_antennanp
+XFILLER_2_21 VPWR VGND sg13g2_decap_8
+XANTENNA_15 VPWR VGND FrameData[6] sg13g2_antennanp
+Xoutput100 net103 FrameStrobe_O[3] VPWR VGND sg13g2_buf_1
+Xoutput144 net147 NN4BEG[10] VPWR VGND sg13g2_buf_1
+Xoutput155 net158 NN4BEG[6] VPWR VGND sg13g2_buf_1
+Xoutput133 net136 N4BEG[15] VPWR VGND sg13g2_buf_1
+Xoutput122 net125 N2BEGb[3] VPWR VGND sg13g2_buf_1
+Xoutput111 net114 N2BEG[0] VPWR VGND sg13g2_buf_1
+X_050_ net14 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit22.Q VPWR VGND sg13g2_dlhq_1
+Xinput46 SS4END[0] net49 VPWR VGND sg13g2_buf_1
+Xinput35 S2MID[1] net38 VPWR VGND sg13g2_buf_1
+Xinput24 S1END[2] net27 VPWR VGND sg13g2_buf_1
+Xinput13 FrameData[24] net16 VPWR VGND sg13g2_buf_1
+XFILLER_7_159 VPWR VGND sg13g2_decap_8
+XFILLER_0_0 VPWR VGND sg13g2_decap_8
+X_102_ FrameStrobe[9] net109 VPWR VGND sg13g2_buf_1
+X_033_ _013_ _012_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit25.Q net163 VPWR VGND
++ sg13g2_mux2_1
+XFILLER_3_376 VPWR VGND sg13g2_decap_8
+XFILLER_8_86 VPWR VGND sg13g2_fill_2
+XFILLER_0_346 VPWR VGND sg13g2_decap_8
+XFILLER_8_402 VPWR VGND sg13g2_decap_8
+X_016_ VPWR _000_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit19.Q VGND sg13g2_inv_1
+XFILLER_3_151 VPWR VGND sg13g2_decap_8
+XFILLER_8_298 VPWR VGND sg13g2_decap_8
+XFILLER_0_176 VPWR VGND sg13g2_decap_4
+XFILLER_5_54 VPWR VGND sg13g2_decap_8
+XFILLER_2_419 VPWR VGND sg13g2_decap_8
+XFILLER_5_268 VPWR VGND sg13g2_decap_8
+XFILLER_2_238 VPWR VGND sg13g2_fill_2
+XFILLER_4_7 VPWR VGND sg13g2_decap_8
+XFILLER_1_293 VPWR VGND sg13g2_decap_8
+XFILLER_2_77 VPWR VGND sg13g2_decap_4
+Xoutput101 net104 FrameStrobe_O[4] VPWR VGND sg13g2_buf_1
+Xoutput145 net148 NN4BEG[11] VPWR VGND sg13g2_buf_1
+Xoutput156 net159 NN4BEG[7] VPWR VGND sg13g2_buf_1
+Xoutput134 net137 N4BEG[1] VPWR VGND sg13g2_buf_1
+Xoutput123 net126 N2BEGb[4] VPWR VGND sg13g2_buf_1
+Xoutput112 net115 N2BEG[1] VPWR VGND sg13g2_buf_1
+XANTENNA_16 VPWR VGND FrameData[9] sg13g2_antennanp
+XANTENNA_38 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_27 VPWR VGND FrameData[10] sg13g2_antennanp
+XANTENNA_49 VPWR VGND FrameData[4] sg13g2_antennanp
+Xinput36 S2MID[2] net39 VPWR VGND sg13g2_buf_1
+Xinput25 S1END[3] net28 VPWR VGND sg13g2_buf_1
+Xinput14 FrameData[25] net17 VPWR VGND sg13g2_buf_1
+XFILLER_7_308 VPWR VGND sg13g2_decap_8
+Xinput47 SS4END[1] net50 VPWR VGND sg13g2_buf_1
+XFILLER_6_385 VPWR VGND sg13g2_decap_8
+X_032_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit23.Q net26 net38 net30 net34 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit24.Q
++ _013_ VPWR VGND sg13g2_mux4_1
+X_101_ FrameStrobe[8] net108 VPWR VGND sg13g2_buf_1
+XFILLER_3_355 VPWR VGND sg13g2_decap_8
+XFILLER_8_65 VPWR VGND sg13g2_decap_8
+XFILLER_6_182 VPWR VGND sg13g2_decap_8
+XFILLER_0_325 VPWR VGND sg13g2_decap_8
+XFILLER_4_119 VPWR VGND sg13g2_decap_8
+XFILLER_3_130 VPWR VGND sg13g2_decap_8
+XFILLER_0_199 VPWR VGND sg13g2_decap_8
+XFILLER_0_155 VPWR VGND sg13g2_decap_8
+XFILLER_8_255 VPWR VGND sg13g2_fill_2
+XFILLER_8_222 VPWR VGND sg13g2_fill_1
+XFILLER_5_33 VPWR VGND sg13g2_decap_8
+XFILLER_5_247 VPWR VGND sg13g2_decap_8
+XFILLER_4_280 VPWR VGND sg13g2_decap_8
+XFILLER_2_206 VPWR VGND sg13g2_fill_1
+XFILLER_2_217 VPWR VGND sg13g2_decap_8
+XFILLER_1_272 VPWR VGND sg13g2_decap_8
+XFILLER_2_56 VPWR VGND sg13g2_decap_8
+XFILLER_9_383 VPWR VGND sg13g2_decap_8
+Xoutput102 net105 FrameStrobe_O[5] VPWR VGND sg13g2_buf_1
+Xoutput146 net149 NN4BEG[12] VPWR VGND sg13g2_buf_1
+Xoutput157 net160 NN4BEG[8] VPWR VGND sg13g2_buf_1
+Xoutput135 net138 N4BEG[2] VPWR VGND sg13g2_buf_1
+Xoutput124 net127 N2BEGb[5] VPWR VGND sg13g2_buf_1
+Xoutput113 net116 N2BEG[2] VPWR VGND sg13g2_buf_1
+XANTENNA_28 VPWR VGND FrameData[11] sg13g2_antennanp
+XANTENNA_39 VPWR VGND FrameData[6] sg13g2_antennanp
+XANTENNA_17 VPWR VGND net62 sg13g2_antennanp
+XFILLER_10_393 VPWR VGND sg13g2_decap_8
+Xinput48 SS4END[2] net51 VPWR VGND sg13g2_buf_1
+Xinput26 S2END[0] net29 VPWR VGND sg13g2_buf_1
+Xinput37 S2MID[3] net40 VPWR VGND sg13g2_buf_1
+Xinput15 FrameData[26] net18 VPWR VGND sg13g2_buf_1
+XFILLER_6_364 VPWR VGND sg13g2_decap_8
+XFILLER_7_139 VPWR VGND sg13g2_fill_2
+X_031_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit23.Q net42 net46 net50 net54 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit24.Q
++ _012_ VPWR VGND sg13g2_mux4_1
+X_100_ FrameStrobe[7] net107 VPWR VGND sg13g2_buf_1
+XFILLER_8_44 VPWR VGND sg13g2_decap_8
+XFILLER_0_304 VPWR VGND sg13g2_decap_8
+XFILLER_5_429 VPWR VGND sg13g2_decap_8
+XFILLER_0_134 VPWR VGND sg13g2_decap_8
+XFILLER_5_12 VPWR VGND sg13g2_decap_8
+XFILLER_5_226 VPWR VGND sg13g2_decap_8
+XFILLER_1_251 VPWR VGND sg13g2_decap_8
+XFILLER_9_362 VPWR VGND sg13g2_decap_8
+Xoutput103 net106 FrameStrobe_O[6] VPWR VGND sg13g2_buf_1
+Xoutput147 net150 NN4BEG[13] VPWR VGND sg13g2_buf_1
+Xoutput158 net161 NN4BEG[9] VPWR VGND sg13g2_buf_1
+Xoutput136 net139 N4BEG[3] VPWR VGND sg13g2_buf_1
+Xoutput125 net128 N2BEGb[6] VPWR VGND sg13g2_buf_1
+Xoutput114 net117 N2BEG[3] VPWR VGND sg13g2_buf_1
+XANTENNA_18 VPWR VGND net68 sg13g2_antennanp
+XANTENNA_29 VPWR VGND FrameData[6] sg13g2_antennanp
+XFILLER_2_35 VPWR VGND sg13g2_decap_8
+XFILLER_10_372 VPWR VGND sg13g2_decap_8
+Xinput49 SS4END[3] net52 VPWR VGND sg13g2_buf_1
+Xinput38 S4END[0] net41 VPWR VGND sg13g2_buf_1
+Xinput27 S2END[1] net30 VPWR VGND sg13g2_buf_1
+Xinput16 FrameData[27] net19 VPWR VGND sg13g2_buf_1
+XFILLER_6_343 VPWR VGND sg13g2_decap_8
+X_030_ _011_ _010_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit28.Q net164 VPWR VGND
++ sg13g2_mux2_1
+XFILLER_8_12 VPWR VGND sg13g2_fill_1
+XFILLER_7_107 VPWR VGND sg13g2_fill_2
+XFILLER_6_162 VPWR VGND sg13g2_fill_2
+XFILLER_6_151 VPWR VGND sg13g2_decap_8
+X_159_ net54 net147 VPWR VGND sg13g2_buf_1
+XFILLER_8_449 VPWR VGND sg13g2_fill_2
+XFILLER_8_416 VPWR VGND sg13g2_decap_4
+XFILLER_3_165 VPWR VGND sg13g2_decap_4
+XFILLER_5_408 VPWR VGND sg13g2_decap_8
+XFILLER_0_113 VPWR VGND sg13g2_decap_8
+XFILLER_8_213 VPWR VGND sg13g2_decap_8
+XFILLER_5_68 VPWR VGND sg13g2_decap_8
+XFILLER_5_205 VPWR VGND sg13g2_decap_8
+XFILLER_1_433 VPWR VGND sg13g2_fill_1
+XANTENNA_19 VPWR VGND net81 sg13g2_antennanp
+Xoutput104 net107 FrameStrobe_O[7] VPWR VGND sg13g2_buf_1
+Xoutput148 net151 NN4BEG[14] VPWR VGND sg13g2_buf_1
+Xoutput137 net140 N4BEG[4] VPWR VGND sg13g2_buf_1
+Xoutput126 net129 N2BEGb[7] VPWR VGND sg13g2_buf_1
+Xoutput115 net118 N2BEG[4] VPWR VGND sg13g2_buf_1
+XFILLER_1_230 VPWR VGND sg13g2_decap_8
+Xoutput159 net162 SLOT_top0 VPWR VGND sg13g2_buf_1
+XFILLER_2_14 VPWR VGND sg13g2_decap_8
+XFILLER_2_7 VPWR VGND sg13g2_decap_8
+Xinput39 S4END[1] net42 VPWR VGND sg13g2_buf_1
+Xinput28 S2END[2] net31 VPWR VGND sg13g2_buf_1
+Xinput17 FrameData[28] net20 VPWR VGND sg13g2_buf_1
+XFILLER_6_399 VPWR VGND sg13g2_decap_8
+XFILLER_6_322 VPWR VGND sg13g2_decap_8
+XFILLER_3_369 VPWR VGND sg13g2_decap_8
+X_158_ net55 net161 VPWR VGND sg13g2_buf_1
+X_089_ net20 net78 VPWR VGND sg13g2_buf_1
+XFILLER_8_79 VPWR VGND sg13g2_decap_8
+XFILLER_6_196 VPWR VGND sg13g2_decap_8
+XFILLER_6_130 VPWR VGND sg13g2_decap_8
+XFILLER_0_339 VPWR VGND sg13g2_decap_8
+XFILLER_3_144 VPWR VGND sg13g2_decap_8
+XFILLER_5_47 VPWR VGND sg13g2_decap_8
+XFILLER_0_169 VPWR VGND sg13g2_decap_8
+XFILLER_1_445 VPWR VGND sg13g2_fill_2
+XFILLER_4_294 VPWR VGND sg13g2_decap_8
+XFILLER_9_320 VPWR VGND sg13g2_fill_2
+XFILLER_1_286 VPWR VGND sg13g2_decap_8
+XFILLER_9_397 VPWR VGND sg13g2_decap_8
+Xoutput105 net108 FrameStrobe_O[8] VPWR VGND sg13g2_buf_1
+Xoutput149 net152 NN4BEG[15] VPWR VGND sg13g2_buf_1
+Xoutput138 net141 N4BEG[5] VPWR VGND sg13g2_buf_1
+Xoutput127 net130 N4BEG[0] VPWR VGND sg13g2_buf_1
+Xoutput116 net119 N2BEG[5] VPWR VGND sg13g2_buf_1
+Xinput29 S2END[3] net32 VPWR VGND sg13g2_buf_1
+Xinput18 FrameData[29] net21 VPWR VGND sg13g2_buf_1
+XFILLER_6_378 VPWR VGND sg13g2_decap_8
+XFILLER_6_301 VPWR VGND sg13g2_decap_8
+XFILLER_3_348 VPWR VGND sg13g2_decap_8
+X_088_ net19 net77 VPWR VGND sg13g2_buf_1
+XFILLER_8_58 VPWR VGND sg13g2_decap_8
+X_157_ net56 net160 VPWR VGND sg13g2_buf_1
+XFILLER_6_175 VPWR VGND sg13g2_decap_8
+XFILLER_2_392 VPWR VGND sg13g2_fill_2
+XFILLER_0_318 VPWR VGND sg13g2_decap_8
+XFILLER_3_123 VPWR VGND sg13g2_decap_8
+XFILLER_0_81 VPWR VGND sg13g2_decap_4
+XFILLER_8_248 VPWR VGND sg13g2_decap_8
+XFILLER_5_26 VPWR VGND sg13g2_decap_8
+XFILLER_0_148 VPWR VGND sg13g2_decap_8
+XFILLER_0_104 VPWR VGND sg13g2_decap_4
+XFILLER_4_273 VPWR VGND sg13g2_decap_8
+XFILLER_1_265 VPWR VGND sg13g2_decap_8
+XFILLER_2_49 VPWR VGND sg13g2_decap_8
+XFILLER_9_376 VPWR VGND sg13g2_decap_8
+Xoutput106 net109 FrameStrobe_O[9] VPWR VGND sg13g2_buf_1
+Xoutput128 net131 N4BEG[10] VPWR VGND sg13g2_buf_1
+Xoutput139 net142 N4BEG[6] VPWR VGND sg13g2_buf_1
+Xoutput117 net120 N2BEG[6] VPWR VGND sg13g2_buf_1
+XFILLER_10_386 VPWR VGND sg13g2_decap_8
+Xinput19 FrameData[30] net22 VPWR VGND sg13g2_buf_1
+XFILLER_6_357 VPWR VGND sg13g2_decap_8
+XFILLER_3_70 VPWR VGND sg13g2_decap_8
+X_156_ SS4END[8] net159 VPWR VGND sg13g2_buf_1
+X_087_ net18 net76 VPWR VGND sg13g2_buf_1
+XFILLER_8_37 VPWR VGND sg13g2_decap_8
+XFILLER_2_360 VPWR VGND sg13g2_decap_8
+XFILLER_2_371 VPWR VGND sg13g2_fill_1
+XFILLER_3_102 VPWR VGND sg13g2_decap_8
+X_139_ S4END[9] net142 VPWR VGND sg13g2_buf_1
+XFILLER_0_60 VPWR VGND sg13g2_fill_1
+XFILLER_0_127 VPWR VGND sg13g2_decap_8
+XFILLER_4_433 VPWR VGND sg13g2_fill_1
+XFILLER_5_219 VPWR VGND sg13g2_decap_8
+XFILLER_4_252 VPWR VGND sg13g2_decap_8
+XFILLER_1_244 VPWR VGND sg13g2_decap_8
+XFILLER_2_28 VPWR VGND sg13g2_decap_8
+XFILLER_9_355 VPWR VGND sg13g2_decap_8
+XFILLER_9_322 VPWR VGND sg13g2_fill_1
+Xoutput129 net132 N4BEG[11] VPWR VGND sg13g2_buf_1
+Xoutput118 net121 N2BEG[7] VPWR VGND sg13g2_buf_1
+Xoutput107 net110 N1BEG[0] VPWR VGND sg13g2_buf_1
+XFILLER_10_365 VPWR VGND sg13g2_decap_8
+XFILLER_6_336 VPWR VGND sg13g2_decap_8
+XFILLER_5_380 VPWR VGND sg13g2_decap_8
+X_155_ SS4END[9] net158 VPWR VGND sg13g2_buf_1
+XFILLER_6_144 VPWR VGND sg13g2_decap_8
+XFILLER_0_7 VPWR VGND sg13g2_decap_4
+X_086_ net17 net75 VPWR VGND sg13g2_buf_1
+XFILLER_8_409 VPWR VGND sg13g2_decap_8
+XFILLER_3_158 VPWR VGND sg13g2_decap_8
+XFILLER_3_169 VPWR VGND sg13g2_fill_2
+X_138_ S4END[10] net141 VPWR VGND sg13g2_buf_1
+XFILLER_7_420 VPWR VGND sg13g2_fill_2
+X_069_ FrameData[8] net88 VPWR VGND sg13g2_buf_1
+XFILLER_0_72 VPWR VGND sg13g2_decap_4
+XFILLER_8_206 VPWR VGND sg13g2_decap_8
+XFILLER_4_412 VPWR VGND sg13g2_decap_8
+XFILLER_1_426 VPWR VGND sg13g2_decap_8
+XFILLER_4_231 VPWR VGND sg13g2_decap_8
+XFILLER_1_223 VPWR VGND sg13g2_decap_8
+Xoutput90 net93 FrameStrobe_O[12] VPWR VGND sg13g2_buf_1
+Xoutput119 net122 N2BEGb[0] VPWR VGND sg13g2_buf_1
+Xoutput108 net111 N1BEG[1] VPWR VGND sg13g2_buf_1
+XFILLER_6_315 VPWR VGND sg13g2_decap_8
+X_154_ SS4END[10] net157 VPWR VGND sg13g2_buf_1
+XFILLER_6_189 VPWR VGND sg13g2_decap_8
+XFILLER_6_123 VPWR VGND sg13g2_decap_8
+X_085_ net16 net74 VPWR VGND sg13g2_buf_1
+XFILLER_3_137 VPWR VGND sg13g2_decap_8
+X_137_ S4END[11] net140 VPWR VGND sg13g2_buf_1
+X_068_ FrameData[7] net87 VPWR VGND sg13g2_buf_1
+XFILLER_0_40 VPWR VGND sg13g2_decap_4
+XFILLER_1_438 VPWR VGND sg13g2_decap_8
+XFILLER_4_210 VPWR VGND sg13g2_decap_8
+XFILLER_4_287 VPWR VGND sg13g2_decap_8
+XFILLER_6_72 VPWR VGND sg13g2_decap_8
+XFILLER_6_50 VPWR VGND sg13g2_fill_1
+XFILLER_9_313 VPWR VGND sg13g2_decap_8
+Xoutput109 net112 N1BEG[2] VPWR VGND sg13g2_buf_1
+XFILLER_1_202 VPWR VGND sg13g2_decap_8
+XFILLER_1_279 VPWR VGND sg13g2_decap_8
+Xoutput91 net94 FrameStrobe_O[13] VPWR VGND sg13g2_buf_1
+XFILLER_0_290 VPWR VGND sg13g2_decap_8
+Xoutput80 net83 FrameData_O[3] VPWR VGND sg13g2_buf_1
+XFILLER_10_312 VPWR VGND sg13g2_fill_1
+XFILLER_3_84 VPWR VGND sg13g2_fill_1
+XFILLER_3_95 VPWR VGND sg13g2_decap_8
+X_153_ SS4END[11] net156 VPWR VGND sg13g2_buf_1
+XFILLER_6_168 VPWR VGND sg13g2_decap_8
+X_084_ net15 net73 VPWR VGND sg13g2_buf_1
+X_136_ S4END[12] net139 VPWR VGND sg13g2_buf_1
+XFILLER_3_116 VPWR VGND sg13g2_decap_8
+XFILLER_9_72 VPWR VGND sg13g2_decap_8
+XFILLER_0_108 VPWR VGND sg13g2_fill_1
+X_067_ FrameData[6] net86 VPWR VGND sg13g2_buf_1
+XFILLER_5_19 VPWR VGND sg13g2_decap_8
+X_119_ S2MID[5] net116 VPWR VGND sg13g2_buf_1
+XFILLER_7_285 VPWR VGND sg13g2_decap_4
+XFILLER_4_266 VPWR VGND sg13g2_decap_8
+XFILLER_9_369 VPWR VGND sg13g2_decap_8
+XFILLER_1_258 VPWR VGND sg13g2_decap_8
+Xoutput70 net73 FrameData_O[23] VPWR VGND sg13g2_buf_1
+Xoutput92 net95 FrameStrobe_O[14] VPWR VGND sg13g2_buf_1
+Xoutput81 net84 FrameData_O[4] VPWR VGND sg13g2_buf_1
+XFILLER_10_379 VPWR VGND sg13g2_decap_8
+XFILLER_5_394 VPWR VGND sg13g2_decap_8
+XFILLER_3_63 VPWR VGND sg13g2_decap_8
+X_152_ SS4END[12] net155 VPWR VGND sg13g2_buf_1
+XFILLER_6_158 VPWR VGND sg13g2_decap_4
+XFILLER_2_353 VPWR VGND sg13g2_decap_8
+X_083_ net14 net72 VPWR VGND sg13g2_buf_1
+XFILLER_5_191 VPWR VGND sg13g2_decap_8
+XFILLER_9_51 VPWR VGND sg13g2_decap_8
+X_135_ S4END[13] net138 VPWR VGND sg13g2_buf_1
+XFILLER_0_97 VPWR VGND sg13g2_decap_8
+X_066_ FrameData[5] net85 VPWR VGND sg13g2_buf_1
+XFILLER_4_426 VPWR VGND sg13g2_decap_8
+X_118_ S2MID[6] net115 VPWR VGND sg13g2_buf_1
+X_049_ net13 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit21.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_4_245 VPWR VGND sg13g2_decap_8
+XANTENNA_1 VPWR VGND FrameData[10] sg13g2_antennanp
+XFILLER_1_237 VPWR VGND sg13g2_fill_2
+Xoutput71 net74 FrameData_O[24] VPWR VGND sg13g2_buf_1
+Xoutput93 net96 FrameStrobe_O[15] VPWR VGND sg13g2_buf_1
+Xoutput60 net63 FrameData_O[14] VPWR VGND sg13g2_buf_1
+Xoutput82 net85 FrameData_O[5] VPWR VGND sg13g2_buf_1
+XFILLER_8_381 VPWR VGND sg13g2_decap_8
+XFILLER_6_329 VPWR VGND sg13g2_decap_8
+XFILLER_5_373 VPWR VGND sg13g2_decap_8
+XFILLER_3_42 VPWR VGND sg13g2_decap_8
+X_151_ SS4END[13] net154 VPWR VGND sg13g2_buf_1
+XFILLER_6_137 VPWR VGND sg13g2_decap_8
+X_082_ net13 net71 VPWR VGND sg13g2_buf_1
+XFILLER_5_170 VPWR VGND sg13g2_decap_8
+XFILLER_9_30 VPWR VGND sg13g2_decap_8
+X_134_ S4END[14] net137 VPWR VGND sg13g2_buf_1
+XFILLER_7_413 VPWR VGND sg13g2_decap_8
+XFILLER_0_76 VPWR VGND sg13g2_fill_1
+XFILLER_0_65 VPWR VGND sg13g2_decap_8
+X_065_ FrameData[4] net84 VPWR VGND sg13g2_buf_1
+X_117_ S2MID[7] net114 VPWR VGND sg13g2_buf_1
+XFILLER_7_254 VPWR VGND sg13g2_decap_4
+XFILLER_4_405 VPWR VGND sg13g2_decap_8
+XFILLER_4_438 VPWR VGND sg13g2_fill_1
+X_048_ net12 net8 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit20.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_1_419 VPWR VGND sg13g2_decap_8
+XFILLER_4_224 VPWR VGND sg13g2_decap_8
+XANTENNA_2 VPWR VGND FrameData[11] sg13g2_antennanp
+XFILLER_1_216 VPWR VGND sg13g2_decap_8
+Xoutput72 net75 FrameData_O[25] VPWR VGND sg13g2_buf_1
+Xoutput94 net97 FrameStrobe_O[16] VPWR VGND sg13g2_buf_1
+Xoutput61 net64 FrameData_O[15] VPWR VGND sg13g2_buf_1
+Xoutput83 net86 FrameData_O[6] VPWR VGND sg13g2_buf_1
+XFILLER_9_113 VPWR VGND sg13g2_fill_2
+XFILLER_6_308 VPWR VGND sg13g2_decap_8
+XFILLER_5_352 VPWR VGND sg13g2_decap_8
+XFILLER_3_21 VPWR VGND sg13g2_decap_8
+X_150_ SS4END[14] net153 VPWR VGND sg13g2_buf_1
+XFILLER_6_116 VPWR VGND sg13g2_decap_8
+X_081_ net12 net70 VPWR VGND sg13g2_buf_1
+XFILLER_2_300 VPWR VGND sg13g2_fill_2
+X_133_ S4END[15] net130 VPWR VGND sg13g2_buf_1
+XFILLER_0_44 VPWR VGND sg13g2_fill_1
+XFILLER_0_33 VPWR VGND sg13g2_decap_8
+XFILLER_0_11 VPWR VGND sg13g2_fill_2
+X_064_ FrameData[3] net83 VPWR VGND sg13g2_buf_1
+XFILLER_9_86 VPWR VGND sg13g2_fill_2
+X_047_ net11 net7 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit19.Q VPWR VGND sg13g2_dlhq_1
+X_116_ Inst_S_WARMBOOT_switch_matrix.N1BEG3 net113 VPWR VGND sg13g2_buf_1
+XFILLER_4_203 VPWR VGND sg13g2_decap_8
+XANTENNA_3 VPWR VGND FrameData[12] sg13g2_antennanp
+XFILLER_6_43 VPWR VGND sg13g2_decap_8
+XFILLER_0_420 VPWR VGND sg13g2_decap_8
+XFILLER_1_239 VPWR VGND sg13g2_fill_1
+Xoutput73 net76 FrameData_O[26] VPWR VGND sg13g2_buf_1
+Xoutput95 net98 FrameStrobe_O[17] VPWR VGND sg13g2_buf_1
+XFILLER_9_306 VPWR VGND sg13g2_decap_8
+Xoutput62 net65 FrameData_O[16] VPWR VGND sg13g2_buf_1
+XFILLER_0_283 VPWR VGND sg13g2_decap_8
+Xoutput84 net87 FrameData_O[7] VPWR VGND sg13g2_buf_1
+XFILLER_10_305 VPWR VGND sg13g2_decap_8
+XFILLER_5_331 VPWR VGND sg13g2_decap_8
+XFILLER_3_77 VPWR VGND sg13g2_decap_8
+X_080_ net11 net68 VPWR VGND sg13g2_buf_1
+XFILLER_2_367 VPWR VGND sg13g2_decap_4
+XFILLER_3_109 VPWR VGND sg13g2_decap_8
+X_132_ net29 net129 VPWR VGND sg13g2_buf_1
+X_063_ FrameData[2] net80 VPWR VGND sg13g2_buf_1
+XFILLER_3_0 VPWR VGND sg13g2_decap_8
+XFILLER_9_65 VPWR VGND sg13g2_decap_8
+XFILLER_0_89 VPWR VGND sg13g2_decap_4
+XFILLER_0_56 VPWR VGND sg13g2_decap_4
+X_046_ net10 net9 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit18.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_7_289 VPWR VGND sg13g2_fill_2
+XFILLER_7_212 VPWR VGND sg13g2_fill_1
+XFILLER_7_201 VPWR VGND sg13g2_decap_8
+X_115_ Inst_S_WARMBOOT_switch_matrix.N1BEG2 net112 VPWR VGND sg13g2_buf_1
+XFILLER_4_259 VPWR VGND sg13g2_decap_8
+X_029_ Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit26.Q net27 net39 net31 net35 Inst_S_WARMBOOT_ConfigMem.Inst_frame0_bit27.Q
++ _011_ VPWR VGND sg13g2_mux4_1
+XFILLER_6_22 VPWR VGND sg13g2_decap_8
+XANTENNA_4 VPWR VGND FrameData[2] sg13g2_antennanp
+XFILLER_3_281 VPWR VGND sg13g2_decap_8
+Xoutput74 net77 FrameData_O[27] VPWR VGND sg13g2_buf_1
+Xoutput96 net99 FrameStrobe_O[18] VPWR VGND sg13g2_buf_1
+XFILLER_8_395 VPWR VGND sg13g2_decap_8
+Xoutput63 net66 FrameData_O[17] VPWR VGND sg13g2_buf_1
+XFILLER_0_262 VPWR VGND sg13g2_decap_8
+Xoutput85 net88 FrameData_O[8] VPWR VGND sg13g2_buf_1
+.ends
+

@@ -1,0 +1,29 @@
+# S_EF_ADC12
+
+# single just go back, we swap bits in vector to get more twists into the graph
+N1BEG[0|1|2|3],S1END[3|2|1|0]
+N1BEG[0|1|2|3],VALUE[3|2|1|0]
+N1BEG[0|1|2|3],VALUE[7|6|5|4]
+N1BEG[0|1|2|3],VALUE[11|10|9|8]
+
+# The MID are half way in so they get connected to the longest patch (S2BEG)
+# The END are longest so get on the cascading begin (S2BEGb)
+# on top we twist wire indexes for more entropy
+N2BEG[0|1|2|3|4|5|6|7],S2MID[7|6|5|4|3|2|1|0]
+N2BEG[0|1|2|3|4|5|6|7],VALUE[7|6|5|4|3|2|1|0]
+N2BEGb[0|1|2|3|4|5|6|7],S2END[7|6|5|4|3|2|1|0]
+N2BEGb[0|1|2|3|4|5|6|7],VALUE[11|10|9|8|7|6|5|4]
+
+# We swap bits in vector to get more twists into the graph and this will automatically connect the longest input to the shortest output etc.
+N4BEG[0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15],S4END[15|14|13|12|11|10|9|8|7|6|5|4|3|2|1|0]
+N4BEG[4|5|6|7|8|9|10|11|12|13|14|15],VALUE[0|1|2|3|4|5|6|7|8|9|10|11]
+N4BEG[0|1|2|3],[VALID|VALID|VALID|VALID]
+
+NN4BEG[0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15],SS4END[15|14|13|12|11|10|9|8|7|6|5|4|3|2|1|0]
+NN4BEG[0|1|2|3|4|5|6|7|8|9|10|11],VALUE[11|10|9|8|7|6|5|4|3|2|1|0]
+NN4BEG[12|13|14|15],[VALID|VALID|VALID|VALID]
+
+[START|START|START|START|START|START|START|START] , [S1END0|SS4END0|S2MID0|S2END4|S4END2|SS4END2|S2MID2|S2END6]
+[RESET|RESET|RESET|RESET|RESET|RESET|RESET|RESET] , [S1END1|SS4END1|S2MID1|S2END5|S4END3|SS4END3|S2MID3|S2END7]
+
+Co0,GND0

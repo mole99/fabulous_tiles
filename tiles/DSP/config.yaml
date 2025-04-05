@@ -1,0 +1,36 @@
+meta:
+  version: 2
+  flow: FABulousTile
+  substituting_steps:
+    # IHP uses cumulative antenna rules
+    # which aren't supported in repair yet
+    OpenROAD.RepairAntennas: null
+    # KLayout runs density check, TODO disable
+    KLayout.DRC: null
+
+FABULOUS_TILE_DIR: dir::. #tiles/DSP
+
+# Basics
+DESIGN_NAME: DSP
+FABULOUS_SUPERTILE: true
+VERILOG_FILES:
+  - dir::../../models_pack.v
+  - dir::../../custom.v
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: Tile_X0Y1_UserCLK
+
+# Area
+FP_SIZING: absolute
+pdk::sky130A:
+    DIE_AREA: [0, 0, 225, 450]
+    PL_TARGET_DENSITY_PCT: 50
+pdk::ihp-sg13g2:
+    #DIE_AREA: [0, 0, 200.16, 500.64]
+    
+    DIE_AREA: [0, 0, 196.32, 483.84]
+    
+    PL_TARGET_DENSITY_PCT: 77
+    
+    SYNTH_STRATEGY: "AREA 2" # "AREA 0" "AREA 1" "AREA 2" "AREA 3"

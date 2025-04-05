@@ -1,0 +1,35 @@
+meta:
+  version: 2
+  flow: FABulousTile
+  substituting_steps:
+    # IHP uses cumulative antenna rules
+    # which aren't supported in repair yet
+    OpenROAD.RepairAntennas: null
+    # KLayout runs density check, TODO disable
+    KLayout.DRC: null
+
+FABULOUS_TILE_DIR: dir::. #tiles/RegFile
+
+SYNTH_STRATEGY: "AREA 2" # "AREA 0" "AREA 1" "AREA 2" "AREA 3"
+
+# Basics
+DESIGN_NAME: RegFile
+VERILOG_FILES:
+  - dir::../../models_pack.v
+  - dir::../../custom.v
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: UserCLK
+
+# Area
+FP_SIZING: absolute
+pdk::sky130A:
+    DIE_AREA: [0, 0, 245, 225]
+    PL_TARGET_DENSITY_PCT: 53
+pdk::ihp-sg13g2:
+    #DIE_AREA: [0, 0, 255.36, 250.32]
+    
+    DIE_AREA: [0, 0, 266.4, 241.92]
+    
+    PL_TARGET_DENSITY_PCT: 81

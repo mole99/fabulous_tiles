@@ -1,0 +1,62 @@
+{
+  "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 18.1.8 -fPIC -O3)",
+  "modules": {
+    "EF_DAC8": {
+      "attributes": {
+        "dynports": 1,
+        "cells_not_processed": 1,
+        "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:16.1-32.10"
+      },
+      "parameter_default_values": {
+        "NoConfigBits": 0
+      },
+      "ports": {
+        "VALUE": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        "VALUE_top": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        "ConfigBits": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 10, 11 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "ConfigBits": {
+          "hide_name": 0,
+          "bits": [ 10, 11 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "FABulous": 1,
+            "GLOBAL": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:27.54-27.64"
+          }
+        },
+        "VALUE": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:22.26-22.31"
+          }
+        },
+        "VALUE_top": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:25.51-25.60"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1001 @@
+* NGSPICE file created from N_IO.ext - technology: ihp-sg13g2
+
+* Black-box entry subcircuit for sg13g2_buf_1 abstract view
+.subckt sg13g2_buf_1 A X VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_fill_1 abstract view
+.subckt sg13g2_fill_1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_mux4_1 abstract view
+.subckt sg13g2_mux4_1 S0 A0 A1 A2 A3 S1 X VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_dlhq_1 abstract view
+.subckt sg13g2_dlhq_1 D GATE Q VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_fill_2 abstract view
+.subckt sg13g2_fill_2 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_o21ai_1 abstract view
+.subckt sg13g2_o21ai_1 B1 VDD Y VSS A1 A2
+.ends
+
+* Black-box entry subcircuit for sg13g2_decap_8 abstract view
+.subckt sg13g2_decap_8 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nor2b_1 abstract view
+.subckt sg13g2_nor2b_1 A B_N Y VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_decap_4 abstract view
+.subckt sg13g2_decap_4 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_a21oi_1 abstract view
+.subckt sg13g2_a21oi_1 VSS VDD A1 A2 Y B1
+.ends
+
+* Black-box entry subcircuit for sg13g2_dfrbp_1 abstract view
+.subckt sg13g2_dfrbp_1 CLK RESET_B D Q_N Q VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2b_1 abstract view
+.subckt sg13g2_nand2b_1 Y B A_N VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_tiehi abstract view
+.subckt sg13g2_tiehi VDD VSS L_HI
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand4_1 abstract view
+.subckt sg13g2_nand4_1 B C A Y VDD VSS D
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2_1 abstract view
+.subckt sg13g2_nand2_1 Y A B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand3b_1 abstract view
+.subckt sg13g2_nand3b_1 B C Y VDD VSS A_N
+.ends
+
+* Black-box entry subcircuit for sg13g2_a221oi_1 abstract view
+.subckt sg13g2_a221oi_1 VSS VDD B2 C1 B1 A1 Y A2
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand3_1 abstract view
+.subckt sg13g2_nand3_1 B C A Y VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_or2_1 abstract view
+.subckt sg13g2_or2_1 VSS VDD X B A
+.ends
+
+* Black-box entry subcircuit for sg13g2_mux2_1 abstract view
+.subckt sg13g2_mux2_1 A0 A1 S X VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_inv_1 abstract view
+.subckt sg13g2_inv_1 VDD Y A VSS
+.ends
+
+.subckt N_IO A_I_top A_O_top A_T_top A_config_C_bit0 A_config_C_bit1 A_config_C_bit2
++ A_config_C_bit3 B_I_top B_O_top B_T_top B_config_C_bit0 B_config_C_bit1 B_config_C_bit2
++ B_config_C_bit3 Ci FrameData[0] FrameData[10] FrameData[11] FrameData[12] FrameData[13]
++ FrameData[14] FrameData[15] FrameData[16] FrameData[17] FrameData[18] FrameData[19]
++ FrameData[1] FrameData[20] FrameData[21] FrameData[22] FrameData[23] FrameData[24]
++ FrameData[25] FrameData[26] FrameData[27] FrameData[28] FrameData[29] FrameData[2]
++ FrameData[30] FrameData[31] FrameData[3] FrameData[4] FrameData[5] FrameData[6]
++ FrameData[7] FrameData[8] FrameData[9] FrameData_O[0] FrameData_O[10] FrameData_O[11]
++ FrameData_O[12] FrameData_O[13] FrameData_O[14] FrameData_O[15] FrameData_O[16]
++ FrameData_O[17] FrameData_O[18] FrameData_O[19] FrameData_O[1] FrameData_O[20] FrameData_O[21]
++ FrameData_O[22] FrameData_O[23] FrameData_O[24] FrameData_O[25] FrameData_O[26]
++ FrameData_O[27] FrameData_O[28] FrameData_O[29] FrameData_O[2] FrameData_O[30] FrameData_O[31]
++ FrameData_O[3] FrameData_O[4] FrameData_O[5] FrameData_O[6] FrameData_O[7] FrameData_O[8]
++ FrameData_O[9] FrameStrobe[0] FrameStrobe[10] FrameStrobe[11] FrameStrobe[12] FrameStrobe[13]
++ FrameStrobe[14] FrameStrobe[15] FrameStrobe[16] FrameStrobe[17] FrameStrobe[18]
++ FrameStrobe[19] FrameStrobe[1] FrameStrobe[2] FrameStrobe[3] FrameStrobe[4] FrameStrobe[5]
++ FrameStrobe[6] FrameStrobe[7] FrameStrobe[8] FrameStrobe[9] FrameStrobe_O[0] FrameStrobe_O[10]
++ FrameStrobe_O[11] FrameStrobe_O[12] FrameStrobe_O[13] FrameStrobe_O[14] FrameStrobe_O[15]
++ FrameStrobe_O[16] FrameStrobe_O[17] FrameStrobe_O[18] FrameStrobe_O[19] FrameStrobe_O[1]
++ FrameStrobe_O[2] FrameStrobe_O[3] FrameStrobe_O[4] FrameStrobe_O[5] FrameStrobe_O[6]
++ FrameStrobe_O[7] FrameStrobe_O[8] FrameStrobe_O[9] N1END[0] N1END[1] N1END[2] N1END[3]
++ N2END[0] N2END[1] N2END[2] N2END[3] N2END[4] N2END[5] N2END[6] N2END[7] N2MID[0]
++ N2MID[1] N2MID[2] N2MID[3] N2MID[4] N2MID[5] N2MID[6] N2MID[7] N4END[0] N4END[10]
++ N4END[11] N4END[12] N4END[13] N4END[14] N4END[15] N4END[1] N4END[2] N4END[3] N4END[4]
++ N4END[5] N4END[6] N4END[7] N4END[8] N4END[9] NN4END[0] NN4END[10] NN4END[11] NN4END[12]
++ NN4END[13] NN4END[14] NN4END[15] NN4END[1] NN4END[2] NN4END[3] NN4END[4] NN4END[5]
++ NN4END[6] NN4END[7] NN4END[8] NN4END[9] S1BEG[0] S1BEG[1] S1BEG[2] S1BEG[3] S2BEG[0]
++ S2BEG[1] S2BEG[2] S2BEG[3] S2BEG[4] S2BEG[5] S2BEG[6] S2BEG[7] S2BEGb[0] S2BEGb[1]
++ S2BEGb[2] S2BEGb[3] S2BEGb[4] S2BEGb[5] S2BEGb[6] S2BEGb[7] S4BEG[0] S4BEG[10] S4BEG[11]
++ S4BEG[12] S4BEG[13] S4BEG[14] S4BEG[15] S4BEG[1] S4BEG[2] S4BEG[3] S4BEG[4] S4BEG[5]
++ S4BEG[6] S4BEG[7] S4BEG[8] S4BEG[9] SS4BEG[0] SS4BEG[10] SS4BEG[11] SS4BEG[12] SS4BEG[13]
++ SS4BEG[14] SS4BEG[15] SS4BEG[1] SS4BEG[2] SS4BEG[3] SS4BEG[4] SS4BEG[5] SS4BEG[6]
++ SS4BEG[7] SS4BEG[8] SS4BEG[9] UserCLK UserCLKo VGND VPWR
+X_294_ net12 net132 VPWR VGND sg13g2_buf_1
+X_363_ Inst_N_IO_switch_matrix.S4BEG15 net201 VPWR VGND sg13g2_buf_1
+XFILLER_8_192 VPWR VGND sg13g2_fill_1
+X_346_ Inst_N_IO_switch_matrix.S2BEGb6 net193 VPWR VGND sg13g2_buf_1
+X_277_ net14 net134 VPWR VGND sg13g2_buf_1
+XFILLER_7_438 VPWR VGND sg13g2_fill_1
+X_131_ Inst_N_IO_ConfigMem.Inst_frame1_bit28.Q net41 net43 net45 net47 Inst_N_IO_ConfigMem.Inst_frame1_bit29.Q
++ Inst_N_IO_switch_matrix.SS4BEG5 VPWR VGND sg13g2_mux4_1
+X_062_ Inst_N_IO_ConfigMem.Inst_frame3_bit28.Q net50 net64 net103 net96 Inst_N_IO_ConfigMem.Inst_frame3_bit29.Q
++ Inst_N_IO_switch_matrix.S2BEG5 VPWR VGND sg13g2_mux4_1
+X_200_ net19 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit24.Q VPWR VGND sg13g2_dlhq_1
+X_329_ Inst_N_IO_switch_matrix.S1BEG1 net176 VPWR VGND sg13g2_buf_1
+XFILLER_2_165 VPWR VGND sg13g2_fill_2
+XFILLER_7_257 VPWR VGND sg13g2_fill_1
+X_114_ Inst_N_IO_ConfigMem.Inst_frame0_bit20.Q VPWR _026_ VGND _024_ _025_ sg13g2_o21ai_1
+XFILLER_0_422 VPWR VGND sg13g2_decap_8
+XFILLER_6_12 VPWR VGND sg13g2_fill_2
+XFILLER_3_282 VPWR VGND sg13g2_fill_2
+Xoutput97 net120 B_config_C_bit1 VPWR VGND sg13g2_buf_1
+XFILLER_7_8 VPWR VGND sg13g2_fill_2
+X_362_ Inst_N_IO_switch_matrix.S4BEG14 net200 VPWR VGND sg13g2_buf_1
+X_293_ net11 net131 VPWR VGND sg13g2_buf_1
+XFILLER_10_137 VPWR VGND sg13g2_fill_2
+X_345_ Inst_N_IO_switch_matrix.S2BEGb5 net192 VPWR VGND sg13g2_buf_1
+X_276_ net3 net123 VPWR VGND sg13g2_buf_1
+X_130_ Inst_N_IO_ConfigMem.Inst_frame1_bit31.Q net48 net52 net50 net54 Inst_N_IO_ConfigMem.Inst_frame1_bit30.Q
++ Inst_N_IO_switch_matrix.SS4BEG6 VPWR VGND sg13g2_mux4_1
+X_061_ Inst_N_IO_ConfigMem.Inst_frame3_bit30.Q net49 net63 net102 net110 Inst_N_IO_ConfigMem.Inst_frame3_bit31.Q
++ Inst_N_IO_switch_matrix.S2BEG6 VPWR VGND sg13g2_mux4_1
+XFILLER_9_12 VPWR VGND sg13g2_fill_2
+X_259_ net13 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_0_14 VPWR VGND sg13g2_fill_1
+X_328_ Inst_N_IO_switch_matrix.S1BEG0 net175 VPWR VGND sg13g2_buf_1
+XFILLER_11_232 VPWR VGND sg13g2_fill_2
+XFILLER_7_269 VPWR VGND sg13g2_fill_1
+XFILLER_7_236 VPWR VGND sg13g2_fill_2
+X_113_ Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q VPWR _025_ VGND net46 net70 sg13g2_o21ai_1
+Xoutput98 net121 B_config_C_bit2 VPWR VGND sg13g2_buf_1
+XFILLER_0_275 VPWR VGND sg13g2_fill_1
+XFILLER_8_375 VPWR VGND sg13g2_decap_8
+X_292_ net10 net130 VPWR VGND sg13g2_buf_1
+X_361_ Inst_N_IO_switch_matrix.S4BEG13 net199 VPWR VGND sg13g2_buf_1
+XFILLER_10_105 VPWR VGND sg13g2_fill_1
+X_344_ Inst_N_IO_switch_matrix.S2BEGb4 net191 VPWR VGND sg13g2_buf_1
+Xoutput200 net223 SS4BEG[6] VPWR VGND sg13g2_buf_1
+X_060_ Inst_N_IO_ConfigMem.Inst_frame2_bit0.Q net48 net56 net95 net109 Inst_N_IO_ConfigMem.Inst_frame2_bit1.Q
++ Inst_N_IO_switch_matrix.S2BEG7 VPWR VGND sg13g2_mux4_1
+XFILLER_2_167 VPWR VGND sg13g2_fill_1
+X_327_ FrameStrobe[19] net165 VPWR VGND sg13g2_buf_1
+X_258_ net12 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit18.Q VPWR VGND sg13g2_dlhq_1
+X_189_ net7 net77 Inst_N_IO_ConfigMem.Inst_frame2_bit13.Q VPWR VGND sg13g2_dlhq_1
+X_112_ net47 net70 _024_ VPWR VGND sg13g2_nor2b_1
+XFILLER_3_410 VPWR VGND sg13g2_decap_4
+XFILLER_3_432 VPWR VGND sg13g2_decap_8
+XFILLER_6_14 VPWR VGND sg13g2_fill_1
+XFILLER_3_284 VPWR VGND sg13g2_fill_1
+Xoutput88 net111 A_I_top VPWR VGND sg13g2_buf_1
+Xoutput99 net122 B_config_C_bit3 VPWR VGND sg13g2_buf_1
+X_360_ Inst_N_IO_switch_matrix.S4BEG12 net198 VPWR VGND sg13g2_buf_1
+XFILLER_10_309 VPWR VGND sg13g2_fill_2
+X_291_ net9 net129 VPWR VGND sg13g2_buf_1
+X_343_ Inst_N_IO_switch_matrix.S2BEGb3 net190 VPWR VGND sg13g2_buf_1
+XFILLER_5_143 VPWR VGND sg13g2_fill_2
+Xoutput201 net224 SS4BEG[7] VPWR VGND sg13g2_buf_1
+X_326_ FrameStrobe[18] net164 VPWR VGND sg13g2_buf_1
+XFILLER_9_25 VPWR VGND sg13g2_fill_2
+Xfanout90 net91 net90 VPWR VGND sg13g2_buf_1
+X_188_ net6 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit12.Q VPWR VGND sg13g2_dlhq_1
+X_257_ net11 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit17.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_290 VPWR VGND sg13g2_fill_1
+XFILLER_11_234 VPWR VGND sg13g2_fill_1
+X_111_ VGND VPWR _021_ _022_ _023_ Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q sg13g2_a21oi_1
+X_309_ net82 net166 VPWR VGND sg13g2_buf_1
+XFILLER_3_400 VPWR VGND sg13g2_fill_1
+XFILLER_0_436 VPWR VGND sg13g2_decap_8
+XFILLER_3_241 VPWR VGND sg13g2_fill_2
+Xoutput89 net112 A_T_top VPWR VGND sg13g2_buf_1
+XFILLER_8_300 VPWR VGND sg13g2_fill_2
+X_290_ net8 net128 VPWR VGND sg13g2_buf_1
+X_342_ Inst_N_IO_switch_matrix.S2BEGb2 net189 VPWR VGND sg13g2_buf_1
+X_273_ UserCLK net229 net2 _273_/Q_N Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ VPWR VGND sg13g2_dfrbp_1
+XFILLER_5_8 VPWR VGND sg13g2_fill_2
+Xoutput202 net225 SS4BEG[8] VPWR VGND sg13g2_buf_1
+X_325_ FrameStrobe[17] net163 VPWR VGND sg13g2_buf_1
+X_187_ net5 net78 Inst_N_IO_ConfigMem.Inst_frame2_bit11.Q VPWR VGND sg13g2_dlhq_1
+Xfanout91 FrameStrobe[0] net91 VPWR VGND sg13g2_buf_1
+X_256_ net10 net89 Inst_N_IO_ConfigMem.Inst_frame0_bit16.Q VPWR VGND sg13g2_dlhq_1
+Xfanout80 net81 net80 VPWR VGND sg13g2_buf_1
+XFILLER_11_213 VPWR VGND sg13g2_fill_2
+X_110_ _022_ net44 net70 VPWR VGND sg13g2_nand2b_1
+X_308_ FrameStrobe[0] net155 VPWR VGND sg13g2_buf_1
+XFILLER_6_250 VPWR VGND sg13g2_decap_4
+X_239_ net27 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit31.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_0_415 VPWR VGND sg13g2_decap_8
+XFILLER_10_80 VPWR VGND sg13g2_fill_1
+XFILLER_3_264 VPWR VGND sg13g2_fill_1
+XFILLER_5_304 VPWR VGND sg13g2_fill_1
+XFILLER_8_197 VPWR VGND sg13g2_fill_2
+X_341_ Inst_N_IO_switch_matrix.S2BEGb1 net188 VPWR VGND sg13g2_buf_1
+X_272_ UserCLK net228 net1 _272_/Q_N Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ VPWR VGND sg13g2_dfrbp_1
+Xoutput203 net226 SS4BEG[9] VPWR VGND sg13g2_buf_1
+X_186_ net4 net78 Inst_N_IO_ConfigMem.Inst_frame2_bit10.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_27 VPWR VGND sg13g2_fill_1
+X_324_ FrameStrobe[16] net162 VPWR VGND sg13g2_buf_1
+X_255_ net9 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit15.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_6_443 VPWR VGND sg13g2_decap_4
+XFILLER_6_410 VPWR VGND sg13g2_fill_1
+Xfanout81 FrameStrobe[2] net81 VPWR VGND sg13g2_buf_1
+Xfanout70 Inst_N_IO_ConfigMem.Inst_frame0_bit18.Q net70 VPWR VGND sg13g2_buf_1
+XFILLER_3_446 VPWR VGND sg13g2_fill_1
+X_238_ net26 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit30.Q VPWR VGND sg13g2_dlhq_1
+X_307_ net27 net147 VPWR VGND sg13g2_buf_1
+X_169_ net20 net73 Inst_N_IO_ConfigMem.Inst_frame3_bit25.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_232 VPWR VGND sg13g2_fill_1
+XFILLER_3_243 VPWR VGND sg13g2_fill_1
+XFILLER_7_60 VPWR VGND sg13g2_fill_1
+XFILLER_5_338 VPWR VGND sg13g2_fill_1
+XFILLER_8_132 VPWR VGND sg13g2_fill_1
+XFILLER_8_121 VPWR VGND sg13g2_fill_2
+X_340_ Inst_N_IO_switch_matrix.S2BEGb0 net187 VPWR VGND sg13g2_buf_1
+X_271_ net27 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit31.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_441 VPWR VGND sg13g2_fill_2
+Xoutput204 net227 UserCLKo VPWR VGND sg13g2_buf_1
+X_323_ FrameStrobe[15] net161 VPWR VGND sg13g2_buf_1
+Xfanout82 net35 net82 VPWR VGND sg13g2_buf_1
+Xfanout71 net74 net71 VPWR VGND sg13g2_buf_1
+XFILLER_6_422 VPWR VGND sg13g2_decap_8
+X_185_ net34 net80 Inst_N_IO_ConfigMem.Inst_frame2_bit9.Q VPWR VGND sg13g2_dlhq_1
+X_254_ net8 net89 Inst_N_IO_ConfigMem.Inst_frame0_bit14.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_425 VPWR VGND sg13g2_decap_8
+X_306_ net26 net146 VPWR VGND sg13g2_buf_1
+X_237_ net24 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit29.Q VPWR VGND sg13g2_dlhq_1
+X_168_ net19 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit24.Q VPWR VGND sg13g2_dlhq_1
+X_099_ Inst_N_IO_ConfigMem.Inst_frame0_bit28.Q VPWR _012_ VGND _008_ _011_ sg13g2_o21ai_1
+XFILLER_10_71 VPWR VGND sg13g2_fill_1
+X_270_ net26 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit30.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_431 VPWR VGND sg13g2_fill_2
+XFILLER_9_18 VPWR VGND sg13g2_decap_8
+X_322_ FrameStrobe[14] net160 VPWR VGND sg13g2_buf_1
+XFILLER_3_8 VPWR VGND sg13g2_fill_2
+X_253_ net7 net91 Inst_N_IO_ConfigMem.Inst_frame0_bit13.Q VPWR VGND sg13g2_dlhq_1
+Xfanout72 net73 net72 VPWR VGND sg13g2_buf_1
+X_184_ net33 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit8.Q VPWR VGND sg13g2_dlhq_1
+Xfanout83 net86 net83 VPWR VGND sg13g2_buf_1
+X_167_ net18 net75 Inst_N_IO_ConfigMem.Inst_frame3_bit23.Q VPWR VGND sg13g2_dlhq_1
+X_305_ net24 net144 VPWR VGND sg13g2_buf_1
+X_098_ Inst_N_IO_ConfigMem.Inst_frame0_bit27.Q VPWR _011_ VGND _009_ _010_ sg13g2_o21ai_1
+X_236_ net23 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit28.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_0_429 VPWR VGND sg13g2_decap_8
+XFILLER_3_201 VPWR VGND sg13g2_fill_2
+X_219_ net5 net84 Inst_N_IO_ConfigMem.Inst_frame1_bit11.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_8_348 VPWR VGND sg13g2_fill_2
+Xfanout84 net86 net84 VPWR VGND sg13g2_buf_1
+X_321_ FrameStrobe[13] net159 VPWR VGND sg13g2_buf_1
+XFILLER_10_431 VPWR VGND sg13g2_fill_1
+X_183_ net32 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit7.Q VPWR VGND sg13g2_dlhq_1
+Xfanout73 net74 net73 VPWR VGND sg13g2_buf_1
+X_252_ net6 net91 Inst_N_IO_ConfigMem.Inst_frame0_bit12.Q VPWR VGND sg13g2_dlhq_1
+X_235_ net22 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit27.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_405 VPWR VGND sg13g2_fill_1
+X_304_ net23 net143 VPWR VGND sg13g2_buf_1
+X_166_ net17 net73 Inst_N_IO_ConfigMem.Inst_frame3_bit22.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_6_254 VPWR VGND sg13g2_fill_1
+XFILLER_6_243 VPWR VGND sg13g2_decap_8
+X_097_ Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q VPWR _010_ VGND net69 net46 sg13g2_o21ai_1
+XFILLER_0_408 VPWR VGND sg13g2_decap_8
+X_218_ net4 net84 Inst_N_IO_ConfigMem.Inst_frame1_bit10.Q VPWR VGND sg13g2_dlhq_1
+X_149_ Inst_N_IO_ConfigMem.Inst_frame2_bit25.Q net57 net100 net96 net2 Inst_N_IO_ConfigMem.Inst_frame2_bit24.Q
++ Inst_N_IO_switch_matrix.S4BEG3 VPWR VGND sg13g2_mux4_1
+XFILLER_4_374 VPWR VGND sg13g2_fill_2
+XFILLER_1_366 VPWR VGND sg13g2_fill_1
+XFILLER_1_322 VPWR VGND sg13g2_fill_2
+XFILLER_1_300 VPWR VGND sg13g2_fill_1
+XFILLER_1_388 VPWR VGND sg13g2_fill_2
+X_251_ net5 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit11.Q VPWR VGND sg13g2_dlhq_1
+X_320_ FrameStrobe[12] net158 VPWR VGND sg13g2_buf_1
+X_182_ net31 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit6.Q VPWR VGND sg13g2_dlhq_1
+Xfanout74 net75 net74 VPWR VGND sg13g2_buf_1
+XFILLER_6_436 VPWR VGND sg13g2_decap_8
+Xfanout85 net86 net85 VPWR VGND sg13g2_buf_1
+X_272__205 VPWR VGND net228 sg13g2_tiehi
+XFILLER_3_439 VPWR VGND sg13g2_decap_8
+X_303_ net22 net142 VPWR VGND sg13g2_buf_1
+X_234_ net21 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit26.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_6_299 VPWR VGND sg13g2_fill_2
+X_165_ net16 net71 Inst_N_IO_ConfigMem.Inst_frame3_bit21.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_2_450 VPWR VGND sg13g2_fill_1
+X_096_ net47 Inst_N_IO_ConfigMem.Inst_frame0_bit25.Q _009_ VPWR VGND sg13g2_nor2b_1
+XFILLER_10_85 VPWR VGND sg13g2_fill_2
+XFILLER_10_30 VPWR VGND sg13g2_fill_2
+X_148_ Inst_N_IO_ConfigMem.Inst_frame2_bit27.Q net38 net108 net92 net1 Inst_N_IO_ConfigMem.Inst_frame2_bit26.Q
++ Inst_N_IO_switch_matrix.S4BEG4 VPWR VGND sg13g2_mux4_1
+X_217_ net34 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit9.Q VPWR VGND sg13g2_dlhq_1
+X_079_ _036_ _037_ Inst_N_IO_ConfigMem.Inst_frame0_bit22.Q _039_ VPWR VGND _038_ sg13g2_nand4_1
+XFILLER_7_383 VPWR VGND sg13g2_fill_1
+XFILLER_8_103 VPWR VGND sg13g2_fill_2
+X_250_ net4 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit10.Q VPWR VGND sg13g2_dlhq_1
+Xfanout75 FrameStrobe[3] net75 VPWR VGND sg13g2_buf_1
+XFILLER_6_415 VPWR VGND sg13g2_decap_8
+Xfanout86 net35 net86 VPWR VGND sg13g2_buf_1
+X_181_ net30 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit5.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_286 VPWR VGND sg13g2_decap_4
+XFILLER_9_242 VPWR VGND sg13g2_decap_8
+X_379_ Inst_N_IO_switch_matrix.SS4BEG15 net217 VPWR VGND sg13g2_buf_1
+XFILLER_1_8 VPWR VGND sg13g2_fill_1
+XFILLER_3_418 VPWR VGND sg13g2_decap_8
+X_302_ net21 net141 VPWR VGND sg13g2_buf_1
+X_164_ net15 net71 Inst_N_IO_ConfigMem.Inst_frame3_bit20.Q VPWR VGND sg13g2_dlhq_1
+X_095_ VGND VPWR _006_ _007_ _008_ Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q sg13g2_a21oi_1
+X_233_ net20 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit25.Q VPWR VGND sg13g2_dlhq_1
+X_078_ _038_ net44 Inst_N_IO_ConfigMem.Inst_frame0_bit24.Q VPWR VGND sg13g2_nand2_1
+X_216_ net33 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit8.Q VPWR VGND sg13g2_dlhq_1
+X_147_ Inst_N_IO_ConfigMem.Inst_frame2_bit29.Q net39 net107 net68 net2 Inst_N_IO_ConfigMem.Inst_frame2_bit28.Q
++ Inst_N_IO_switch_matrix.S4BEG5 VPWR VGND sg13g2_mux4_1
+XFILLER_7_362 VPWR VGND sg13g2_decap_4
+XFILLER_0_390 VPWR VGND sg13g2_fill_1
+XFILLER_4_22 VPWR VGND sg13g2_decap_4
+XFILLER_4_162 VPWR VGND sg13g2_fill_2
+XFILLER_10_456 VPWR VGND sg13g2_fill_2
+Xfanout76 net78 net76 VPWR VGND sg13g2_buf_1
+X_180_ net29 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit4.Q VPWR VGND sg13g2_dlhq_1
+Xfanout87 net89 net87 VPWR VGND sg13g2_buf_1
+X_378_ Inst_N_IO_switch_matrix.SS4BEG14 net216 VPWR VGND sg13g2_buf_1
+X_232_ net19 net86 Inst_N_IO_ConfigMem.Inst_frame1_bit24.Q VPWR VGND sg13g2_dlhq_1
+X_163_ net13 net73 Inst_N_IO_ConfigMem.Inst_frame3_bit19.Q VPWR VGND sg13g2_dlhq_1
+X_094_ _007_ net44 net69 VPWR VGND sg13g2_nand2b_1
+X_301_ net20 net140 VPWR VGND sg13g2_buf_1
+XFILLER_10_87 VPWR VGND sg13g2_fill_1
+X_215_ net32 net84 Inst_N_IO_ConfigMem.Inst_frame1_bit7.Q VPWR VGND sg13g2_dlhq_1
+X_146_ Inst_N_IO_ConfigMem.Inst_frame2_bit30.Q net65 net104 net101 net1 Inst_N_IO_ConfigMem.Inst_frame2_bit31.Q
++ Inst_N_IO_switch_matrix.S4BEG6 VPWR VGND sg13g2_mux4_1
+X_077_ Inst_N_IO_ConfigMem.Inst_frame0_bit23.Q VPWR _037_ VGND net42 Inst_N_IO_ConfigMem.Inst_frame0_bit24.Q
++ sg13g2_o21ai_1
+XFILLER_7_44 VPWR VGND sg13g2_fill_2
+Xinput80 NN4END[2] net103 VPWR VGND sg13g2_buf_1
+X_129_ Inst_N_IO_ConfigMem.Inst_frame0_bit1.Q net49 net53 net51 net55 Inst_N_IO_ConfigMem.Inst_frame0_bit0.Q
++ Inst_N_IO_switch_matrix.SS4BEG7 VPWR VGND sg13g2_mux4_1
+XFILLER_8_127 VPWR VGND sg13g2_fill_1
+XFILLER_4_344 VPWR VGND sg13g2_fill_1
+XFILLER_5_108 VPWR VGND sg13g2_fill_1
+XFILLER_4_12 VPWR VGND sg13g2_fill_2
+X_377_ Inst_N_IO_switch_matrix.SS4BEG13 net215 VPWR VGND sg13g2_buf_1
+XFILLER_1_199 VPWR VGND sg13g2_fill_2
+Xfanout88 net89 net88 VPWR VGND sg13g2_buf_1
+Xfanout77 net78 net77 VPWR VGND sg13g2_buf_1
+XFILLER_5_450 VPWR VGND sg13g2_fill_1
+X_231_ net18 net86 Inst_N_IO_ConfigMem.Inst_frame1_bit23.Q VPWR VGND sg13g2_dlhq_1
+X_300_ net19 net139 VPWR VGND sg13g2_buf_1
+X_162_ net12 net71 Inst_N_IO_ConfigMem.Inst_frame3_bit18.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_6_236 VPWR VGND sg13g2_decap_8
+X_093_ _006_ net69 net45 VPWR VGND sg13g2_nand2_1
+Xinput1 A_O_top net1 VPWR VGND sg13g2_buf_1
+X_214_ net31 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit6.Q VPWR VGND sg13g2_dlhq_1
+X_076_ _001_ net40 _036_ VPWR VGND Inst_N_IO_ConfigMem.Inst_frame0_bit23.Q sg13g2_nand3b_1
+X_145_ Inst_N_IO_ConfigMem.Inst_frame1_bit0.Q net64 net103 net100 net2 Inst_N_IO_ConfigMem.Inst_frame1_bit1.Q
++ Inst_N_IO_switch_matrix.S4BEG7 VPWR VGND sg13g2_mux4_1
+Xoutput190 net213 SS4BEG[11] VPWR VGND sg13g2_buf_1
+X_059_ Inst_N_IO_ConfigMem.Inst_frame2_bit2.Q net47 net92 net108 net101 Inst_N_IO_ConfigMem.Inst_frame2_bit3.Q
++ Inst_N_IO_switch_matrix.S2BEGb0 VPWR VGND sg13g2_mux4_1
+X_128_ Inst_N_IO_ConfigMem.Inst_frame0_bit3.Q net66 net93 net68 net57 Inst_N_IO_ConfigMem.Inst_frame0_bit2.Q
++ Inst_N_IO_switch_matrix.SS4BEG8 VPWR VGND sg13g2_mux4_1
+Xinput81 NN4END[3] net104 VPWR VGND sg13g2_buf_1
+Xinput70 N4END[8] net93 VPWR VGND sg13g2_buf_1
+XFILLER_9_404 VPWR VGND sg13g2_fill_2
+XFILLER_10_458 VPWR VGND sg13g2_fill_1
+XFILLER_6_429 VPWR VGND sg13g2_decap_8
+Xfanout78 FrameStrobe[2] net78 VPWR VGND sg13g2_buf_1
+Xfanout89 FrameStrobe[0] net89 VPWR VGND sg13g2_buf_1
+X_376_ Inst_N_IO_switch_matrix.SS4BEG12 net214 VPWR VGND sg13g2_buf_1
+XFILLER_9_267 VPWR VGND sg13g2_fill_2
+XFILLER_9_223 VPWR VGND sg13g2_fill_2
+X_230_ net17 net86 Inst_N_IO_ConfigMem.Inst_frame1_bit22.Q VPWR VGND sg13g2_dlhq_1
+X_161_ net11 net75 Inst_N_IO_ConfigMem.Inst_frame3_bit17.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_6_259 VPWR VGND sg13g2_decap_8
+X_092_ VGND VPWR _004_ Inst_N_IO_ConfigMem.Inst_frame0_bit27.Q _003_ Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q
++ _005_ _002_ sg13g2_a221oi_1
+X_359_ Inst_N_IO_switch_matrix.S4BEG11 net197 VPWR VGND sg13g2_buf_1
+XFILLER_2_432 VPWR VGND sg13g2_decap_8
+Xinput2 B_O_top net2 VPWR VGND sg13g2_buf_1
+XFILLER_10_12 VPWR VGND sg13g2_decap_8
+X_144_ Inst_N_IO_ConfigMem.Inst_frame1_bit2.Q net37 net60 net99 Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit3.Q Inst_N_IO_switch_matrix.S4BEG8 VPWR VGND
++ sg13g2_mux4_1
+X_075_ _034_ VPWR _035_ VGND Inst_N_IO_ConfigMem.Inst_frame0_bit23.Q _033_ sg13g2_o21ai_1
+XFILLER_2_240 VPWR VGND sg13g2_fill_1
+X_213_ net30 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit5.Q VPWR VGND sg13g2_dlhq_1
+Xoutput180 net203 S4BEG[2] VPWR VGND sg13g2_buf_1
+Xoutput191 net214 SS4BEG[12] VPWR VGND sg13g2_buf_1
+XFILLER_11_383 VPWR VGND sg13g2_fill_2
+X_127_ Inst_N_IO_ConfigMem.Inst_frame0_bit4.Q net63 net65 net67 net92 Inst_N_IO_ConfigMem.Inst_frame0_bit5.Q
++ Inst_N_IO_switch_matrix.SS4BEG9 VPWR VGND sg13g2_mux4_1
+XFILLER_7_46 VPWR VGND sg13g2_fill_1
+X_058_ Inst_N_IO_ConfigMem.Inst_frame2_bit4.Q net46 net68 net107 net100 Inst_N_IO_ConfigMem.Inst_frame2_bit5.Q
++ Inst_N_IO_switch_matrix.S2BEGb1 VPWR VGND sg13g2_mux4_1
+Xinput71 N4END[9] net94 VPWR VGND sg13g2_buf_1
+Xinput82 NN4END[4] net105 VPWR VGND sg13g2_buf_1
+Xinput60 N4END[13] net60 VPWR VGND sg13g2_buf_1
+Xfanout79 net81 net79 VPWR VGND sg13g2_buf_1
+X_375_ Inst_N_IO_switch_matrix.SS4BEG11 net213 VPWR VGND sg13g2_buf_1
+XFILLER_5_441 VPWR VGND sg13g2_decap_8
+X_358_ Inst_N_IO_switch_matrix.S4BEG10 net196 VPWR VGND sg13g2_buf_1
+X_091_ VGND VPWR net69 _000_ _004_ Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q sg13g2_a21oi_1
+X_160_ net10 net71 Inst_N_IO_ConfigMem.Inst_frame3_bit16.Q VPWR VGND sg13g2_dlhq_1
+X_289_ net7 net127 VPWR VGND sg13g2_buf_1
+Xinput3 FrameData[0] net3 VPWR VGND sg13g2_buf_1
+X_074_ Inst_N_IO_ConfigMem.Inst_frame0_bit23.Q _001_ net41 _034_ VPWR VGND sg13g2_nand3_1
+X_212_ net29 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit4.Q VPWR VGND sg13g2_dlhq_1
+X_143_ Inst_N_IO_ConfigMem.Inst_frame1_bit4.Q net36 net59 net98 Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit5.Q Inst_N_IO_switch_matrix.S4BEG9 VPWR VGND
++ sg13g2_mux4_1
+Xoutput181 net204 S4BEG[3] VPWR VGND sg13g2_buf_1
+Xoutput170 net193 S2BEGb[6] VPWR VGND sg13g2_buf_1
+Xoutput192 net215 SS4BEG[13] VPWR VGND sg13g2_buf_1
+X_057_ Inst_N_IO_ConfigMem.Inst_frame2_bit6.Q net45 net67 net106 net99 Inst_N_IO_ConfigMem.Inst_frame2_bit7.Q
++ Inst_N_IO_switch_matrix.S2BEGb2 VPWR VGND sg13g2_mux4_1
+XFILLER_7_366 VPWR VGND sg13g2_fill_1
+XFILLER_7_355 VPWR VGND sg13g2_decap_8
+X_126_ Inst_N_IO_ConfigMem.Inst_frame0_bit6.Q net56 net64 net66 net1 Inst_N_IO_ConfigMem.Inst_frame0_bit7.Q
++ Inst_N_IO_switch_matrix.SS4BEG10 VPWR VGND sg13g2_mux4_1
+Xinput72 NN4END[0] net95 VPWR VGND sg13g2_buf_1
+Xinput83 NN4END[5] net106 VPWR VGND sg13g2_buf_1
+Xinput50 N2MID[2] net50 VPWR VGND sg13g2_buf_1
+Xinput61 N4END[14] net61 VPWR VGND sg13g2_buf_1
+X_109_ _021_ net45 net70 VPWR VGND sg13g2_nand2_1
+Xfanout69 Inst_N_IO_ConfigMem.Inst_frame0_bit25.Q net69 VPWR VGND sg13g2_buf_1
+X_374_ Inst_N_IO_switch_matrix.SS4BEG10 net212 VPWR VGND sg13g2_buf_1
+X_090_ VGND VPWR _003_ net40 net69 sg13g2_or2_1
+X_288_ net6 net126 VPWR VGND sg13g2_buf_1
+Xinput4 FrameData[10] net4 VPWR VGND sg13g2_buf_1
+X_357_ Inst_N_IO_switch_matrix.S4BEG9 net210 VPWR VGND sg13g2_buf_1
+XFILLER_5_250 VPWR VGND sg13g2_fill_1
+XFILLER_5_272 VPWR VGND sg13g2_fill_2
+X_142_ Inst_N_IO_ConfigMem.Inst_frame1_bit7.Q net94 net99 net110 Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit6.Q Inst_N_IO_switch_matrix.S4BEG10 VPWR VGND
++ sg13g2_mux4_1
+X_211_ net28 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit3.Q VPWR VGND sg13g2_dlhq_1
+X_073_ _032_ VPWR _033_ VGND net55 Inst_N_IO_ConfigMem.Inst_frame0_bit24.Q sg13g2_o21ai_1
+XFILLER_2_70 VPWR VGND sg13g2_fill_2
+Xoutput193 net216 SS4BEG[14] VPWR VGND sg13g2_buf_1
+X_125_ Inst_N_IO_ConfigMem.Inst_frame0_bit8.Q net68 net93 net57 net2 Inst_N_IO_ConfigMem.Inst_frame0_bit9.Q
++ Inst_N_IO_switch_matrix.SS4BEG11 VPWR VGND sg13g2_mux4_1
+Xoutput182 net205 S4BEG[4] VPWR VGND sg13g2_buf_1
+Xoutput171 net194 S2BEGb[7] VPWR VGND sg13g2_buf_1
+Xoutput160 net183 S2BEG[4] VPWR VGND sg13g2_buf_1
+X_056_ Inst_N_IO_ConfigMem.Inst_frame2_bit8.Q net44 net66 net105 net98 Inst_N_IO_ConfigMem.Inst_frame2_bit9.Q
++ Inst_N_IO_switch_matrix.S2BEGb3 VPWR VGND sg13g2_mux4_1
+Xinput73 NN4END[10] net96 VPWR VGND sg13g2_buf_1
+Xinput62 N4END[15] net62 VPWR VGND sg13g2_buf_1
+Xinput51 N2MID[3] net51 VPWR VGND sg13g2_buf_1
+Xinput84 NN4END[6] net107 VPWR VGND sg13g2_buf_1
+Xinput40 N2END[0] net40 VPWR VGND sg13g2_buf_1
+X_108_ VGND VPWR _019_ Inst_N_IO_ConfigMem.Inst_frame0_bit20.Q _018_ Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q
++ _020_ _017_ sg13g2_a221oi_1
+X_373_ Inst_N_IO_switch_matrix.SS4BEG9 net226 VPWR VGND sg13g2_buf_1
+XFILLER_5_81 VPWR VGND sg13g2_fill_1
+XFILLER_10_269 VPWR VGND sg13g2_fill_2
+XFILLER_10_203 VPWR VGND sg13g2_fill_1
+XFILLER_6_207 VPWR VGND sg13g2_decap_4
+XFILLER_2_446 VPWR VGND sg13g2_decap_4
+X_287_ net5 net125 VPWR VGND sg13g2_buf_1
+X_356_ Inst_N_IO_switch_matrix.S4BEG8 net209 VPWR VGND sg13g2_buf_1
+Xinput5 FrameData[11] net5 VPWR VGND sg13g2_buf_1
+XFILLER_10_26 VPWR VGND sg13g2_decap_4
+X_072_ _032_ Inst_N_IO_ConfigMem.Inst_frame0_bit24.Q net43 VPWR VGND sg13g2_nand2b_1
+X_210_ net25 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit2.Q VPWR VGND sg13g2_dlhq_1
+X_141_ Inst_N_IO_ConfigMem.Inst_frame1_bit9.Q net93 net98 net109 Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit8.Q Inst_N_IO_switch_matrix.S4BEG11 VPWR VGND
++ sg13g2_mux4_1
+X_339_ Inst_N_IO_switch_matrix.S2BEG7 net186 VPWR VGND sg13g2_buf_1
+XFILLER_11_353 VPWR VGND sg13g2_fill_1
+Xoutput150 net173 FrameStrobe_O[8] VPWR VGND sg13g2_buf_1
+X_124_ Inst_N_IO_ConfigMem.Inst_frame0_bit10.Q net63 net65 net67 Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame0_bit11.Q Inst_N_IO_switch_matrix.SS4BEG12 VPWR VGND
++ sg13g2_mux4_1
+X_055_ Inst_N_IO_ConfigMem.Inst_frame2_bit10.Q net43 net65 net104 net97 Inst_N_IO_ConfigMem.Inst_frame2_bit11.Q
++ Inst_N_IO_switch_matrix.S2BEGb4 VPWR VGND sg13g2_mux4_1
+XFILLER_7_379 VPWR VGND sg13g2_decap_4
+Xoutput161 net184 S2BEG[5] VPWR VGND sg13g2_buf_1
+Xoutput172 net195 S4BEG[0] VPWR VGND sg13g2_buf_1
+Xoutput194 net217 SS4BEG[15] VPWR VGND sg13g2_buf_1
+Xoutput183 net206 S4BEG[5] VPWR VGND sg13g2_buf_1
+Xinput41 N2END[1] net41 VPWR VGND sg13g2_buf_1
+Xinput74 NN4END[11] net97 VPWR VGND sg13g2_buf_1
+Xinput85 NN4END[7] net108 VPWR VGND sg13g2_buf_1
+Xinput63 N4END[1] net63 VPWR VGND sg13g2_buf_1
+Xinput52 N2MID[4] net52 VPWR VGND sg13g2_buf_1
+Xinput30 FrameData[5] net30 VPWR VGND sg13g2_buf_1
+XFILLER_11_194 VPWR VGND sg13g2_fill_2
+X_107_ VGND VPWR _000_ net70 _019_ Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q sg13g2_a21oi_1
+XFILLER_10_429 VPWR VGND sg13g2_fill_2
+XFILLER_9_249 VPWR VGND sg13g2_fill_1
+XFILLER_8_8 VPWR VGND sg13g2_decap_8
+X_372_ Inst_N_IO_switch_matrix.SS4BEG8 net225 VPWR VGND sg13g2_buf_1
+XFILLER_10_237 VPWR VGND sg13g2_fill_2
+XFILLER_2_425 VPWR VGND sg13g2_decap_8
+X_286_ net4 net124 VPWR VGND sg13g2_buf_1
+X_355_ Inst_N_IO_switch_matrix.S4BEG7 net208 VPWR VGND sg13g2_buf_1
+Xinput6 FrameData[12] net6 VPWR VGND sg13g2_buf_1
+X_140_ Inst_N_IO_ConfigMem.Inst_frame1_bit11.Q net37 net106 net67 Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit10.Q Inst_N_IO_switch_matrix.S4BEG12 VPWR VGND
++ sg13g2_mux4_1
+X_071_ net39 net1 Inst_N_IO_ConfigMem.Inst_frame3_bit14.Q Inst_N_IO_switch_matrix.S1BEG0
++ VPWR VGND sg13g2_mux2_1
+X_338_ Inst_N_IO_switch_matrix.S2BEG6 net185 VPWR VGND sg13g2_buf_1
+X_269_ net24 net89 Inst_N_IO_ConfigMem.Inst_frame0_bit29.Q VPWR VGND sg13g2_dlhq_1
+Xoutput140 net163 FrameStrobe_O[17] VPWR VGND sg13g2_buf_1
+Xoutput151 net174 FrameStrobe_O[9] VPWR VGND sg13g2_buf_1
+Xoutput195 net218 SS4BEG[1] VPWR VGND sg13g2_buf_1
+Xoutput173 net196 S4BEG[10] VPWR VGND sg13g2_buf_1
+Xoutput162 net185 S2BEG[6] VPWR VGND sg13g2_buf_1
+Xoutput184 net207 S4BEG[6] VPWR VGND sg13g2_buf_1
+XFILLER_11_70 VPWR VGND sg13g2_fill_2
+Xinput20 FrameData[25] net20 VPWR VGND sg13g2_buf_1
+X_123_ Inst_N_IO_ConfigMem.Inst_frame0_bit12.Q net92 net94 net58 Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame0_bit13.Q Inst_N_IO_switch_matrix.SS4BEG13 VPWR VGND
++ sg13g2_mux4_1
+Xinput31 FrameData[6] net31 VPWR VGND sg13g2_buf_1
+X_054_ Inst_N_IO_ConfigMem.Inst_frame2_bit12.Q net42 net64 net103 net96 Inst_N_IO_ConfigMem.Inst_frame2_bit13.Q
++ Inst_N_IO_switch_matrix.S2BEGb5 VPWR VGND sg13g2_mux4_1
+Xinput64 N4END[2] net64 VPWR VGND sg13g2_buf_1
+Xinput42 N2END[2] net42 VPWR VGND sg13g2_buf_1
+XFILLER_6_391 VPWR VGND sg13g2_fill_2
+Xinput53 N2MID[5] net53 VPWR VGND sg13g2_buf_1
+Xinput86 NN4END[8] net109 VPWR VGND sg13g2_buf_1
+Xinput75 NN4END[12] net98 VPWR VGND sg13g2_buf_1
+X_106_ VGND VPWR _018_ net70 net40 sg13g2_or2_1
+XFILLER_7_166 VPWR VGND sg13g2_fill_2
+XFILLER_0_364 VPWR VGND sg13g2_fill_2
+X_371_ Inst_N_IO_switch_matrix.SS4BEG7 net224 VPWR VGND sg13g2_buf_1
+XFILLER_5_434 VPWR VGND sg13g2_decap_8
+X_354_ Inst_N_IO_switch_matrix.S4BEG6 net207 VPWR VGND sg13g2_buf_1
+X_285_ net34 net154 VPWR VGND sg13g2_buf_1
+Xinput7 FrameData[13] net7 VPWR VGND sg13g2_buf_1
+X_070_ net38 Inst_A_IO_1_bidirectional_frame_config_pass.Q Inst_N_IO_ConfigMem.Inst_frame3_bit15.Q
++ Inst_N_IO_switch_matrix.S1BEG1 VPWR VGND sg13g2_mux2_1
+XFILLER_2_245 VPWR VGND sg13g2_fill_1
+XFILLER_2_267 VPWR VGND sg13g2_fill_1
+XFILLER_2_289 VPWR VGND sg13g2_fill_1
+X_199_ net18 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit23.Q VPWR VGND sg13g2_dlhq_1
+X_337_ Inst_N_IO_switch_matrix.S2BEG5 net184 VPWR VGND sg13g2_buf_1
+X_268_ net23 net89 Inst_N_IO_ConfigMem.Inst_frame0_bit28.Q VPWR VGND sg13g2_dlhq_1
+Xoutput141 net164 FrameStrobe_O[18] VPWR VGND sg13g2_buf_1
+Xoutput196 net219 SS4BEG[2] VPWR VGND sg13g2_buf_1
+Xoutput163 net186 S2BEG[7] VPWR VGND sg13g2_buf_1
+Xoutput152 net175 S1BEG[0] VPWR VGND sg13g2_buf_1
+Xoutput174 net197 S4BEG[11] VPWR VGND sg13g2_buf_1
+Xoutput130 net153 FrameData_O[8] VPWR VGND sg13g2_buf_1
+Xoutput185 net208 S4BEG[7] VPWR VGND sg13g2_buf_1
+X_053_ Inst_N_IO_ConfigMem.Inst_frame2_bit14.Q net41 net63 net102 net110 Inst_N_IO_ConfigMem.Inst_frame2_bit15.Q
++ Inst_N_IO_switch_matrix.S2BEGb6 VPWR VGND sg13g2_mux4_1
+XFILLER_7_304 VPWR VGND sg13g2_fill_1
+X_122_ Inst_N_IO_ConfigMem.Inst_frame0_bit15.Q net48 net52 net50 net54 Inst_N_IO_ConfigMem.Inst_frame0_bit14.Q
++ Inst_N_IO_switch_matrix.SS4BEG14 VPWR VGND sg13g2_mux4_1
+Xinput21 FrameData[26] net21 VPWR VGND sg13g2_buf_1
+Xinput54 N2MID[6] net54 VPWR VGND sg13g2_buf_1
+Xinput87 NN4END[9] net110 VPWR VGND sg13g2_buf_1
+Xinput10 FrameData[16] net10 VPWR VGND sg13g2_buf_1
+Xinput76 NN4END[13] net99 VPWR VGND sg13g2_buf_1
+Xinput32 FrameData[7] net32 VPWR VGND sg13g2_buf_1
+Xinput65 N4END[3] net65 VPWR VGND sg13g2_buf_1
+Xinput43 N2END[3] net43 VPWR VGND sg13g2_buf_1
+X_105_ net42 net43 net70 _017_ VPWR VGND sg13g2_mux2_1
+XFILLER_8_83 VPWR VGND sg13g2_fill_1
+X_370_ Inst_N_IO_switch_matrix.SS4BEG6 net223 VPWR VGND sg13g2_buf_1
+XFILLER_10_239 VPWR VGND sg13g2_fill_1
+X_353_ Inst_N_IO_switch_matrix.S4BEG5 net206 VPWR VGND sg13g2_buf_1
+X_284_ net33 net153 VPWR VGND sg13g2_buf_1
+Xinput8 FrameData[14] net8 VPWR VGND sg13g2_buf_1
+XFILLER_5_298 VPWR VGND sg13g2_fill_2
+X_198_ net17 net80 Inst_N_IO_ConfigMem.Inst_frame2_bit22.Q VPWR VGND sg13g2_dlhq_1
+X_336_ Inst_N_IO_switch_matrix.S2BEG4 net183 VPWR VGND sg13g2_buf_1
+X_267_ net22 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit27.Q VPWR VGND sg13g2_dlhq_1
+Xoutput142 net165 FrameStrobe_O[19] VPWR VGND sg13g2_buf_1
+Xoutput120 net143 FrameData_O[28] VPWR VGND sg13g2_buf_1
+Xoutput186 net209 S4BEG[8] VPWR VGND sg13g2_buf_1
+Xoutput175 net198 S4BEG[12] VPWR VGND sg13g2_buf_1
+Xoutput153 net176 S1BEG[1] VPWR VGND sg13g2_buf_1
+Xoutput131 net154 FrameData_O[9] VPWR VGND sg13g2_buf_1
+Xoutput164 net187 S2BEGb[0] VPWR VGND sg13g2_buf_1
+Xoutput197 net220 SS4BEG[3] VPWR VGND sg13g2_buf_1
+X_052_ Inst_N_IO_ConfigMem.Inst_frame2_bit16.Q net40 net56 net95 net109 Inst_N_IO_ConfigMem.Inst_frame2_bit17.Q
++ Inst_N_IO_switch_matrix.S2BEGb7 VPWR VGND sg13g2_mux4_1
+X_121_ Inst_N_IO_ConfigMem.Inst_frame0_bit17.Q net49 net53 net51 net55 Inst_N_IO_ConfigMem.Inst_frame0_bit16.Q
++ Inst_N_IO_switch_matrix.SS4BEG15 VPWR VGND sg13g2_mux4_1
+Xinput22 FrameData[27] net22 VPWR VGND sg13g2_buf_1
+X_319_ FrameStrobe[11] net157 VPWR VGND sg13g2_buf_1
+Xinput66 N4END[4] net66 VPWR VGND sg13g2_buf_1
+XFILLER_6_382 VPWR VGND sg13g2_decap_4
+Xinput11 FrameData[17] net11 VPWR VGND sg13g2_buf_1
+Xinput55 N2MID[7] net55 VPWR VGND sg13g2_buf_1
+Xinput33 FrameData[8] net33 VPWR VGND sg13g2_buf_1
+Xinput77 NN4END[14] net100 VPWR VGND sg13g2_buf_1
+Xinput44 N2END[4] net44 VPWR VGND sg13g2_buf_1
+XFILLER_7_168 VPWR VGND sg13g2_fill_1
+XFILLER_3_396 VPWR VGND sg13g2_decap_4
+X_104_ _016_ VPWR net117 VGND _005_ _012_ sg13g2_o21ai_1
+XFILLER_8_444 VPWR VGND sg13g2_fill_2
+XFILLER_0_366 VPWR VGND sg13g2_fill_1
+XFILLER_0_388 VPWR VGND sg13g2_fill_2
+XFILLER_9_219 VPWR VGND sg13g2_decap_4
+XFILLER_2_439 VPWR VGND sg13g2_decap_8
+X_352_ Inst_N_IO_switch_matrix.S4BEG4 net205 VPWR VGND sg13g2_buf_1
+X_283_ net32 net152 VPWR VGND sg13g2_buf_1
+Xinput9 FrameData[15] net9 VPWR VGND sg13g2_buf_1
+XFILLER_10_19 VPWR VGND sg13g2_decap_8
+X_266_ net21 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q VPWR VGND sg13g2_dlhq_1
+X_197_ net16 net77 Inst_N_IO_ConfigMem.Inst_frame2_bit21.Q VPWR VGND sg13g2_dlhq_1
+X_335_ Inst_N_IO_switch_matrix.S2BEG3 net182 VPWR VGND sg13g2_buf_1
+Xoutput143 net166 FrameStrobe_O[1] VPWR VGND sg13g2_buf_1
+Xoutput132 net155 FrameStrobe_O[0] VPWR VGND sg13g2_buf_1
+Xoutput110 net133 FrameData_O[19] VPWR VGND sg13g2_buf_1
+Xoutput121 net144 FrameData_O[29] VPWR VGND sg13g2_buf_1
+X_051_ Inst_N_IO_ConfigMem.Inst_frame2_bit18.Q net38 net62 net101 net1 Inst_N_IO_ConfigMem.Inst_frame2_bit19.Q
++ Inst_N_IO_switch_matrix.S4BEG0 VPWR VGND sg13g2_mux4_1
+X_120_ _031_ VPWR net111 VGND _020_ _027_ sg13g2_o21ai_1
+Xoutput165 net188 S2BEGb[1] VPWR VGND sg13g2_buf_1
+Xoutput154 net177 S1BEG[2] VPWR VGND sg13g2_buf_1
+Xoutput198 net221 SS4BEG[4] VPWR VGND sg13g2_buf_1
+Xoutput187 net210 S4BEG[9] VPWR VGND sg13g2_buf_1
+Xoutput176 net199 S4BEG[13] VPWR VGND sg13g2_buf_1
+Xinput23 FrameData[28] net23 VPWR VGND sg13g2_buf_1
+X_318_ FrameStrobe[10] net156 VPWR VGND sg13g2_buf_1
+Xinput56 N4END[0] net56 VPWR VGND sg13g2_buf_1
+Xinput12 FrameData[18] net12 VPWR VGND sg13g2_buf_1
+Xinput78 NN4END[15] net101 VPWR VGND sg13g2_buf_1
+Xinput45 N2END[5] net45 VPWR VGND sg13g2_buf_1
+Xinput67 N4END[5] net67 VPWR VGND sg13g2_buf_1
+X_249_ net34 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit9.Q VPWR VGND sg13g2_dlhq_1
+Xinput34 FrameData[9] net34 VPWR VGND sg13g2_buf_1
+XFILLER_11_187 VPWR VGND sg13g2_fill_2
+XFILLER_7_147 VPWR VGND sg13g2_fill_2
+XFILLER_7_125 VPWR VGND sg13g2_fill_1
+X_103_ _016_ _015_ Inst_N_IO_ConfigMem.Inst_frame0_bit28.Q VPWR VGND sg13g2_nand2b_1
+XFILLER_4_139 VPWR VGND sg13g2_fill_2
+XFILLER_5_448 VPWR VGND sg13g2_fill_2
+XFILLER_8_220 VPWR VGND sg13g2_decap_8
+X_282_ net31 net151 VPWR VGND sg13g2_buf_1
+X_351_ Inst_N_IO_switch_matrix.S4BEG3 net204 VPWR VGND sg13g2_buf_1
+X_334_ Inst_N_IO_switch_matrix.S2BEG2 net181 VPWR VGND sg13g2_buf_1
+X_196_ net15 net77 Inst_N_IO_ConfigMem.Inst_frame2_bit20.Q VPWR VGND sg13g2_dlhq_1
+X_265_ net20 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit25.Q VPWR VGND sg13g2_dlhq_1
+Xoutput133 net156 FrameStrobe_O[10] VPWR VGND sg13g2_buf_1
+Xoutput199 net222 SS4BEG[5] VPWR VGND sg13g2_buf_1
+Xoutput144 net167 FrameStrobe_O[2] VPWR VGND sg13g2_buf_1
+Xoutput188 net211 SS4BEG[0] VPWR VGND sg13g2_buf_1
+Xoutput177 net200 S4BEG[14] VPWR VGND sg13g2_buf_1
+X_050_ Inst_N_IO_ConfigMem.Inst_frame2_bit20.Q net39 net61 net100 net2 Inst_N_IO_ConfigMem.Inst_frame2_bit21.Q
++ Inst_N_IO_switch_matrix.S4BEG1 VPWR VGND sg13g2_mux4_1
+Xoutput155 net178 S1BEG[3] VPWR VGND sg13g2_buf_1
+Xoutput100 net123 FrameData_O[0] VPWR VGND sg13g2_buf_1
+Xoutput111 net134 FrameData_O[1] VPWR VGND sg13g2_buf_1
+Xoutput122 net145 FrameData_O[2] VPWR VGND sg13g2_buf_1
+Xoutput166 net189 S2BEGb[2] VPWR VGND sg13g2_buf_1
+X_317_ FrameStrobe[9] net174 VPWR VGND sg13g2_buf_1
+Xinput24 FrameData[29] net24 VPWR VGND sg13g2_buf_1
+Xinput79 NN4END[1] net102 VPWR VGND sg13g2_buf_1
+Xinput68 N4END[6] net68 VPWR VGND sg13g2_buf_1
+Xinput57 N4END[10] net57 VPWR VGND sg13g2_buf_1
+Xinput13 FrameData[19] net13 VPWR VGND sg13g2_buf_1
+X_179_ net28 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit3.Q VPWR VGND sg13g2_dlhq_1
+Xinput46 N2END[6] net46 VPWR VGND sg13g2_buf_1
+Xinput35 FrameStrobe[1] net35 VPWR VGND sg13g2_buf_1
+X_248_ net33 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit8.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_310 VPWR VGND sg13g2_fill_2
+X_102_ _014_ _013_ Inst_N_IO_ConfigMem.Inst_frame0_bit27.Q _015_ VPWR VGND sg13g2_mux2_1
+XFILLER_8_446 VPWR VGND sg13g2_fill_1
+XFILLER_0_198 VPWR VGND sg13g2_fill_2
+XFILLER_5_10 VPWR VGND sg13g2_fill_1
+XFILLER_5_427 VPWR VGND sg13g2_decap_8
+X_350_ Inst_N_IO_switch_matrix.S4BEG2 net203 VPWR VGND sg13g2_buf_1
+X_281_ net30 net150 VPWR VGND sg13g2_buf_1
+XFILLER_2_238 VPWR VGND sg13g2_fill_2
+X_264_ net19 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit24.Q VPWR VGND sg13g2_dlhq_1
+X_195_ net13 net81 Inst_N_IO_ConfigMem.Inst_frame2_bit19.Q VPWR VGND sg13g2_dlhq_1
+X_333_ Inst_N_IO_switch_matrix.S2BEG1 net180 VPWR VGND sg13g2_buf_1
+Xoutput145 net168 FrameStrobe_O[3] VPWR VGND sg13g2_buf_1
+Xoutput134 net157 FrameStrobe_O[11] VPWR VGND sg13g2_buf_1
+Xoutput112 net135 FrameData_O[20] VPWR VGND sg13g2_buf_1
+Xoutput123 net146 FrameData_O[30] VPWR VGND sg13g2_buf_1
+Xoutput167 net190 S2BEGb[3] VPWR VGND sg13g2_buf_1
+Xoutput189 net212 SS4BEG[10] VPWR VGND sg13g2_buf_1
+Xoutput101 net124 FrameData_O[10] VPWR VGND sg13g2_buf_1
+Xoutput156 net179 S2BEG[0] VPWR VGND sg13g2_buf_1
+Xoutput178 net201 S4BEG[15] VPWR VGND sg13g2_buf_1
+XFILLER_11_53 VPWR VGND sg13g2_decap_4
+XFILLER_11_20 VPWR VGND sg13g2_decap_4
+X_316_ FrameStrobe[8] net173 VPWR VGND sg13g2_buf_1
+Xinput36 N1END[0] net36 VPWR VGND sg13g2_buf_1
+X_247_ net32 net91 Inst_N_IO_ConfigMem.Inst_frame0_bit7.Q VPWR VGND sg13g2_dlhq_1
+Xinput25 FrameData[2] net25 VPWR VGND sg13g2_buf_1
+Xinput14 FrameData[1] net14 VPWR VGND sg13g2_buf_1
+X_178_ net25 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit2.Q VPWR VGND sg13g2_dlhq_1
+Xinput69 N4END[7] net92 VPWR VGND sg13g2_buf_1
+Xinput47 N2END[7] net47 VPWR VGND sg13g2_buf_1
+Xinput58 N4END[11] net58 VPWR VGND sg13g2_buf_1
+XFILLER_11_189 VPWR VGND sg13g2_fill_1
+XFILLER_11_101 VPWR VGND sg13g2_fill_2
+X_101_ net69 net48 net49 net50 net51 Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q _014_
++ VPWR VGND sg13g2_mux4_1
+XFILLER_4_108 VPWR VGND sg13g2_fill_2
+XFILLER_8_403 VPWR VGND sg13g2_fill_2
+XFILLER_8_266 VPWR VGND sg13g2_fill_1
+XFILLER_8_233 VPWR VGND sg13g2_fill_2
+XFILLER_4_450 VPWR VGND sg13g2_fill_1
+X_280_ net29 net149 VPWR VGND sg13g2_buf_1
+XFILLER_4_280 VPWR VGND sg13g2_fill_1
+XFILLER_4_8 VPWR VGND sg13g2_decap_4
+X_263_ net18 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit23.Q VPWR VGND sg13g2_dlhq_1
+X_194_ net12 net81 Inst_N_IO_ConfigMem.Inst_frame2_bit18.Q VPWR VGND sg13g2_dlhq_1
+X_332_ Inst_N_IO_switch_matrix.S2BEG0 net179 VPWR VGND sg13g2_buf_1
+Xoutput135 net158 FrameStrobe_O[12] VPWR VGND sg13g2_buf_1
+Xoutput146 net169 FrameStrobe_O[4] VPWR VGND sg13g2_buf_1
+Xoutput113 net136 FrameData_O[21] VPWR VGND sg13g2_buf_1
+Xoutput124 net147 FrameData_O[31] VPWR VGND sg13g2_buf_1
+Xoutput157 net180 S2BEG[1] VPWR VGND sg13g2_buf_1
+Xoutput168 net191 S2BEGb[4] VPWR VGND sg13g2_buf_1
+Xoutput179 net202 S4BEG[1] VPWR VGND sg13g2_buf_1
+Xoutput102 net125 FrameData_O[11] VPWR VGND sg13g2_buf_1
+X_315_ FrameStrobe[7] net172 VPWR VGND sg13g2_buf_1
+Xinput26 FrameData[30] net26 VPWR VGND sg13g2_buf_1
+Xinput59 N4END[12] net59 VPWR VGND sg13g2_buf_1
+Xinput15 FrameData[20] net15 VPWR VGND sg13g2_buf_1
+XFILLER_6_386 VPWR VGND sg13g2_fill_1
+XFILLER_6_375 VPWR VGND sg13g2_decap_8
+X_246_ net31 net91 Inst_N_IO_ConfigMem.Inst_frame0_bit6.Q VPWR VGND sg13g2_dlhq_1
+Xinput48 N2MID[0] net48 VPWR VGND sg13g2_buf_1
+X_177_ net14 net77 Inst_N_IO_ConfigMem.Inst_frame2_bit1.Q VPWR VGND sg13g2_dlhq_1
+Xinput37 N1END[1] net37 VPWR VGND sg13g2_buf_1
+XFILLER_9_191 VPWR VGND sg13g2_fill_2
+X_100_ net69 net52 net53 net54 net55 Inst_N_IO_ConfigMem.Inst_frame0_bit26.Q _013_
++ VPWR VGND sg13g2_mux4_1
+XFILLER_8_33 VPWR VGND sg13g2_decap_4
+X_229_ net16 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit21.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_8_426 VPWR VGND sg13g2_fill_2
+XFILLER_1_443 VPWR VGND sg13g2_decap_4
+X_262_ net17 net87 Inst_N_IO_ConfigMem.Inst_frame0_bit22.Q VPWR VGND sg13g2_dlhq_1
+X_193_ net11 net81 Inst_N_IO_ConfigMem.Inst_frame2_bit17.Q VPWR VGND sg13g2_dlhq_1
+X_331_ Inst_N_IO_switch_matrix.S1BEG3 net178 VPWR VGND sg13g2_buf_1
+Xoutput136 net159 FrameStrobe_O[13] VPWR VGND sg13g2_buf_1
+Xoutput147 net170 FrameStrobe_O[5] VPWR VGND sg13g2_buf_1
+Xoutput114 net137 FrameData_O[22] VPWR VGND sg13g2_buf_1
+Xoutput169 net192 S2BEGb[5] VPWR VGND sg13g2_buf_1
+Xoutput125 net148 FrameData_O[3] VPWR VGND sg13g2_buf_1
+Xoutput103 net126 FrameData_O[12] VPWR VGND sg13g2_buf_1
+Xoutput158 net181 S2BEG[2] VPWR VGND sg13g2_buf_1
+Xinput27 FrameData[31] net27 VPWR VGND sg13g2_buf_1
+X_314_ FrameStrobe[6] net171 VPWR VGND sg13g2_buf_1
+X_245_ net30 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit5.Q VPWR VGND sg13g2_dlhq_1
+Xinput16 FrameData[21] net16 VPWR VGND sg13g2_buf_1
+X_176_ net3 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit0.Q VPWR VGND sg13g2_dlhq_1
+Xinput38 N1END[2] net38 VPWR VGND sg13g2_buf_1
+Xinput49 N2MID[1] net49 VPWR VGND sg13g2_buf_1
+X_159_ net9 net75 Inst_N_IO_ConfigMem.Inst_frame3_bit15.Q VPWR VGND sg13g2_dlhq_1
+X_228_ net15 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit20.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_0_305 VPWR VGND sg13g2_fill_1
+XFILLER_1_422 VPWR VGND sg13g2_decap_8
+XFILLER_5_205 VPWR VGND sg13g2_fill_2
+X_192_ net10 net81 Inst_N_IO_ConfigMem.Inst_frame2_bit16.Q VPWR VGND sg13g2_dlhq_1
+X_261_ net16 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit21.Q VPWR VGND sg13g2_dlhq_1
+X_330_ Inst_N_IO_switch_matrix.S1BEG2 net177 VPWR VGND sg13g2_buf_1
+Xoutput137 net160 FrameStrobe_O[14] VPWR VGND sg13g2_buf_1
+Xoutput148 net171 FrameStrobe_O[6] VPWR VGND sg13g2_buf_1
+Xoutput115 net138 FrameData_O[23] VPWR VGND sg13g2_buf_1
+Xoutput126 net149 FrameData_O[4] VPWR VGND sg13g2_buf_1
+Xoutput159 net182 S2BEG[3] VPWR VGND sg13g2_buf_1
+Xoutput104 net127 FrameData_O[13] VPWR VGND sg13g2_buf_1
+X_313_ FrameStrobe[5] net170 VPWR VGND sg13g2_buf_1
+X_175_ net27 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit31.Q VPWR VGND sg13g2_dlhq_1
+Xinput17 FrameData[22] net17 VPWR VGND sg13g2_buf_1
+X_244_ net29 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit4.Q VPWR VGND sg13g2_dlhq_1
+Xinput39 N1END[3] net39 VPWR VGND sg13g2_buf_1
+Xinput28 FrameData[3] net28 VPWR VGND sg13g2_buf_1
+X_089_ net42 net43 net69 _002_ VPWR VGND sg13g2_mux2_1
+XFILLER_2_391 VPWR VGND sg13g2_fill_2
+X_158_ net8 net71 Inst_N_IO_ConfigMem.Inst_frame3_bit14.Q VPWR VGND sg13g2_dlhq_1
+X_227_ net13 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit19.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_177 VPWR VGND sg13g2_fill_2
+X_260_ net15 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit20.Q VPWR VGND sg13g2_dlhq_1
+X_191_ net9 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit15.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_1_231 VPWR VGND sg13g2_fill_2
+Xoutput138 net161 FrameStrobe_O[15] VPWR VGND sg13g2_buf_1
+Xoutput149 net172 FrameStrobe_O[7] VPWR VGND sg13g2_buf_1
+XFILLER_11_57 VPWR VGND sg13g2_fill_1
+XFILLER_11_24 VPWR VGND sg13g2_fill_1
+Xoutput116 net139 FrameData_O[24] VPWR VGND sg13g2_buf_1
+Xoutput105 net128 FrameData_O[14] VPWR VGND sg13g2_buf_1
+Xoutput127 net150 FrameData_O[5] VPWR VGND sg13g2_buf_1
+X_174_ net26 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit30.Q VPWR VGND sg13g2_dlhq_1
+X_312_ FrameStrobe[4] net169 VPWR VGND sg13g2_buf_1
+Xinput18 FrameData[23] net18 VPWR VGND sg13g2_buf_1
+Xinput29 FrameData[4] net29 VPWR VGND sg13g2_buf_1
+X_243_ net28 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit3.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_3_337 VPWR VGND sg13g2_fill_1
+X_088_ VPWR _001_ Inst_N_IO_ConfigMem.Inst_frame0_bit24.Q VGND sg13g2_inv_1
+X_157_ net7 net73 net122 VPWR VGND sg13g2_dlhq_1
+X_226_ net12 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit18.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_90 VPWR VGND sg13g2_decap_4
+X_209_ net14 net35 Inst_N_IO_ConfigMem.Inst_frame1_bit1.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_4_443 VPWR VGND sg13g2_decap_8
+XFILLER_5_207 VPWR VGND sg13g2_fill_1
+XFILLER_6_80 VPWR VGND sg13g2_fill_2
+X_190_ net8 net76 Inst_N_IO_ConfigMem.Inst_frame2_bit14.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_2_16 VPWR VGND sg13g2_fill_1
+XFILLER_2_38 VPWR VGND sg13g2_fill_1
+Xoutput139 net162 FrameStrobe_O[16] VPWR VGND sg13g2_buf_1
+Xoutput117 net140 FrameData_O[25] VPWR VGND sg13g2_buf_1
+Xoutput106 net129 FrameData_O[15] VPWR VGND sg13g2_buf_1
+Xoutput128 net151 FrameData_O[6] VPWR VGND sg13g2_buf_1
+XFILLER_11_47 VPWR VGND sg13g2_fill_2
+XFILLER_11_36 VPWR VGND sg13g2_fill_2
+Xinput19 FrameData[24] net19 VPWR VGND sg13g2_buf_1
+X_311_ net75 net168 VPWR VGND sg13g2_buf_1
+X_173_ net24 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit29.Q VPWR VGND sg13g2_dlhq_1
+X_242_ net25 net90 Inst_N_IO_ConfigMem.Inst_frame0_bit2.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_10_172 VPWR VGND sg13g2_fill_2
+X_087_ VPWR _000_ net41 VGND sg13g2_inv_1
+XFILLER_8_37 VPWR VGND sg13g2_fill_2
+XFILLER_8_15 VPWR VGND sg13g2_fill_1
+X_156_ net6 net72 net121 VPWR VGND sg13g2_dlhq_1
+X_225_ net11 net85 Inst_N_IO_ConfigMem.Inst_frame1_bit17.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_2_393 VPWR VGND sg13g2_fill_1
+XFILLER_3_179 VPWR VGND sg13g2_fill_1
+X_208_ net3 net82 Inst_N_IO_ConfigMem.Inst_frame1_bit0.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_0_93 VPWR VGND sg13g2_fill_1
+X_139_ Inst_N_IO_ConfigMem.Inst_frame1_bit13.Q net36 net105 net66 Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit12.Q Inst_N_IO_switch_matrix.S4BEG13 VPWR VGND
++ sg13g2_mux4_1
+XFILLER_8_227 VPWR VGND sg13g2_fill_2
+XFILLER_1_436 VPWR VGND sg13g2_decap_8
+XFILLER_4_252 VPWR VGND sg13g2_fill_1
+Xoutput118 net141 FrameData_O[26] VPWR VGND sg13g2_buf_1
+Xoutput107 net130 FrameData_O[16] VPWR VGND sg13g2_buf_1
+Xoutput129 net152 FrameData_O[7] VPWR VGND sg13g2_buf_1
+X_310_ net79 net167 VPWR VGND sg13g2_buf_1
+X_241_ net14 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit1.Q VPWR VGND sg13g2_dlhq_1
+X_172_ net23 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit28.Q VPWR VGND sg13g2_dlhq_1
+X_155_ net5 net74 net120 VPWR VGND sg13g2_dlhq_1
+X_086_ _044_ VPWR net118 VGND Inst_N_IO_ConfigMem.Inst_frame0_bit31.Q _041_ sg13g2_o21ai_1
+X_224_ net10 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit16.Q VPWR VGND sg13g2_dlhq_1
+X_207_ net27 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit31.Q VPWR VGND sg13g2_dlhq_1
+X_138_ Inst_N_IO_ConfigMem.Inst_frame1_bit14.Q net63 net102 net99 Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit15.Q Inst_N_IO_switch_matrix.S4BEG14 VPWR VGND
++ sg13g2_mux4_1
+XFILLER_7_431 VPWR VGND sg13g2_decap_8
+X_069_ net37 net2 Inst_N_IO_ConfigMem.Inst_frame3_bit16.Q Inst_N_IO_switch_matrix.S1BEG2
++ VPWR VGND sg13g2_mux2_1
+XFILLER_4_401 VPWR VGND sg13g2_fill_2
+XFILLER_1_415 VPWR VGND sg13g2_decap_8
+XFILLER_1_201 VPWR VGND sg13g2_fill_1
+Xoutput90 net113 A_config_C_bit0 VPWR VGND sg13g2_buf_1
+Xoutput119 net142 FrameData_O[27] VPWR VGND sg13g2_buf_1
+Xoutput108 net131 FrameData_O[17] VPWR VGND sg13g2_buf_1
+XFILLER_11_38 VPWR VGND sg13g2_fill_1
+XFILLER_10_311 VPWR VGND sg13g2_fill_1
+X_171_ net22 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit27.Q VPWR VGND sg13g2_dlhq_1
+X_240_ net3 net88 Inst_N_IO_ConfigMem.Inst_frame0_bit0.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_9_197 VPWR VGND sg13g2_fill_1
+X_369_ Inst_N_IO_switch_matrix.SS4BEG5 net222 VPWR VGND sg13g2_buf_1
+X_223_ net9 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit15.Q VPWR VGND sg13g2_dlhq_1
+X_154_ net4 net74 net119 VPWR VGND sg13g2_dlhq_1
+X_085_ _044_ _042_ _043_ VPWR VGND sg13g2_nand2b_1
+XFILLER_2_373 VPWR VGND sg13g2_fill_1
+XFILLER_3_159 VPWR VGND sg13g2_fill_1
+X_206_ net26 net80 Inst_N_IO_ConfigMem.Inst_frame2_bit30.Q VPWR VGND sg13g2_dlhq_1
+X_137_ Inst_N_IO_ConfigMem.Inst_frame1_bit16.Q net56 net95 net98 Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit17.Q Inst_N_IO_switch_matrix.S4BEG15 VPWR VGND
++ sg13g2_mux4_1
+X_068_ net36 Inst_B_IO_1_bidirectional_frame_config_pass.Q Inst_N_IO_ConfigMem.Inst_frame3_bit17.Q
++ Inst_N_IO_switch_matrix.S1BEG3 VPWR VGND sg13g2_mux2_1
+XFILLER_7_262 VPWR VGND sg13g2_decap_8
+Xoutput109 net132 FrameData_O[18] VPWR VGND sg13g2_buf_1
+Xoutput91 net114 A_config_C_bit1 VPWR VGND sg13g2_buf_1
+X_170_ net21 net72 Inst_N_IO_ConfigMem.Inst_frame3_bit26.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_10_389 VPWR VGND sg13g2_fill_2
+XFILLER_10_367 VPWR VGND sg13g2_fill_1
+XFILLER_10_345 VPWR VGND sg13g2_fill_1
+XFILLER_6_305 VPWR VGND sg13g2_fill_2
+X_299_ net18 net138 VPWR VGND sg13g2_buf_1
+X_368_ Inst_N_IO_switch_matrix.SS4BEG4 net221 VPWR VGND sg13g2_buf_1
+XFILLER_5_360 VPWR VGND sg13g2_fill_2
+X_222_ net8 net83 Inst_N_IO_ConfigMem.Inst_frame1_bit14.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_10_131 VPWR VGND sg13g2_fill_2
+X_084_ Inst_N_IO_ConfigMem.Inst_frame0_bit31.Q VPWR _043_ VGND Inst_N_IO_ConfigMem.Inst_frame0_bit29.Q
++ _040_ sg13g2_o21ai_1
+XFILLER_2_341 VPWR VGND sg13g2_fill_2
+X_153_ net34 net71 net116 VPWR VGND sg13g2_dlhq_1
+X_205_ net24 net78 Inst_N_IO_ConfigMem.Inst_frame2_bit29.Q VPWR VGND sg13g2_dlhq_1
+X_136_ Inst_N_IO_ConfigMem.Inst_frame1_bit18.Q net56 net64 net66 net1 Inst_N_IO_ConfigMem.Inst_frame1_bit19.Q
++ Inst_N_IO_switch_matrix.SS4BEG0 VPWR VGND sg13g2_mux4_1
+X_067_ Inst_N_IO_ConfigMem.Inst_frame3_bit18.Q net55 net92 net108 net101 Inst_N_IO_ConfigMem.Inst_frame3_bit19.Q
++ Inst_N_IO_switch_matrix.S2BEG0 VPWR VGND sg13g2_mux4_1
+XFILLER_4_436 VPWR VGND sg13g2_decap_8
+XFILLER_11_281 VPWR VGND sg13g2_fill_1
+X_119_ _031_ _030_ Inst_N_IO_ConfigMem.Inst_frame0_bit21.Q VPWR VGND sg13g2_nand2b_1
+XFILLER_9_369 VPWR VGND sg13g2_fill_1
+Xoutput92 net115 A_config_C_bit2 VPWR VGND sg13g2_buf_1
+XFILLER_11_29 VPWR VGND sg13g2_decap_8
+X_298_ net17 net137 VPWR VGND sg13g2_buf_1
+X_367_ Inst_N_IO_switch_matrix.SS4BEG3 net220 VPWR VGND sg13g2_buf_1
+XFILLER_6_169 VPWR VGND sg13g2_fill_1
+XFILLER_6_125 VPWR VGND sg13g2_fill_2
+X_152_ net33 net71 net115 VPWR VGND sg13g2_dlhq_1
+X_083_ Inst_N_IO_ConfigMem.Inst_frame0_bit29.Q VPWR _042_ VGND net46 Inst_N_IO_ConfigMem.Inst_frame0_bit30.Q
++ sg13g2_o21ai_1
+X_221_ net7 net84 Inst_N_IO_ConfigMem.Inst_frame1_bit13.Q VPWR VGND sg13g2_dlhq_1
+X_204_ net23 net79 Inst_N_IO_ConfigMem.Inst_frame2_bit28.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_7_401 VPWR VGND sg13g2_fill_1
+X_135_ Inst_N_IO_ConfigMem.Inst_frame1_bit20.Q net68 net93 net57 net2 Inst_N_IO_ConfigMem.Inst_frame1_bit21.Q
++ Inst_N_IO_switch_matrix.SS4BEG1 VPWR VGND sg13g2_mux4_1
+X_066_ Inst_N_IO_ConfigMem.Inst_frame3_bit20.Q net54 net68 net107 net100 Inst_N_IO_ConfigMem.Inst_frame3_bit21.Q
++ Inst_N_IO_switch_matrix.S2BEG1 VPWR VGND sg13g2_mux4_1
+X_049_ Inst_N_IO_ConfigMem.Inst_frame2_bit23.Q net58 net101 net97 net1 Inst_N_IO_ConfigMem.Inst_frame2_bit22.Q
++ Inst_N_IO_switch_matrix.S4BEG2 VPWR VGND sg13g2_mux4_1
+X_118_ _028_ _029_ Inst_N_IO_ConfigMem.Inst_frame0_bit20.Q _030_ VPWR VGND sg13g2_mux2_1
+XFILLER_1_429 VPWR VGND sg13g2_decap_8
+XFILLER_4_234 VPWR VGND sg13g2_fill_1
+XFILLER_4_278 VPWR VGND sg13g2_fill_2
+XFILLER_9_337 VPWR VGND sg13g2_decap_8
+Xoutput93 net116 A_config_C_bit3 VPWR VGND sg13g2_buf_1
+X_366_ Inst_N_IO_switch_matrix.SS4BEG2 net219 VPWR VGND sg13g2_buf_1
+X_297_ net16 net136 VPWR VGND sg13g2_buf_1
+X_151_ net32 net71 net114 VPWR VGND sg13g2_dlhq_1
+X_220_ net6 net84 Inst_N_IO_ConfigMem.Inst_frame1_bit12.Q VPWR VGND sg13g2_dlhq_1
+X_082_ Inst_N_IO_ConfigMem.Inst_frame0_bit29.Q net54 net55 net40 net44 Inst_N_IO_ConfigMem.Inst_frame0_bit30.Q
++ _041_ VPWR VGND sg13g2_mux4_1
+XFILLER_2_343 VPWR VGND sg13g2_fill_1
+X_349_ Inst_N_IO_switch_matrix.S4BEG1 net202 VPWR VGND sg13g2_buf_1
+XFILLER_3_107 VPWR VGND sg13g2_fill_2
+X_134_ Inst_N_IO_ConfigMem.Inst_frame1_bit22.Q net63 net65 net67 Inst_A_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit23.Q Inst_N_IO_switch_matrix.SS4BEG2 VPWR VGND
++ sg13g2_mux4_1
+X_065_ Inst_N_IO_ConfigMem.Inst_frame3_bit22.Q net53 net67 net106 net99 Inst_N_IO_ConfigMem.Inst_frame3_bit23.Q
++ Inst_N_IO_switch_matrix.S2BEG2 VPWR VGND sg13g2_mux4_1
+X_203_ net22 net80 Inst_N_IO_ConfigMem.Inst_frame2_bit27.Q VPWR VGND sg13g2_dlhq_1
+X_117_ net70 net52 net53 net54 net55 Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q _029_
++ VPWR VGND sg13g2_mux4_1
+XFILLER_4_202 VPWR VGND sg13g2_fill_1
+XFILLER_9_8 VPWR VGND sg13g2_decap_4
+Xoutput94 net117 B_I_top VPWR VGND sg13g2_buf_1
+X_296_ net15 net135 VPWR VGND sg13g2_buf_1
+X_365_ Inst_N_IO_switch_matrix.SS4BEG1 net218 VPWR VGND sg13g2_buf_1
+XFILLER_8_190 VPWR VGND sg13g2_fill_2
+XFILLER_3_10 VPWR VGND sg13g2_fill_1
+X_150_ net31 net74 net113 VPWR VGND sg13g2_dlhq_1
+X_081_ _040_ net45 Inst_N_IO_ConfigMem.Inst_frame0_bit30.Q VPWR VGND sg13g2_nand2b_1
+X_348_ Inst_N_IO_switch_matrix.S4BEG0 net195 VPWR VGND sg13g2_buf_1
+X_279_ net28 net148 VPWR VGND sg13g2_buf_1
+X_133_ Inst_N_IO_ConfigMem.Inst_frame1_bit24.Q net92 net94 net58 Inst_B_IO_1_bidirectional_frame_config_pass.Q
++ Inst_N_IO_ConfigMem.Inst_frame1_bit25.Q Inst_N_IO_switch_matrix.SS4BEG3 VPWR VGND
++ sg13g2_mux4_1
+X_202_ net21 net80 Inst_N_IO_ConfigMem.Inst_frame2_bit26.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_2_130 VPWR VGND sg13g2_fill_2
+X_064_ Inst_N_IO_ConfigMem.Inst_frame3_bit24.Q net52 net66 net105 net98 Inst_N_IO_ConfigMem.Inst_frame3_bit25.Q
++ Inst_N_IO_switch_matrix.S2BEG3 VPWR VGND sg13g2_mux4_1
+XFILLER_7_255 VPWR VGND sg13g2_fill_2
+X_116_ Inst_N_IO_ConfigMem.Inst_frame0_bit18.Q net48 net49 net50 net51 Inst_N_IO_ConfigMem.Inst_frame0_bit19.Q
++ _028_ VPWR VGND sg13g2_mux4_1
+Xoutput95 net118 B_T_top VPWR VGND sg13g2_buf_1
+X_295_ net13 net133 VPWR VGND sg13g2_buf_1
+X_364_ Inst_N_IO_switch_matrix.SS4BEG0 net211 VPWR VGND sg13g2_buf_1
+XFILLER_5_397 VPWR VGND sg13g2_decap_4
+XFILLER_10_168 VPWR VGND sg13g2_decap_4
+X_080_ _039_ VPWR net112 VGND Inst_N_IO_ConfigMem.Inst_frame0_bit22.Q _035_ sg13g2_o21ai_1
+XFILLER_6_106 VPWR VGND sg13g2_fill_2
+X_347_ Inst_N_IO_switch_matrix.S2BEGb7 net194 VPWR VGND sg13g2_buf_1
+X_278_ net25 net145 VPWR VGND sg13g2_buf_1
+XFILLER_5_183 VPWR VGND sg13g2_fill_1
+X_063_ Inst_N_IO_ConfigMem.Inst_frame3_bit26.Q net51 net65 net104 net97 Inst_N_IO_ConfigMem.Inst_frame3_bit27.Q
++ Inst_N_IO_switch_matrix.S2BEG4 VPWR VGND sg13g2_mux4_1
+X_132_ Inst_N_IO_ConfigMem.Inst_frame1_bit26.Q net40 net42 net44 net46 Inst_N_IO_ConfigMem.Inst_frame1_bit27.Q
++ Inst_N_IO_switch_matrix.SS4BEG4 VPWR VGND sg13g2_mux4_1
+X_201_ net20 net78 Inst_N_IO_ConfigMem.Inst_frame2_bit25.Q VPWR VGND sg13g2_dlhq_1
+XFILLER_0_12 VPWR VGND sg13g2_fill_2
+X_273__206 VPWR VGND net229 sg13g2_tiehi
+XFILLER_4_429 VPWR VGND sg13g2_decap_8
+X_115_ Inst_N_IO_ConfigMem.Inst_frame0_bit21.Q VPWR _027_ VGND _023_ _026_ sg13g2_o21ai_1
+X_380_ UserCLK net227 VPWR VGND sg13g2_buf_1
+Xoutput96 net119 B_config_C_bit0 VPWR VGND sg13g2_buf_1
+.ends
+

@@ -1,0 +1,15 @@
+meta:
+  version: 2
+  flow: FABulousTile
+  
+# Basics
+DESIGN_NAME: S_term_EF_SRAM
+VERILOG_FILES: []
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: UserCLK
+
+# Area
+FP_SIZING: absolute
+DIE_AREA: [0, 0, 168.75, 56.25]

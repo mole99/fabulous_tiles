@@ -1,0 +1,1411 @@
+{
+  "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 18.1.8 -fPIC -O3)",
+  "modules": {
+    "S_CPU_IRQ": {
+      "attributes": {
+        "hdlname": "S_CPU_IRQ",
+        "dynports": "00000000000000000000000000000001",
+        "top": "00000000000000000000000000000001",
+        "src": "S_CPU_IRQ.v:1.1-718.10"
+      },
+      "parameter_default_values": {
+        "FrameBitsPerRow": "00000000000000000000000000100000",
+        "MaxFramesPerCol": "00000000000000000000000000010100",
+        "NoConfigBits": "00000000000000000000000000001100"
+      },
+      "ports": {
+        "N1BEG": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "N2BEG": {
+          "direction": "output",
+          "bits": [ 6, 7, 8, 9, 10, 11, 12, 13 ]
+        },
+        "N2BEGb": {
+          "direction": "output",
+          "bits": [ 14, 15, 16, 17, 18, 19, 20, 21 ]
+        },
+        "N4BEG": {
+          "direction": "output",
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37 ]
+        },
+        "NN4BEG": {
+          "direction": "output",
+          "bits": [ 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ "0" ]
+        },
+        "S1END": {
+          "direction": "input",
+          "bits": [ 5, 4, 3, 2 ]
+        },
+        "S2MID": {
+          "direction": "input",
+          "bits": [ 13, 12, 11, 10, 9, 8, 7, 6 ]
+        },
+        "S2END": {
+          "direction": "input",
+          "bits": [ 21, 20, 19, 18, 17, 16, 15, 14 ]
+        },
+        "S4END": {
+          "direction": "input",
+          "bits": [ 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22 ]
+        },
+        "SS4END": {
+          "direction": "input",
+          "bits": [ 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38 ]
+        },
+        "IRQ_top0": {
+          "direction": "output",
+          "bits": [ 54 ]
+        },
+        "IRQ_top1": {
+          "direction": "output",
+          "bits": [ 55 ]
+        },
+        "IRQ_top2": {
+          "direction": "output",
+          "bits": [ 56 ]
+        },
+        "IRQ_top3": {
+          "direction": "output",
+          "bits": [ 57 ]
+        },
+        "UserCLK": {
+          "direction": "input",
+          "bits": [ 58 ]
+        },
+        "UserCLKo": {
+          "direction": "output",
+          "bits": [ 58 ]
+        },
+        "FrameData": {
+          "direction": "input",
+          "bits": [ 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90 ]
+        },
+        "FrameData_O": {
+          "direction": "output",
+          "bits": [ 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90 ]
+        },
+        "FrameStrobe": {
+          "direction": "input",
+          "bits": [ 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 ]
+        },
+        "FrameStrobe_O": {
+          "direction": "output",
+          "bits": [ 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 ]
+        }
+      },
+      "cells": {
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit20.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 79 ],
+            "EN": [ 91 ],
+            "Q": [ 111 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit21.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 80 ],
+            "EN": [ 91 ],
+            "Q": [ 112 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit22.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 81 ],
+            "EN": [ 91 ],
+            "Q": [ 113 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit23.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 82 ],
+            "EN": [ 91 ],
+            "Q": [ 114 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit24.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 83 ],
+            "EN": [ 91 ],
+            "Q": [ 115 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit25.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 84 ],
+            "EN": [ 91 ],
+            "Q": [ 116 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit26.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 85 ],
+            "EN": [ 91 ],
+            "Q": [ 117 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit27.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 86 ],
+            "EN": [ 91 ],
+            "Q": [ 118 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit28.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 87 ],
+            "EN": [ 91 ],
+            "Q": [ 119 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit29.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 88 ],
+            "EN": [ 91 ],
+            "Q": [ 120 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit30.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 89 ],
+            "EN": [ 91 ],
+            "Q": [ 121 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_ConfigMem.\\Inst_frame0_bit31.$auto$proc_dlatch.cc:433:proc_dlatch$14": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:55.5-61.8"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 90 ],
+            "EN": [ 91 ],
+            "Q": [ 122 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux21_inst.$ternary$../../models_pack.v:205$4": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:205.13-205.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 123 ],
+            "B": [ 124 ],
+            "S": [ 113 ],
+            "Y": [ 54 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 13 ],
+            "S": [ 111 ],
+            "Y": [ 125 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 21 ],
+            "B": [ 17 ],
+            "S": [ 111 ],
+            "Y": [ 126 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 125 ],
+            "B": [ 126 ],
+            "S": [ 112 ],
+            "Y": [ 123 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 37 ],
+            "B": [ 33 ],
+            "S": [ 111 ],
+            "Y": [ 127 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 53 ],
+            "B": [ 49 ],
+            "S": [ 111 ],
+            "Y": [ 128 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ0.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 127 ],
+            "B": [ 128 ],
+            "S": [ 112 ],
+            "Y": [ 124 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux21_inst.$ternary$../../models_pack.v:205$4": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:205.13-205.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 129 ],
+            "B": [ 130 ],
+            "S": [ 116 ],
+            "Y": [ 55 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 12 ],
+            "S": [ 114 ],
+            "Y": [ 131 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 16 ],
+            "S": [ 114 ],
+            "Y": [ 132 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 131 ],
+            "B": [ 132 ],
+            "S": [ 115 ],
+            "Y": [ 129 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 36 ],
+            "B": [ 32 ],
+            "S": [ 114 ],
+            "Y": [ 133 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 52 ],
+            "B": [ 48 ],
+            "S": [ 114 ],
+            "Y": [ 134 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ1.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 133 ],
+            "B": [ 134 ],
+            "S": [ 115 ],
+            "Y": [ 130 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux21_inst.$ternary$../../models_pack.v:205$4": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:205.13-205.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 135 ],
+            "B": [ 136 ],
+            "S": [ 119 ],
+            "Y": [ 56 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 11 ],
+            "S": [ 117 ],
+            "Y": [ 137 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 15 ],
+            "S": [ 117 ],
+            "Y": [ 138 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 137 ],
+            "B": [ 138 ],
+            "S": [ 118 ],
+            "Y": [ 135 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 35 ],
+            "B": [ 31 ],
+            "S": [ 117 ],
+            "Y": [ 139 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 51 ],
+            "B": [ 47 ],
+            "S": [ 117 ],
+            "Y": [ 140 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ2.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 139 ],
+            "B": [ 140 ],
+            "S": [ 118 ],
+            "Y": [ 136 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux21_inst.$ternary$../../models_pack.v:205$4": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:205.13-205.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 141 ],
+            "B": [ 142 ],
+            "S": [ 122 ],
+            "Y": [ 57 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 10 ],
+            "S": [ 120 ],
+            "Y": [ 143 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "B": [ 14 ],
+            "S": [ 120 ],
+            "Y": [ 144 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux41_buf_inst0.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 143 ],
+            "B": [ 144 ],
+            "S": [ 121 ],
+            "Y": [ 141 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:190$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:190.12-190.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 34 ],
+            "B": [ 30 ],
+            "S": [ 120 ],
+            "Y": [ 145 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:191$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:191.12-191.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 50 ],
+            "B": [ 46 ],
+            "S": [ 120 ],
+            "Y": [ 146 ]
+          }
+        },
+        "$flatten\\Inst_S_CPU_IRQ_switch_matrix.\\inst_cus_mux81_buf_IRQ3.\\cus_mux41_buf_inst1.$ternary$../../models_pack.v:192$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../models_pack.v:192.14-192.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 145 ],
+            "B": [ 146 ],
+            "S": [ 121 ],
+            "Y": [ 142 ]
+          }
+        }
+      },
+      "netnames": {
+        "Co": {
+          "hide_name": 0,
+          "bits": [ "0" ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:17.22-17.24"
+          }
+        },
+        "FrameData": {
+          "hide_name": 0,
+          "bits": [ 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:30.37-30.46"
+          }
+        },
+        "FrameData_O": {
+          "hide_name": 0,
+          "bits": [ 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:31.38-31.49"
+          }
+        },
+        "FrameStrobe": {
+          "hide_name": 0,
+          "bits": [ 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:32.37-32.48"
+          }
+        },
+        "FrameStrobe_O": {
+          "hide_name": 0,
+          "bits": [ 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:33.38-33.51"
+          }
+        },
+        "IRQ_top0": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:23.16-23.24"
+          }
+        },
+        "IRQ_top1": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:24.16-24.24"
+          }
+        },
+        "IRQ_top2": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:25.16-25.24"
+          }
+        },
+        "IRQ_top3": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:26.16-26.24"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit20.Q": {
+          "hide_name": 0,
+          "bits": [ 111 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit20 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit21.Q": {
+          "hide_name": 0,
+          "bits": [ 112 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit21 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit22.Q": {
+          "hide_name": 0,
+          "bits": [ 113 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit22 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit23.Q": {
+          "hide_name": 0,
+          "bits": [ 114 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit23 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit24.Q": {
+          "hide_name": 0,
+          "bits": [ 115 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit24 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit25.Q": {
+          "hide_name": 0,
+          "bits": [ 116 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit25 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit26.Q": {
+          "hide_name": 0,
+          "bits": [ 117 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit26 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit27.Q": {
+          "hide_name": 0,
+          "bits": [ 118 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit27 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit28.Q": {
+          "hide_name": 0,
+          "bits": [ 119 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit28 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit29.Q": {
+          "hide_name": 0,
+          "bits": [ 120 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit29 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit30.Q": {
+          "hide_name": 0,
+          "bits": [ 121 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit30 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_ConfigMem.Inst_frame0_bit31.Q": {
+          "hide_name": 0,
+          "bits": [ 122 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_ConfigMem Inst_frame0_bit31 Q",
+            "src": "../../models_pack.v:54.38-54.39"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ0.cus_mux21_inst.A0": {
+          "hide_name": 0,
+          "bits": [ 123 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ0 cus_mux21_inst A0",
+            "src": "../../models_pack.v:196.8-196.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ0.cus_mux21_inst.A1": {
+          "hide_name": 0,
+          "bits": [ 124 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ0 cus_mux21_inst A1",
+            "src": "../../models_pack.v:197.8-197.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ0.cus_mux41_buf_inst0.B0": {
+          "hide_name": 0,
+          "bits": [ 125 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ0 cus_mux41_buf_inst0 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ0.cus_mux41_buf_inst0.B1": {
+          "hide_name": 0,
+          "bits": [ 126 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ0 cus_mux41_buf_inst0 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ0.cus_mux41_buf_inst1.B0": {
+          "hide_name": 0,
+          "bits": [ 127 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ0 cus_mux41_buf_inst1 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ0.cus_mux41_buf_inst1.B1": {
+          "hide_name": 0,
+          "bits": [ 128 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ0 cus_mux41_buf_inst1 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ1.cus_mux21_inst.A0": {
+          "hide_name": 0,
+          "bits": [ 129 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ1 cus_mux21_inst A0",
+            "src": "../../models_pack.v:196.8-196.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ1.cus_mux21_inst.A1": {
+          "hide_name": 0,
+          "bits": [ 130 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ1 cus_mux21_inst A1",
+            "src": "../../models_pack.v:197.8-197.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ1.cus_mux41_buf_inst0.B0": {
+          "hide_name": 0,
+          "bits": [ 131 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ1 cus_mux41_buf_inst0 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ1.cus_mux41_buf_inst0.B1": {
+          "hide_name": 0,
+          "bits": [ 132 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ1 cus_mux41_buf_inst0 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ1.cus_mux41_buf_inst1.B0": {
+          "hide_name": 0,
+          "bits": [ 133 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ1 cus_mux41_buf_inst1 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ1.cus_mux41_buf_inst1.B1": {
+          "hide_name": 0,
+          "bits": [ 134 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ1 cus_mux41_buf_inst1 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ2.cus_mux21_inst.A0": {
+          "hide_name": 0,
+          "bits": [ 135 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ2 cus_mux21_inst A0",
+            "src": "../../models_pack.v:196.8-196.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ2.cus_mux21_inst.A1": {
+          "hide_name": 0,
+          "bits": [ 136 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ2 cus_mux21_inst A1",
+            "src": "../../models_pack.v:197.8-197.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ2.cus_mux41_buf_inst0.B0": {
+          "hide_name": 0,
+          "bits": [ 137 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ2 cus_mux41_buf_inst0 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ2.cus_mux41_buf_inst0.B1": {
+          "hide_name": 0,
+          "bits": [ 138 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ2 cus_mux41_buf_inst0 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ2.cus_mux41_buf_inst1.B0": {
+          "hide_name": 0,
+          "bits": [ 139 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ2 cus_mux41_buf_inst1 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ2.cus_mux41_buf_inst1.B1": {
+          "hide_name": 0,
+          "bits": [ 140 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ2 cus_mux41_buf_inst1 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ3.cus_mux21_inst.A0": {
+          "hide_name": 0,
+          "bits": [ 141 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ3 cus_mux21_inst A0",
+            "src": "../../models_pack.v:196.8-196.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ3.cus_mux21_inst.A1": {
+          "hide_name": 0,
+          "bits": [ 142 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ3 cus_mux21_inst A1",
+            "src": "../../models_pack.v:197.8-197.10"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ3.cus_mux41_buf_inst0.B0": {
+          "hide_name": 0,
+          "bits": [ 143 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ3 cus_mux41_buf_inst0 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ3.cus_mux41_buf_inst0.B1": {
+          "hide_name": 0,
+          "bits": [ 144 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ3 cus_mux41_buf_inst0 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ3.cus_mux41_buf_inst1.B0": {
+          "hide_name": 0,
+          "bits": [ 145 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ3 cus_mux41_buf_inst1 B0",
+            "src": "../../models_pack.v:190.7-190.9"
+          }
+        },
+        "Inst_S_CPU_IRQ_switch_matrix.inst_cus_mux81_buf_IRQ3.cus_mux41_buf_inst1.B1": {
+          "hide_name": 0,
+          "bits": [ 146 ],
+          "attributes": {
+            "hdlname": "Inst_S_CPU_IRQ_switch_matrix inst_cus_mux81_buf_IRQ3 cus_mux41_buf_inst1 B1",
+            "src": "../../models_pack.v:191.7-191.9"
+          }
+        },
+        "N1BEG": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:12.22-12.27"
+          }
+        },
+        "N2BEG": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9, 10, 11, 12, 13 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:13.22-13.27"
+          }
+        },
+        "N2BEGb": {
+          "hide_name": 0,
+          "bits": [ 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:14.22-14.28"
+          }
+        },
+        "N4BEG": {
+          "hide_name": 0,
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:15.23-15.28"
+          }
+        },
+        "NN4BEG": {
+          "hide_name": 0,
+          "bits": [ 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:16.23-16.29"
+          }
+        },
+        "S1END": {
+          "hide_name": 0,
+          "bits": [ 5, 4, 3, 2 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:18.21-18.26"
+          }
+        },
+        "S2END": {
+          "hide_name": 0,
+          "bits": [ 21, 20, 19, 18, 17, 16, 15, 14 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:20.21-20.26"
+          }
+        },
+        "S2MID": {
+          "hide_name": 0,
+          "bits": [ 13, 12, 11, 10, 9, 8, 7, 6 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:19.21-19.26"
+          }
+        },
+        "S4END": {
+          "hide_name": 0,
+          "bits": [ 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:21.22-21.27"
+          }
+        },
+        "SS4END": {
+          "hide_name": 0,
+          "bits": [ 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:22.22-22.28"
+          }
+        },
+        "UserCLK": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:28.15-28.22"
+          }
+        },
+        "UserCLKo": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "S_CPU_IRQ.v:29.16-29.24"
+          }
+        }
+      }
+    }
+  }
+}

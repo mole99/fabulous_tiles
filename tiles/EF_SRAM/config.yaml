@@ -1,0 +1,18 @@
+meta:
+  version: 2
+  flow: FABulousTile
+  
+# Basics
+DESIGN_NAME: EF_SRAM
+FABULOUS_SUPERTILE: true
+VERILOG_FILES: []
+FABULOUS_EXTERNAL_SIDE: E
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: Tile_X0Y1_UserCLK
+
+# Area
+FP_SIZING: absolute
+DIE_AREA: [0, 0, 168.75, 450]
+#PL_TARGET_DENSITY_PCT: 50

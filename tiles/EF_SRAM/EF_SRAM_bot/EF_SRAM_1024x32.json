@@ -1,0 +1,209 @@
+{
+  "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 18.1.8 -fPIC -O3)",
+  "modules": {
+    "EF_SRAM_1024x32": {
+      "attributes": {
+        "dynports": 1,
+        "cells_not_processed": 1,
+        "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:15.1-49.10"
+      },
+      "parameter_default_values": {
+        "NoConfigBits": 0
+      },
+      "ports": {
+        "DI": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ]
+        },
+        "BEN": {
+          "direction": "input",
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ]
+        },
+        "AD": {
+          "direction": "input",
+          "bits": [ 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ]
+        },
+        "EN": {
+          "direction": "input",
+          "bits": [ 76 ]
+        },
+        "R_WB": {
+          "direction": "input",
+          "bits": [ 77 ]
+        },
+        "DO": {
+          "direction": "output",
+          "bits": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 ]
+        },
+        "DI_SRAM": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ]
+        },
+        "BEN_SRAM": {
+          "direction": "output",
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ]
+        },
+        "AD_SRAM": {
+          "direction": "output",
+          "bits": [ 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ]
+        },
+        "EN_SRAM": {
+          "direction": "output",
+          "bits": [ 76 ]
+        },
+        "R_WB_SRAM": {
+          "direction": "output",
+          "bits": [ 77 ]
+        },
+        "DO_SRAM": {
+          "direction": "input",
+          "bits": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 ]
+        },
+        "CLOCK_SRAM": {
+          "direction": "output",
+          "bits": [ 110 ]
+        },
+        "UserCLK": {
+          "direction": "input",
+          "bits": [ 110 ]
+        },
+        "ConfigBits": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 111, 112 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "AD": {
+          "hide_name": 0,
+          "bits": [ 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:21.27-21.29"
+          }
+        },
+        "AD_SRAM": {
+          "hide_name": 0,
+          "bits": [ 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:29.52-29.59"
+          }
+        },
+        "BEN": {
+          "hide_name": 0,
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:20.27-20.30"
+          }
+        },
+        "BEN_SRAM": {
+          "hide_name": 0,
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:28.52-28.60"
+          }
+        },
+        "CLOCK_SRAM": {
+          "hide_name": 0,
+          "bits": [ 110 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:33.52-33.62"
+          }
+        },
+        "ConfigBits": {
+          "hide_name": 0,
+          "bits": [ 111, 112 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "FABulous": 1,
+            "GLOBAL": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:38.54-38.64"
+          }
+        },
+        "DI": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:19.27-19.29"
+          }
+        },
+        "DI_SRAM": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:27.52-27.59"
+          }
+        },
+        "DO": {
+          "hide_name": 0,
+          "bits": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:24.28-24.30"
+          }
+        },
+        "DO_SRAM": {
+          "hide_name": 0,
+          "bits": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:32.52-32.59"
+          }
+        },
+        "EN": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:22.27-22.29"
+          }
+        },
+        "EN_SRAM": {
+          "hide_name": 0,
+          "bits": [ 76 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:30.52-30.59"
+          }
+        },
+        "R_WB": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:23.27-23.31"
+          }
+        },
+        "R_WB_SRAM": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:31.52-31.61"
+          }
+        },
+        "UserCLK": {
+          "hide_name": 0,
+          "bits": [ 110 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "SHARED_PORT": 1,
+            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/EF_SRAM/EF_SRAM_bot/EF_SRAM_1024x32.v:36.49-36.56"
+          }
+        }
+      }
+    }
+  }
+}

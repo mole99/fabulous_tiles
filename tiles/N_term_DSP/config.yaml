@@ -1,0 +1,28 @@
+meta:
+  version: 2
+  flow: FABulousTile
+  substituting_steps:
+    # KLayout runs density check, TODO disable
+    KLayout.DRC: null
+
+FABULOUS_TILE_DIR: dir::. #tiles/N_term_DSP
+
+# Basics
+DESIGN_NAME: N_term_DSP
+VERILOG_FILES:
+  - dir::../../models_pack.v
+  - dir::../../custom.v
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: UserCLK
+
+# Area
+FP_SIZING: absolute
+pdk::sky130A:
+    DIE_AREA: [0, 0, 205, 56.25]
+pdk::ihp-sg13g2:
+    #DIE_AREA: [0, 0, 260, 63.75]
+    #DIE_AREA: [0, 0, 200.16, 60.9]
+    
+    DIE_AREA: [0, 0, 196.32, 60.9]
