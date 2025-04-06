@@ -40,3 +40,7 @@ Some of the default tiles provided by FABulous.
 ## Note
 
 There are some remains for a planned design in sky130. The tiles are `EF_SRAM`, `N_EF_ADC12` and `N_EF_DAC8`. Please use with caution, but they might be useful as a reference.
+
+## License
+
+FABulous Tiles is licensed under the Apache 2.0 license.
