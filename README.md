@@ -4,6 +4,9 @@ This repository hosts tiles for the [FABulous](https://github.com/FPGA-Research/
 
 Enable the plugin and harden all tiles using `make` or harden individual tiles using e.g. `make tiles/LUT4AB`.
 
+> [!IMPORTANT]
+> For documentation about the primitives of the tiles, please see the [README](docs/README.md) in the docs.
+
 ## Custom Tiles
 
 The custom tiles created for special use.
