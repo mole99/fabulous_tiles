@@ -1,0 +1,423 @@
+{
+  "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 18.1.8 -fPIC -O3)",
+  "modules": {
+    "OPENRAM_256x32_1RW1R": {
+      "attributes": {
+        "dynports": 1,
+        "cells_not_processed": 1,
+        "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:17.1-71.10"
+      },
+      "parameter_default_values": {
+        "NoConfigBits": 0
+      },
+      "ports": {
+        "CSB_A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "WEB_A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "WMASK_A": {
+          "direction": "input",
+          "bits": [ 4, 5, 6, 7 ]
+        },
+        "ADDR_A": {
+          "direction": "input",
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "DIN_A": {
+          "direction": "input",
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ]
+        },
+        "DOUT_A": {
+          "direction": "output",
+          "bits": [ 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 ]
+        },
+        "CSB_B": {
+          "direction": "input",
+          "bits": [ 80 ]
+        },
+        "ADDR_B": {
+          "direction": "input",
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88 ]
+        },
+        "DOUT_B": {
+          "direction": "output",
+          "bits": [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120 ]
+        },
+        "CLK_A_SRAM": {
+          "direction": "output",
+          "bits": [ 121 ]
+        },
+        "CSB_A_SRAM": {
+          "direction": "output",
+          "bits": [ 122 ]
+        },
+        "WEB_A_SRAM": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "WMASK_A_SRAM": {
+          "direction": "output",
+          "bits": [ 4, 5, 6, 7 ]
+        },
+        "ADDR_A_SRAM": {
+          "direction": "output",
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "DIN_A_SRAM": {
+          "direction": "output",
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ]
+        },
+        "DOUT_A_SRAM": {
+          "direction": "input",
+          "bits": [ 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 ]
+        },
+        "CLK_B_SRAM": {
+          "direction": "output",
+          "bits": [ 121 ]
+        },
+        "CSB_B_SRAM": {
+          "direction": "output",
+          "bits": [ 123 ]
+        },
+        "ADDR_B_SRAM": {
+          "direction": "output",
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88 ]
+        },
+        "DOUT_B_SRAM": {
+          "direction": "input",
+          "bits": [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120 ]
+        },
+        "CONFIGURED_top": {
+          "direction": "input",
+          "bits": [ 124 ]
+        },
+        "UserCLK": {
+          "direction": "input",
+          "bits": [ 121 ]
+        },
+        "ConfigBits": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 125, 126 ]
+        }
+      },
+      "cells": {
+        "$logic_not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57$1": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57.37-57.52"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 124 ],
+            "Y": [ 127 ]
+          }
+        },
+        "$logic_not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67$3": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67.37-67.52"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 124 ],
+            "Y": [ 128 ]
+          }
+        },
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57$2": {
+          "hide_name": 1,
+          "type": "$logic_or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57.28-57.52"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 127 ],
+            "Y": [ 122 ]
+          }
+        },
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67$4": {
+          "hide_name": 1,
+          "type": "$logic_or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67.28-67.52"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 80 ],
+            "B": [ 128 ],
+            "Y": [ 123 ]
+          }
+        }
+      },
+      "netnames": {
+        "$logic_not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57$1_Y": {
+          "hide_name": 1,
+          "bits": [ 127 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57.37-57.52"
+          }
+        },
+        "$logic_not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67$3_Y": {
+          "hide_name": 1,
+          "bits": [ 128 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67.37-67.52"
+          }
+        },
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57$2_Y": {
+          "hide_name": 1,
+          "bits": [ 122 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:57.28-57.52"
+          }
+        },
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67$4_Y": {
+          "hide_name": 1,
+          "bits": [ 123 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:67.28-67.52"
+          }
+        },
+        "ADDR_A": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:24.27-24.33"
+          }
+        },
+        "ADDR_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:37.52-37.63"
+          }
+        },
+        "ADDR_B": {
+          "hide_name": 0,
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:29.27-29.33"
+          }
+        },
+        "ADDR_B_SRAM": {
+          "hide_name": 0,
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:43.52-43.63"
+          }
+        },
+        "CLK_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 121 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:33.52-33.62"
+          }
+        },
+        "CLK_B_SRAM": {
+          "hide_name": 0,
+          "bits": [ 121 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:41.52-41.62"
+          }
+        },
+        "CONFIGURED_top": {
+          "hide_name": 0,
+          "bits": [ 124 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:46.52-46.66"
+          }
+        },
+        "CSB_A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:21.27-21.32"
+          }
+        },
+        "CSB_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 122 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:34.52-34.62"
+          }
+        },
+        "CSB_B": {
+          "hide_name": 0,
+          "bits": [ 80 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:28.27-28.32"
+          }
+        },
+        "CSB_B_SRAM": {
+          "hide_name": 0,
+          "bits": [ 123 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:42.52-42.62"
+          }
+        },
+        "ConfigBits": {
+          "hide_name": 0,
+          "bits": [ 125, 126 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "FABulous": 1,
+            "GLOBAL": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:51.54-51.64"
+          }
+        },
+        "DIN_A": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:25.27-25.32"
+          }
+        },
+        "DIN_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:38.52-38.62"
+          }
+        },
+        "DOUT_A": {
+          "hide_name": 0,
+          "bits": [ 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:26.28-26.34"
+          }
+        },
+        "DOUT_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:39.53-39.64"
+          }
+        },
+        "DOUT_B": {
+          "hide_name": 0,
+          "bits": [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:30.27-30.33"
+          }
+        },
+        "DOUT_B_SRAM": {
+          "hide_name": 0,
+          "bits": [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:44.52-44.63"
+          }
+        },
+        "UserCLK": {
+          "hide_name": 0,
+          "bits": [ 121 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "SHARED_PORT": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:49.49-49.56"
+          }
+        },
+        "WEB_A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:22.27-22.32"
+          }
+        },
+        "WEB_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:35.52-35.62"
+          }
+        },
+        "WMASK_A": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:23.27-23.34"
+          }
+        },
+        "WMASK_A_SRAM": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/OpenRAM/OpenRAM_bot/OPENRAM_256x32_1RW1R.v:36.52-36.64"
+          }
+        }
+      }
+    }
+  }
+}

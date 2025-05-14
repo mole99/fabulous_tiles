@@ -114,6 +114,7 @@ set_input_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {SS4E
 set_input_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {SS4END[8]}]
 set_input_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {SS4END[9]}]
 set_output_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {Co}]
+set_output_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {ENABLE_top}]
 set_output_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {FrameData_O[0]}]
 set_output_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {FrameData_O[10]}]
 set_output_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {FrameData_O[11]}]
@@ -231,6 +232,7 @@ set_output_delay 4.0000 -clock [get_clocks {UserCLK}] -add_delay [get_ports {VAL
 # Environment
 ###############################################################################
 set_load -pin_load 0.0334 [get_ports {Co}]
+set_load -pin_load 0.0334 [get_ports {ENABLE_top}]
 set_load -pin_load 0.0334 [get_ports {UserCLKo}]
 set_load -pin_load 0.0334 [get_ports {VALUE_top0}]
 set_load -pin_load 0.0334 [get_ports {VALUE_top1}]

@@ -1,0 +1,22 @@
+meta:
+  version: 2
+  flow: FABulousTile
+
+FABULOUS_TILE_DIR: dir::. #tiles/N_term_OpenRAM
+
+# Basics
+DESIGN_NAME: N_term_OpenRAM
+VERILOG_FILES:
+  - dir::../../models_pack.v
+  - dir::../../custom.v
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: UserCLK
+
+# Area
+FP_SIZING: absolute
+pdk::sky130A:
+    # Height should be multiple of 0.68 (met3 pitch)
+    # Width should be multiple of 0.46 (met2 pitch)
+    DIE_AREA: [0, 0, 120.06, 55.76]

@@ -1,10 +1,17 @@
 meta:
   version: 2
   flow: FABulousTile
-  
+  substituting_steps:
+    # KLayout runs density check, TODO disable
+    #KLayout.DRC: null
+
+FABULOUS_TILE_DIR: dir::. #tiles/S_EF_DAC8
+
 # Basics
 DESIGN_NAME: S_EF_DAC8
-VERILOG_FILES: []
+VERILOG_FILES:
+  - dir::../../models_pack.v
+  - dir::../../custom.v
 FABULOUS_EXTERNAL_SIDE: S
 
 # Clock
@@ -13,4 +20,7 @@ CLOCK_PORT: UserCLK
 
 # Area
 FP_SIZING: absolute
-DIE_AREA: [0, 0, 205, 56.25]
+pdk::sky130A:
+    DIE_AREA: [0, 0, 172.04, 55.76]
+pdk::ihp-sg13g2:
+    DIE_AREA: [0, 0, 231.84, 59.22]

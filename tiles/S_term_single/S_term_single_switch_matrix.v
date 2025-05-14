@@ -1,8 +1,5 @@
  // NumberOfConfigBits: 0
 module S_term_single_switch_matrix
-    #(
-        parameter NoConfigBits=0
-    )
     (
         input S1END0,
         input S1END1,

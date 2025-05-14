@@ -1,0 +1,58 @@
+meta:
+  version: 2
+  flow: FABulousTile
+  substituting_steps:
+    # IHP uses cumulative antenna rules
+    # which aren't supported in repair yet
+    #OpenROAD.RepairAntennas: null
+    # KLayout runs density check, TODO disable
+    #KLayout.DRC: null
+    
+    # Don't resize gates
+    #OpenROAD.Resizer*: null
+
+FABULOUS_TILE_DIR: dir::. #tiles/LUT4AB
+
+SYNTH_STRATEGY: "AREA 2" # "AREA 0" "AREA 1" "AREA 2" "AREA 3"
+
+# Basics
+DESIGN_NAME: SimpleCLB
+VERILOG_FILES:
+  - dir::../../models_pack.v
+  - dir::../../custom.v
+
+# Clock
+CLOCK_PERIOD: 20
+CLOCK_PORT: UserCLK
+
+# Area
+FP_SIZING: absolute
+pdk::sky130A:
+    # Height should be multiple of 0.68 (met3 pitch)
+    # Width should be multiple of 0.46 (met2 pitch)
+    #DIE_AREA: [0, 0, 187.22, 225.08]
+    
+    DIE_AREA: [0, 0, 172.04, 259.76]
+    
+    #DIE_AREA: [0, 0, 169.74, 259.76]
+    
+    PL_TARGET_DENSITY_PCT: 56
+    
+    BOTTOM_MARGIN_MULT: 2
+    TOP_MARGIN_MULT: 2
+    
+    SYNTH_STRATEGY: "AREA 2"
+    
+    DESIGN_REPAIR_BUFFER_INPUT_PORTS: False
+    
+    # Make sure vias aren't too close to the edge
+    #ROUTING_OBSTRUCTIONS:
+    #- [met2, 0, -1, 187.22, 0]
+    #- [met2, 0, 225.08, 187.22, 226.08]
+    
+pdk::ihp-sg13g2:
+    # Height should be multiple of 0.42 (Metal2 pitch)
+    # Width should be multiple of 0.48 (Metal3 pitch)
+    DIE_AREA: [0, 0, 231.84, 241.92]
+    
+    PL_TARGET_DENSITY_PCT: 80

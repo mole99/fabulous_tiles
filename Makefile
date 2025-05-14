@@ -1,7 +1,7 @@
 PDK ?= ihp-sg13g2
 PDK_ROOT ?= ~/.volare
 
-TILES = S_term_single N_term_single S_term_single2 N_term_single2 S_term_DSP N_term_DSP S_term_IHP_SRAM N_term_IHP_SRAM LUT4AB W_IO N_IO S_WARMBOOT S_CPU_IRQ S_CPU_IF RegFile DSP IHP_SRAM
+TILES = S_term_single N_term_single S_term_single2 N_term_single2 S_term_DSP N_term_DSP S_term_IHP_SRAM N_term_IHP_SRAM LUT4AB SimpleCLB W_IO N_IO S_WARMBOOT S_CPU_IRQ S_CPU_IF RegFile DSP IHP_SRAM OpenRAM S_EF_ADC12 S_EF_DAC8 S_term_OpenRAM N_term_OpenRAM W_IO4 W_term_single
 TILE_DIR = tiles
 
 TILE_PATHS := $(addprefix $(TILE_DIR)/,$(TILES))

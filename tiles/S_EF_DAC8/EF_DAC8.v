@@ -20,13 +20,16 @@ module EF_DAC8 #(
 
 	// User design
     input  [(8 - 1) : 0] VALUE,
+    input                ENABLE,
 
     // Top
     (* FABulous, EXTERNAL *) output [(8 - 1) : 0] VALUE_top,
+    (* FABulous, EXTERNAL *) output               ENABLE_top,
 
     	(* FABulous, GLOBAL *) input [NoConfigBits-1:0] ConfigBits
 );
 
 	assign VALUE_top = VALUE;
+	assign ENABLE_top = ENABLE;
 
 endmodule

@@ -5,7 +5,7 @@ module S_EF_DAC8
 `endif
         parameter MaxFramesPerCol=20,
         parameter FrameBitsPerRow=32,
-        parameter NoConfigBits=48
+        parameter NoConfigBits=50
     )
     (
  //Side.NORTH
@@ -28,6 +28,7 @@ module S_EF_DAC8
         output VALUE_top5,
         output VALUE_top6,
         output VALUE_top7,
+        output ENABLE_top,
     //Tile IO ports from BELs
         input UserCLK,
         output UserCLKo,
@@ -47,6 +48,7 @@ wire VALUE4;
 wire VALUE5;
 wire VALUE6;
 wire VALUE7;
+wire ENABLE;
  //Jump wires
  //internal configuration data signal to daisy-chain all BELs (if any and in the order they are listed in the fabric.csv)
 wire[NoConfigBits-1:0] ConfigBits;
@@ -606,7 +608,9 @@ S_EF_DAC8_ConfigMem
  //BEL component instantiations
 EF_DAC8 Inst_EF_DAC8 (
     .VALUE({VALUE7, VALUE6, VALUE5, VALUE4, VALUE3, VALUE2, VALUE1, VALUE0}),
-    .VALUE_top({VALUE_top7, VALUE_top6, VALUE_top5, VALUE_top4, VALUE_top3, VALUE_top2, VALUE_top1, VALUE_top0})
+    .ENABLE(ENABLE),
+    .VALUE_top({VALUE_top7, VALUE_top6, VALUE_top5, VALUE_top4, VALUE_top3, VALUE_top2, VALUE_top1, VALUE_top0}),
+    .ENABLE_top(ENABLE_top)
 );
 
 S_EF_DAC8_switch_matrix Inst_S_EF_DAC8_switch_matrix (
@@ -723,8 +727,9 @@ S_EF_DAC8_switch_matrix Inst_S_EF_DAC8_switch_matrix (
     .VALUE5(VALUE5),
     .VALUE6(VALUE6),
     .VALUE7(VALUE7),
-    .ConfigBits(ConfigBits[48-1:0]),
-    .ConfigBits_N(ConfigBits_N[48-1:0])
+    .ENABLE(ENABLE),
+    .ConfigBits(ConfigBits[50-1:0]),
+    .ConfigBits_N(ConfigBits_N[50-1:0])
 );
 
 endmodule

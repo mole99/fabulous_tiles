@@ -6,23 +6,25 @@ MACRO N_term_DSP
   CLASS BLOCK ;
   FOREIGN N_term_DSP ;
   ORIGIN 0.000 0.000 ;
-  SIZE 225.000 BY 56.250 ;
+  SIZE 199.640 BY 55.760 ;
   PIN FrameData[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 6.840 0.600 7.440 ;
+        RECT 0.000 5.480 0.600 6.080 ;
     END
   END FrameData[0]
   PIN FrameData[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 20.440 0.600 21.040 ;
+        RECT 0.000 19.080 0.600 19.680 ;
     END
   END FrameData[10]
   PIN FrameData[11]
@@ -32,7 +34,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 21.800 0.600 22.400 ;
+        RECT 0.000 20.440 0.600 21.040 ;
     END
   END FrameData[11]
   PIN FrameData[12]
@@ -42,7 +44,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 23.160 0.600 23.760 ;
+        RECT 0.000 21.800 0.600 22.400 ;
     END
   END FrameData[12]
   PIN FrameData[13]
@@ -52,7 +54,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 24.520 0.600 25.120 ;
+        RECT 0.000 23.160 0.600 23.760 ;
     END
   END FrameData[13]
   PIN FrameData[14]
@@ -62,7 +64,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 25.880 0.600 26.480 ;
+        RECT 0.000 24.520 0.600 25.120 ;
     END
   END FrameData[14]
   PIN FrameData[15]
@@ -72,7 +74,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 27.240 0.600 27.840 ;
+        RECT 0.000 25.880 0.600 26.480 ;
     END
   END FrameData[15]
   PIN FrameData[16]
@@ -82,7 +84,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 28.600 0.600 29.200 ;
+        RECT 0.000 27.240 0.600 27.840 ;
     END
   END FrameData[16]
   PIN FrameData[17]
@@ -92,7 +94,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 29.960 0.600 30.560 ;
+        RECT 0.000 28.600 0.600 29.200 ;
     END
   END FrameData[17]
   PIN FrameData[18]
@@ -102,7 +104,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 31.320 0.600 31.920 ;
+        RECT 0.000 29.960 0.600 30.560 ;
     END
   END FrameData[18]
   PIN FrameData[19]
@@ -112,7 +114,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 32.680 0.600 33.280 ;
+        RECT 0.000 31.320 0.600 31.920 ;
     END
   END FrameData[19]
   PIN FrameData[1]
@@ -121,7 +123,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 8.200 0.600 8.800 ;
+        RECT 0.000 6.840 0.600 7.440 ;
     END
   END FrameData[1]
   PIN FrameData[20]
@@ -131,7 +133,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 34.040 0.600 34.640 ;
+        RECT 0.000 32.680 0.600 33.280 ;
     END
   END FrameData[20]
   PIN FrameData[21]
@@ -141,7 +143,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 35.400 0.600 36.000 ;
+        RECT 0.000 34.040 0.600 34.640 ;
     END
   END FrameData[21]
   PIN FrameData[22]
@@ -150,7 +152,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 36.760 0.600 37.360 ;
+        RECT 0.000 35.400 0.600 36.000 ;
     END
   END FrameData[22]
   PIN FrameData[23]
@@ -160,7 +162,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 38.120 0.600 38.720 ;
+        RECT 0.000 36.760 0.600 37.360 ;
     END
   END FrameData[23]
   PIN FrameData[24]
@@ -170,7 +172,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 39.480 0.600 40.080 ;
+        RECT 0.000 38.120 0.600 38.720 ;
     END
   END FrameData[24]
   PIN FrameData[25]
@@ -180,7 +182,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 40.840 0.600 41.440 ;
+        RECT 0.000 39.480 0.600 40.080 ;
     END
   END FrameData[25]
   PIN FrameData[26]
@@ -190,7 +192,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 42.200 0.600 42.800 ;
+        RECT 0.000 40.840 0.600 41.440 ;
     END
   END FrameData[26]
   PIN FrameData[27]
@@ -200,7 +202,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 43.560 0.600 44.160 ;
+        RECT 0.000 42.200 0.600 42.800 ;
     END
   END FrameData[27]
   PIN FrameData[28]
@@ -210,7 +212,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 44.920 0.600 45.520 ;
+        RECT 0.000 43.560 0.600 44.160 ;
     END
   END FrameData[28]
   PIN FrameData[29]
@@ -220,7 +222,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 46.280 0.600 46.880 ;
+        RECT 0.000 44.920 0.600 45.520 ;
     END
   END FrameData[29]
   PIN FrameData[2]
@@ -230,7 +232,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 9.560 0.600 10.160 ;
+        RECT 0.000 8.200 0.600 8.800 ;
     END
   END FrameData[2]
   PIN FrameData[30]
@@ -240,7 +242,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 47.640 0.600 48.240 ;
+        RECT 0.000 46.280 0.600 46.880 ;
     END
   END FrameData[30]
   PIN FrameData[31]
@@ -250,20 +252,28 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 49.000 0.600 49.600 ;
+        RECT 0.000 47.640 0.600 48.240 ;
     END
   END FrameData[31]
   PIN FrameData[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.631200 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 9.560 0.600 10.160 ;
+    END
+  END FrameData[3]
+  PIN FrameData[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met3 ;
         RECT 0.000 10.920 0.600 11.520 ;
     END
-  END FrameData[3]
-  PIN FrameData[4]
+  END FrameData[4]
+  PIN FrameData[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.631200 ;
@@ -271,15 +281,6 @@ MACRO N_term_DSP
     PORT
       LAYER met3 ;
         RECT 0.000 12.280 0.600 12.880 ;
-    END
-  END FrameData[4]
-  PIN FrameData[5]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
-    PORT
-      LAYER met3 ;
-        RECT 0.000 13.640 0.600 14.240 ;
     END
   END FrameData[5]
   PIN FrameData[6]
@@ -289,7 +290,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 15.000 0.600 15.600 ;
+        RECT 0.000 13.640 0.600 14.240 ;
     END
   END FrameData[6]
   PIN FrameData[7]
@@ -299,7 +300,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 16.360 0.600 16.960 ;
+        RECT 0.000 15.000 0.600 15.600 ;
     END
   END FrameData[7]
   PIN FrameData[8]
@@ -309,7 +310,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 17.720 0.600 18.320 ;
+        RECT 0.000 16.360 0.600 16.960 ;
     END
   END FrameData[8]
   PIN FrameData[9]
@@ -319,7 +320,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 19.080 0.600 19.680 ;
+        RECT 0.000 17.720 0.600 18.320 ;
     END
   END FrameData[9]
   PIN FrameData_O[0]
@@ -328,7 +329,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 6.840 225.000 7.440 ;
+        RECT 199.040 5.480 199.640 6.080 ;
     END
   END FrameData_O[0]
   PIN FrameData_O[10]
@@ -337,7 +338,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 20.440 225.000 21.040 ;
+        RECT 199.040 19.080 199.640 19.680 ;
     END
   END FrameData_O[10]
   PIN FrameData_O[11]
@@ -346,7 +347,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 21.800 225.000 22.400 ;
+        RECT 199.040 20.440 199.640 21.040 ;
     END
   END FrameData_O[11]
   PIN FrameData_O[12]
@@ -355,7 +356,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 23.160 225.000 23.760 ;
+        RECT 199.040 21.800 199.640 22.400 ;
     END
   END FrameData_O[12]
   PIN FrameData_O[13]
@@ -364,7 +365,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 24.520 225.000 25.120 ;
+        RECT 199.040 23.160 199.640 23.760 ;
     END
   END FrameData_O[13]
   PIN FrameData_O[14]
@@ -373,7 +374,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 25.880 225.000 26.480 ;
+        RECT 199.040 24.520 199.640 25.120 ;
     END
   END FrameData_O[14]
   PIN FrameData_O[15]
@@ -382,7 +383,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 27.240 225.000 27.840 ;
+        RECT 199.040 25.880 199.640 26.480 ;
     END
   END FrameData_O[15]
   PIN FrameData_O[16]
@@ -391,7 +392,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 28.600 225.000 29.200 ;
+        RECT 199.040 27.240 199.640 27.840 ;
     END
   END FrameData_O[16]
   PIN FrameData_O[17]
@@ -400,7 +401,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 29.960 225.000 30.560 ;
+        RECT 199.040 28.600 199.640 29.200 ;
     END
   END FrameData_O[17]
   PIN FrameData_O[18]
@@ -409,7 +410,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 31.320 225.000 31.920 ;
+        RECT 199.040 29.960 199.640 30.560 ;
     END
   END FrameData_O[18]
   PIN FrameData_O[19]
@@ -418,7 +419,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 32.680 225.000 33.280 ;
+        RECT 199.040 31.320 199.640 31.920 ;
     END
   END FrameData_O[19]
   PIN FrameData_O[1]
@@ -427,7 +428,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 8.200 225.000 8.800 ;
+        RECT 199.040 6.840 199.640 7.440 ;
     END
   END FrameData_O[1]
   PIN FrameData_O[20]
@@ -436,7 +437,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 34.040 225.000 34.640 ;
+        RECT 199.040 32.680 199.640 33.280 ;
     END
   END FrameData_O[20]
   PIN FrameData_O[21]
@@ -445,7 +446,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 35.400 225.000 36.000 ;
+        RECT 199.040 34.040 199.640 34.640 ;
     END
   END FrameData_O[21]
   PIN FrameData_O[22]
@@ -454,7 +455,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 36.760 225.000 37.360 ;
+        RECT 199.040 35.400 199.640 36.000 ;
     END
   END FrameData_O[22]
   PIN FrameData_O[23]
@@ -463,7 +464,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 38.120 225.000 38.720 ;
+        RECT 199.040 36.760 199.640 37.360 ;
     END
   END FrameData_O[23]
   PIN FrameData_O[24]
@@ -472,7 +473,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 39.480 225.000 40.080 ;
+        RECT 199.040 38.120 199.640 38.720 ;
     END
   END FrameData_O[24]
   PIN FrameData_O[25]
@@ -481,7 +482,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 40.840 225.000 41.440 ;
+        RECT 199.040 39.480 199.640 40.080 ;
     END
   END FrameData_O[25]
   PIN FrameData_O[26]
@@ -490,7 +491,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 42.200 225.000 42.800 ;
+        RECT 199.040 40.840 199.640 41.440 ;
     END
   END FrameData_O[26]
   PIN FrameData_O[27]
@@ -499,7 +500,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 43.560 225.000 44.160 ;
+        RECT 199.040 42.200 199.640 42.800 ;
     END
   END FrameData_O[27]
   PIN FrameData_O[28]
@@ -508,7 +509,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 44.920 225.000 45.520 ;
+        RECT 199.040 43.560 199.640 44.160 ;
     END
   END FrameData_O[28]
   PIN FrameData_O[29]
@@ -517,7 +518,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 46.280 225.000 46.880 ;
+        RECT 199.040 44.920 199.640 45.520 ;
     END
   END FrameData_O[29]
   PIN FrameData_O[2]
@@ -526,7 +527,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 9.560 225.000 10.160 ;
+        RECT 199.040 8.200 199.640 8.800 ;
     END
   END FrameData_O[2]
   PIN FrameData_O[30]
@@ -535,7 +536,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 47.640 225.000 48.240 ;
+        RECT 199.040 46.280 199.640 46.880 ;
     END
   END FrameData_O[30]
   PIN FrameData_O[31]
@@ -544,7 +545,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 49.000 225.000 49.600 ;
+        RECT 199.040 47.640 199.640 48.240 ;
     END
   END FrameData_O[31]
   PIN FrameData_O[3]
@@ -553,7 +554,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 10.920 225.000 11.520 ;
+        RECT 199.040 9.560 199.640 10.160 ;
     END
   END FrameData_O[3]
   PIN FrameData_O[4]
@@ -562,7 +563,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 12.280 225.000 12.880 ;
+        RECT 199.040 10.920 199.640 11.520 ;
     END
   END FrameData_O[4]
   PIN FrameData_O[5]
@@ -571,7 +572,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 13.640 225.000 14.240 ;
+        RECT 199.040 12.280 199.640 12.880 ;
     END
   END FrameData_O[5]
   PIN FrameData_O[6]
@@ -580,7 +581,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 15.000 225.000 15.600 ;
+        RECT 199.040 13.640 199.640 14.240 ;
     END
   END FrameData_O[6]
   PIN FrameData_O[7]
@@ -589,7 +590,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 16.360 225.000 16.960 ;
+        RECT 199.040 15.000 199.640 15.600 ;
     END
   END FrameData_O[7]
   PIN FrameData_O[8]
@@ -598,7 +599,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 17.720 225.000 18.320 ;
+        RECT 199.040 16.360 199.640 16.960 ;
     END
   END FrameData_O[8]
   PIN FrameData_O[9]
@@ -607,17 +608,16 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met3 ;
-        RECT 224.400 19.080 225.000 19.680 ;
+        RECT 199.040 17.720 199.640 18.320 ;
     END
   END FrameData_O[9]
   PIN FrameStrobe[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.631200 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 171.670 0.000 171.950 0.280 ;
+        RECT 158.790 0.000 159.070 0.280 ;
     END
   END FrameStrobe[0]
   PIN FrameStrobe[10]
@@ -626,7 +626,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 185.470 0.000 185.750 0.280 ;
+        RECT 172.590 0.000 172.870 0.280 ;
     END
   END FrameStrobe[10]
   PIN FrameStrobe[11]
@@ -635,7 +635,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 186.850 0.000 187.130 0.280 ;
+        RECT 173.970 0.000 174.250 0.280 ;
     END
   END FrameStrobe[11]
   PIN FrameStrobe[12]
@@ -644,7 +644,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 188.230 0.000 188.510 0.280 ;
+        RECT 175.350 0.000 175.630 0.280 ;
     END
   END FrameStrobe[12]
   PIN FrameStrobe[13]
@@ -653,7 +653,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 189.610 0.000 189.890 0.280 ;
+        RECT 176.730 0.000 177.010 0.280 ;
     END
   END FrameStrobe[13]
   PIN FrameStrobe[14]
@@ -662,7 +662,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 190.990 0.000 191.270 0.280 ;
+        RECT 178.110 0.000 178.390 0.280 ;
     END
   END FrameStrobe[14]
   PIN FrameStrobe[15]
@@ -671,7 +671,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 192.370 0.000 192.650 0.280 ;
+        RECT 179.490 0.000 179.770 0.280 ;
     END
   END FrameStrobe[15]
   PIN FrameStrobe[16]
@@ -680,7 +680,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 193.750 0.000 194.030 0.280 ;
+        RECT 180.870 0.000 181.150 0.280 ;
     END
   END FrameStrobe[16]
   PIN FrameStrobe[17]
@@ -689,7 +689,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 195.130 0.000 195.410 0.280 ;
+        RECT 182.250 0.000 182.530 0.280 ;
     END
   END FrameStrobe[17]
   PIN FrameStrobe[18]
@@ -698,7 +698,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 196.510 0.000 196.790 0.280 ;
+        RECT 183.630 0.000 183.910 0.280 ;
     END
   END FrameStrobe[18]
   PIN FrameStrobe[19]
@@ -707,7 +707,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 197.890 0.000 198.170 0.280 ;
+        RECT 185.010 0.000 185.290 0.280 ;
     END
   END FrameStrobe[19]
   PIN FrameStrobe[1]
@@ -717,7 +717,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 173.050 0.000 173.330 0.280 ;
+        RECT 160.170 0.000 160.450 0.280 ;
     END
   END FrameStrobe[1]
   PIN FrameStrobe[2]
@@ -727,16 +727,17 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 174.430 0.000 174.710 0.280 ;
+        RECT 161.550 0.000 161.830 0.280 ;
     END
   END FrameStrobe[2]
   PIN FrameStrobe[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 175.810 0.000 176.090 0.280 ;
+        RECT 162.930 0.000 163.210 0.280 ;
     END
   END FrameStrobe[3]
   PIN FrameStrobe[4]
@@ -745,7 +746,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 177.190 0.000 177.470 0.280 ;
+        RECT 164.310 0.000 164.590 0.280 ;
     END
   END FrameStrobe[4]
   PIN FrameStrobe[5]
@@ -754,7 +755,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 178.570 0.000 178.850 0.280 ;
+        RECT 165.690 0.000 165.970 0.280 ;
     END
   END FrameStrobe[5]
   PIN FrameStrobe[6]
@@ -763,7 +764,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 179.950 0.000 180.230 0.280 ;
+        RECT 167.070 0.000 167.350 0.280 ;
     END
   END FrameStrobe[6]
   PIN FrameStrobe[7]
@@ -772,7 +773,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 181.330 0.000 181.610 0.280 ;
+        RECT 168.450 0.000 168.730 0.280 ;
     END
   END FrameStrobe[7]
   PIN FrameStrobe[8]
@@ -781,7 +782,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 182.710 0.000 182.990 0.280 ;
+        RECT 169.830 0.000 170.110 0.280 ;
     END
   END FrameStrobe[8]
   PIN FrameStrobe[9]
@@ -790,7 +791,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 184.090 0.000 184.370 0.280 ;
+        RECT 171.210 0.000 171.490 0.280 ;
     END
   END FrameStrobe[9]
   PIN FrameStrobe_O[0]
@@ -799,7 +800,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 17.110 55.970 17.390 56.250 ;
+        RECT 16.650 55.480 16.930 55.760 ;
     END
   END FrameStrobe_O[0]
   PIN FrameStrobe_O[10]
@@ -808,7 +809,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 122.910 55.970 123.190 56.250 ;
+        RECT 108.650 55.480 108.930 55.760 ;
     END
   END FrameStrobe_O[10]
   PIN FrameStrobe_O[11]
@@ -817,7 +818,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 133.490 55.970 133.770 56.250 ;
+        RECT 117.850 55.480 118.130 55.760 ;
     END
   END FrameStrobe_O[11]
   PIN FrameStrobe_O[12]
@@ -826,7 +827,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 144.070 55.970 144.350 56.250 ;
+        RECT 127.050 55.480 127.330 55.760 ;
     END
   END FrameStrobe_O[12]
   PIN FrameStrobe_O[13]
@@ -835,7 +836,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 154.650 55.970 154.930 56.250 ;
+        RECT 136.250 55.480 136.530 55.760 ;
     END
   END FrameStrobe_O[13]
   PIN FrameStrobe_O[14]
@@ -844,7 +845,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 165.230 55.970 165.510 56.250 ;
+        RECT 145.450 55.480 145.730 55.760 ;
     END
   END FrameStrobe_O[14]
   PIN FrameStrobe_O[15]
@@ -853,7 +854,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 175.810 55.970 176.090 56.250 ;
+        RECT 154.650 55.480 154.930 55.760 ;
     END
   END FrameStrobe_O[15]
   PIN FrameStrobe_O[16]
@@ -862,7 +863,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 186.390 55.970 186.670 56.250 ;
+        RECT 163.850 55.480 164.130 55.760 ;
     END
   END FrameStrobe_O[16]
   PIN FrameStrobe_O[17]
@@ -871,7 +872,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 196.970 55.970 197.250 56.250 ;
+        RECT 173.050 55.480 173.330 55.760 ;
     END
   END FrameStrobe_O[17]
   PIN FrameStrobe_O[18]
@@ -880,7 +881,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 207.550 55.970 207.830 56.250 ;
+        RECT 182.250 55.480 182.530 55.760 ;
     END
   END FrameStrobe_O[18]
   PIN FrameStrobe_O[19]
@@ -889,7 +890,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 218.130 55.970 218.410 56.250 ;
+        RECT 191.450 55.480 191.730 55.760 ;
     END
   END FrameStrobe_O[19]
   PIN FrameStrobe_O[1]
@@ -898,7 +899,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 27.690 55.970 27.970 56.250 ;
+        RECT 25.850 55.480 26.130 55.760 ;
     END
   END FrameStrobe_O[1]
   PIN FrameStrobe_O[2]
@@ -907,7 +908,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 38.270 55.970 38.550 56.250 ;
+        RECT 35.050 55.480 35.330 55.760 ;
     END
   END FrameStrobe_O[2]
   PIN FrameStrobe_O[3]
@@ -916,7 +917,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 48.850 55.970 49.130 56.250 ;
+        RECT 44.250 55.480 44.530 55.760 ;
     END
   END FrameStrobe_O[3]
   PIN FrameStrobe_O[4]
@@ -925,7 +926,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 59.430 55.970 59.710 56.250 ;
+        RECT 53.450 55.480 53.730 55.760 ;
     END
   END FrameStrobe_O[4]
   PIN FrameStrobe_O[5]
@@ -934,7 +935,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 70.010 55.970 70.290 56.250 ;
+        RECT 62.650 55.480 62.930 55.760 ;
     END
   END FrameStrobe_O[5]
   PIN FrameStrobe_O[6]
@@ -943,7 +944,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 80.590 55.970 80.870 56.250 ;
+        RECT 71.850 55.480 72.130 55.760 ;
     END
   END FrameStrobe_O[6]
   PIN FrameStrobe_O[7]
@@ -952,7 +953,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 91.170 55.970 91.450 56.250 ;
+        RECT 81.050 55.480 81.330 55.760 ;
     END
   END FrameStrobe_O[7]
   PIN FrameStrobe_O[8]
@@ -961,7 +962,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 101.750 55.970 102.030 56.250 ;
+        RECT 90.250 55.480 90.530 55.760 ;
     END
   END FrameStrobe_O[8]
   PIN FrameStrobe_O[9]
@@ -970,7 +971,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 112.330 55.970 112.610 56.250 ;
+        RECT 99.450 55.480 99.730 55.760 ;
     END
   END FrameStrobe_O[9]
   PIN N1END[0]
@@ -979,7 +980,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 26.770 0.000 27.050 0.280 ;
+        RECT 13.890 0.000 14.170 0.280 ;
     END
   END N1END[0]
   PIN N1END[1]
@@ -988,7 +989,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 28.150 0.000 28.430 0.280 ;
+        RECT 15.270 0.000 15.550 0.280 ;
     END
   END N1END[1]
   PIN N1END[2]
@@ -997,7 +998,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 29.530 0.000 29.810 0.280 ;
+        RECT 16.650 0.000 16.930 0.280 ;
     END
   END N1END[2]
   PIN N1END[3]
@@ -1006,7 +1007,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 30.910 0.000 31.190 0.280 ;
+        RECT 18.030 0.000 18.310 0.280 ;
     END
   END N1END[3]
   PIN N2END[0]
@@ -1015,7 +1016,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 43.330 0.000 43.610 0.280 ;
+        RECT 30.450 0.000 30.730 0.280 ;
     END
   END N2END[0]
   PIN N2END[1]
@@ -1024,7 +1025,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 44.710 0.000 44.990 0.280 ;
+        RECT 31.830 0.000 32.110 0.280 ;
     END
   END N2END[1]
   PIN N2END[2]
@@ -1033,7 +1034,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 46.090 0.000 46.370 0.280 ;
+        RECT 33.210 0.000 33.490 0.280 ;
     END
   END N2END[2]
   PIN N2END[3]
@@ -1042,7 +1043,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 47.470 0.000 47.750 0.280 ;
+        RECT 34.590 0.000 34.870 0.280 ;
     END
   END N2END[3]
   PIN N2END[4]
@@ -1051,7 +1052,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 48.850 0.000 49.130 0.280 ;
+        RECT 35.970 0.000 36.250 0.280 ;
     END
   END N2END[4]
   PIN N2END[5]
@@ -1060,7 +1061,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 50.230 0.000 50.510 0.280 ;
+        RECT 37.350 0.000 37.630 0.280 ;
     END
   END N2END[5]
   PIN N2END[6]
@@ -1069,7 +1070,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 51.610 0.000 51.890 0.280 ;
+        RECT 38.730 0.000 39.010 0.280 ;
     END
   END N2END[6]
   PIN N2END[7]
@@ -1078,7 +1079,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 52.990 0.000 53.270 0.280 ;
+        RECT 40.110 0.000 40.390 0.280 ;
     END
   END N2END[7]
   PIN N2MID[0]
@@ -1087,7 +1088,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 32.290 0.000 32.570 0.280 ;
+        RECT 19.410 0.000 19.690 0.280 ;
     END
   END N2MID[0]
   PIN N2MID[1]
@@ -1096,7 +1097,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 33.670 0.000 33.950 0.280 ;
+        RECT 20.790 0.000 21.070 0.280 ;
     END
   END N2MID[1]
   PIN N2MID[2]
@@ -1105,7 +1106,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 35.050 0.000 35.330 0.280 ;
+        RECT 22.170 0.000 22.450 0.280 ;
     END
   END N2MID[2]
   PIN N2MID[3]
@@ -1114,7 +1115,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 36.430 0.000 36.710 0.280 ;
+        RECT 23.550 0.000 23.830 0.280 ;
     END
   END N2MID[3]
   PIN N2MID[4]
@@ -1123,7 +1124,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 37.810 0.000 38.090 0.280 ;
+        RECT 24.930 0.000 25.210 0.280 ;
     END
   END N2MID[4]
   PIN N2MID[5]
@@ -1132,7 +1133,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 39.190 0.000 39.470 0.280 ;
+        RECT 26.310 0.000 26.590 0.280 ;
     END
   END N2MID[5]
   PIN N2MID[6]
@@ -1141,7 +1142,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 40.570 0.000 40.850 0.280 ;
+        RECT 27.690 0.000 27.970 0.280 ;
     END
   END N2MID[6]
   PIN N2MID[7]
@@ -1150,7 +1151,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 41.950 0.000 42.230 0.280 ;
+        RECT 29.070 0.000 29.350 0.280 ;
     END
   END N2MID[7]
   PIN N4END[0]
@@ -1159,7 +1160,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 54.370 0.000 54.650 0.280 ;
+        RECT 41.490 0.000 41.770 0.280 ;
     END
   END N4END[0]
   PIN N4END[10]
@@ -1168,7 +1169,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 68.170 0.000 68.450 0.280 ;
+        RECT 55.290 0.000 55.570 0.280 ;
     END
   END N4END[10]
   PIN N4END[11]
@@ -1177,7 +1178,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 69.550 0.000 69.830 0.280 ;
+        RECT 56.670 0.000 56.950 0.280 ;
     END
   END N4END[11]
   PIN N4END[12]
@@ -1186,7 +1187,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 70.930 0.000 71.210 0.280 ;
+        RECT 58.050 0.000 58.330 0.280 ;
     END
   END N4END[12]
   PIN N4END[13]
@@ -1195,7 +1196,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 72.310 0.000 72.590 0.280 ;
+        RECT 59.430 0.000 59.710 0.280 ;
     END
   END N4END[13]
   PIN N4END[14]
@@ -1204,7 +1205,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 73.690 0.000 73.970 0.280 ;
+        RECT 60.810 0.000 61.090 0.280 ;
     END
   END N4END[14]
   PIN N4END[15]
@@ -1213,7 +1214,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 75.070 0.000 75.350 0.280 ;
+        RECT 62.190 0.000 62.470 0.280 ;
     END
   END N4END[15]
   PIN N4END[1]
@@ -1222,7 +1223,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 55.750 0.000 56.030 0.280 ;
+        RECT 42.870 0.000 43.150 0.280 ;
     END
   END N4END[1]
   PIN N4END[2]
@@ -1231,7 +1232,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 57.130 0.000 57.410 0.280 ;
+        RECT 44.250 0.000 44.530 0.280 ;
     END
   END N4END[2]
   PIN N4END[3]
@@ -1240,7 +1241,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 58.510 0.000 58.790 0.280 ;
+        RECT 45.630 0.000 45.910 0.280 ;
     END
   END N4END[3]
   PIN N4END[4]
@@ -1249,7 +1250,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 59.890 0.000 60.170 0.280 ;
+        RECT 47.010 0.000 47.290 0.280 ;
     END
   END N4END[4]
   PIN N4END[5]
@@ -1258,7 +1259,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 61.270 0.000 61.550 0.280 ;
+        RECT 48.390 0.000 48.670 0.280 ;
     END
   END N4END[5]
   PIN N4END[6]
@@ -1267,7 +1268,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 62.650 0.000 62.930 0.280 ;
+        RECT 49.770 0.000 50.050 0.280 ;
     END
   END N4END[6]
   PIN N4END[7]
@@ -1276,7 +1277,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 64.030 0.000 64.310 0.280 ;
+        RECT 51.150 0.000 51.430 0.280 ;
     END
   END N4END[7]
   PIN N4END[8]
@@ -1285,7 +1286,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 65.410 0.000 65.690 0.280 ;
+        RECT 52.530 0.000 52.810 0.280 ;
     END
   END N4END[8]
   PIN N4END[9]
@@ -1294,25 +1295,27 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 66.790 0.000 67.070 0.280 ;
+        RECT 53.910 0.000 54.190 0.280 ;
     END
   END N4END[9]
   PIN NN4END[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 76.450 0.000 76.730 0.280 ;
+        RECT 63.570 0.000 63.850 0.280 ;
     END
   END NN4END[0]
   PIN NN4END[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 90.250 0.000 90.530 0.280 ;
+        RECT 77.370 0.000 77.650 0.280 ;
     END
   END NN4END[10]
   PIN NN4END[11]
@@ -1322,16 +1325,17 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 91.630 0.000 91.910 0.280 ;
+        RECT 78.750 0.000 79.030 0.280 ;
     END
   END NN4END[11]
   PIN NN4END[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 93.010 0.000 93.290 0.280 ;
+        RECT 80.130 0.000 80.410 0.280 ;
     END
   END NN4END[12]
   PIN NN4END[13]
@@ -1341,17 +1345,16 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 94.390 0.000 94.670 0.280 ;
+        RECT 81.510 0.000 81.790 0.280 ;
     END
   END NN4END[13]
   PIN NN4END[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.631200 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 95.770 0.000 96.050 0.280 ;
+        RECT 82.890 0.000 83.170 0.280 ;
     END
   END NN4END[14]
   PIN NN4END[15]
@@ -1360,25 +1363,27 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 97.150 0.000 97.430 0.280 ;
+        RECT 84.270 0.000 84.550 0.280 ;
     END
   END NN4END[15]
   PIN NN4END[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 77.830 0.000 78.110 0.280 ;
+        RECT 64.950 0.000 65.230 0.280 ;
     END
   END NN4END[1]
   PIN NN4END[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
+    ANTENNAGATEAREA 0.631200 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 79.210 0.000 79.490 0.280 ;
+        RECT 66.330 0.000 66.610 0.280 ;
     END
   END NN4END[2]
   PIN NN4END[3]
@@ -1388,17 +1393,16 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 80.590 0.000 80.870 0.280 ;
+        RECT 67.710 0.000 67.990 0.280 ;
     END
   END NN4END[3]
   PIN NN4END[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.631200 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 81.970 0.000 82.250 0.280 ;
+        RECT 69.090 0.000 69.370 0.280 ;
     END
   END NN4END[4]
   PIN NN4END[5]
@@ -1408,7 +1412,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 83.350 0.000 83.630 0.280 ;
+        RECT 70.470 0.000 70.750 0.280 ;
     END
   END NN4END[5]
   PIN NN4END[6]
@@ -1418,7 +1422,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 84.730 0.000 85.010 0.280 ;
+        RECT 71.850 0.000 72.130 0.280 ;
     END
   END NN4END[6]
   PIN NN4END[7]
@@ -1428,7 +1432,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 86.110 0.000 86.390 0.280 ;
+        RECT 73.230 0.000 73.510 0.280 ;
     END
   END NN4END[7]
   PIN NN4END[8]
@@ -1438,17 +1442,16 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
-        RECT 87.490 0.000 87.770 0.280 ;
+        RECT 74.610 0.000 74.890 0.280 ;
     END
   END NN4END[8]
   PIN NN4END[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.631200 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met2 ;
-        RECT 88.870 0.000 89.150 0.280 ;
+        RECT 75.990 0.000 76.270 0.280 ;
     END
   END NN4END[9]
   PIN S1BEG[0]
@@ -1457,7 +1460,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 98.530 0.000 98.810 0.280 ;
+        RECT 85.650 0.000 85.930 0.280 ;
     END
   END S1BEG[0]
   PIN S1BEG[1]
@@ -1466,7 +1469,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 99.910 0.000 100.190 0.280 ;
+        RECT 87.030 0.000 87.310 0.280 ;
     END
   END S1BEG[1]
   PIN S1BEG[2]
@@ -1475,7 +1478,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 101.290 0.000 101.570 0.280 ;
+        RECT 88.410 0.000 88.690 0.280 ;
     END
   END S1BEG[2]
   PIN S1BEG[3]
@@ -1484,7 +1487,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 102.670 0.000 102.950 0.280 ;
+        RECT 89.790 0.000 90.070 0.280 ;
     END
   END S1BEG[3]
   PIN S2BEG[0]
@@ -1493,7 +1496,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 104.050 0.000 104.330 0.280 ;
+        RECT 91.170 0.000 91.450 0.280 ;
     END
   END S2BEG[0]
   PIN S2BEG[1]
@@ -1502,7 +1505,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 105.430 0.000 105.710 0.280 ;
+        RECT 92.550 0.000 92.830 0.280 ;
     END
   END S2BEG[1]
   PIN S2BEG[2]
@@ -1511,7 +1514,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 106.810 0.000 107.090 0.280 ;
+        RECT 93.930 0.000 94.210 0.280 ;
     END
   END S2BEG[2]
   PIN S2BEG[3]
@@ -1520,7 +1523,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 108.190 0.000 108.470 0.280 ;
+        RECT 95.310 0.000 95.590 0.280 ;
     END
   END S2BEG[3]
   PIN S2BEG[4]
@@ -1529,7 +1532,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 109.570 0.000 109.850 0.280 ;
+        RECT 96.690 0.000 96.970 0.280 ;
     END
   END S2BEG[4]
   PIN S2BEG[5]
@@ -1538,7 +1541,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 110.950 0.000 111.230 0.280 ;
+        RECT 98.070 0.000 98.350 0.280 ;
     END
   END S2BEG[5]
   PIN S2BEG[6]
@@ -1547,7 +1550,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 112.330 0.000 112.610 0.280 ;
+        RECT 99.450 0.000 99.730 0.280 ;
     END
   END S2BEG[6]
   PIN S2BEG[7]
@@ -1556,7 +1559,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 113.710 0.000 113.990 0.280 ;
+        RECT 100.830 0.000 101.110 0.280 ;
     END
   END S2BEG[7]
   PIN S2BEGb[0]
@@ -1565,7 +1568,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 115.090 0.000 115.370 0.280 ;
+        RECT 102.210 0.000 102.490 0.280 ;
     END
   END S2BEGb[0]
   PIN S2BEGb[1]
@@ -1574,7 +1577,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 116.470 0.000 116.750 0.280 ;
+        RECT 103.590 0.000 103.870 0.280 ;
     END
   END S2BEGb[1]
   PIN S2BEGb[2]
@@ -1583,7 +1586,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 117.850 0.000 118.130 0.280 ;
+        RECT 104.970 0.000 105.250 0.280 ;
     END
   END S2BEGb[2]
   PIN S2BEGb[3]
@@ -1592,7 +1595,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 119.230 0.000 119.510 0.280 ;
+        RECT 106.350 0.000 106.630 0.280 ;
     END
   END S2BEGb[3]
   PIN S2BEGb[4]
@@ -1601,7 +1604,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 120.610 0.000 120.890 0.280 ;
+        RECT 107.730 0.000 108.010 0.280 ;
     END
   END S2BEGb[4]
   PIN S2BEGb[5]
@@ -1610,7 +1613,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 121.990 0.000 122.270 0.280 ;
+        RECT 109.110 0.000 109.390 0.280 ;
     END
   END S2BEGb[5]
   PIN S2BEGb[6]
@@ -1619,7 +1622,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 123.370 0.000 123.650 0.280 ;
+        RECT 110.490 0.000 110.770 0.280 ;
     END
   END S2BEGb[6]
   PIN S2BEGb[7]
@@ -1628,7 +1631,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 124.750 0.000 125.030 0.280 ;
+        RECT 111.870 0.000 112.150 0.280 ;
     END
   END S2BEGb[7]
   PIN S4BEG[0]
@@ -1637,7 +1640,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 126.130 0.000 126.410 0.280 ;
+        RECT 113.250 0.000 113.530 0.280 ;
     END
   END S4BEG[0]
   PIN S4BEG[10]
@@ -1646,7 +1649,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 139.930 0.000 140.210 0.280 ;
+        RECT 127.050 0.000 127.330 0.280 ;
     END
   END S4BEG[10]
   PIN S4BEG[11]
@@ -1655,7 +1658,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 141.310 0.000 141.590 0.280 ;
+        RECT 128.430 0.000 128.710 0.280 ;
     END
   END S4BEG[11]
   PIN S4BEG[12]
@@ -1664,7 +1667,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 142.690 0.000 142.970 0.280 ;
+        RECT 129.810 0.000 130.090 0.280 ;
     END
   END S4BEG[12]
   PIN S4BEG[13]
@@ -1673,7 +1676,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 144.070 0.000 144.350 0.280 ;
+        RECT 131.190 0.000 131.470 0.280 ;
     END
   END S4BEG[13]
   PIN S4BEG[14]
@@ -1682,7 +1685,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 145.450 0.000 145.730 0.280 ;
+        RECT 132.570 0.000 132.850 0.280 ;
     END
   END S4BEG[14]
   PIN S4BEG[15]
@@ -1691,7 +1694,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 146.830 0.000 147.110 0.280 ;
+        RECT 133.950 0.000 134.230 0.280 ;
     END
   END S4BEG[15]
   PIN S4BEG[1]
@@ -1700,7 +1703,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 127.510 0.000 127.790 0.280 ;
+        RECT 114.630 0.000 114.910 0.280 ;
     END
   END S4BEG[1]
   PIN S4BEG[2]
@@ -1709,7 +1712,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 128.890 0.000 129.170 0.280 ;
+        RECT 116.010 0.000 116.290 0.280 ;
     END
   END S4BEG[2]
   PIN S4BEG[3]
@@ -1718,7 +1721,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 130.270 0.000 130.550 0.280 ;
+        RECT 117.390 0.000 117.670 0.280 ;
     END
   END S4BEG[3]
   PIN S4BEG[4]
@@ -1727,7 +1730,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 131.650 0.000 131.930 0.280 ;
+        RECT 118.770 0.000 119.050 0.280 ;
     END
   END S4BEG[4]
   PIN S4BEG[5]
@@ -1736,7 +1739,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 133.030 0.000 133.310 0.280 ;
+        RECT 120.150 0.000 120.430 0.280 ;
     END
   END S4BEG[5]
   PIN S4BEG[6]
@@ -1745,7 +1748,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 134.410 0.000 134.690 0.280 ;
+        RECT 121.530 0.000 121.810 0.280 ;
     END
   END S4BEG[6]
   PIN S4BEG[7]
@@ -1754,7 +1757,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 135.790 0.000 136.070 0.280 ;
+        RECT 122.910 0.000 123.190 0.280 ;
     END
   END S4BEG[7]
   PIN S4BEG[8]
@@ -1763,7 +1766,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 137.170 0.000 137.450 0.280 ;
+        RECT 124.290 0.000 124.570 0.280 ;
     END
   END S4BEG[8]
   PIN S4BEG[9]
@@ -1772,7 +1775,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 138.550 0.000 138.830 0.280 ;
+        RECT 125.670 0.000 125.950 0.280 ;
     END
   END S4BEG[9]
   PIN SS4BEG[0]
@@ -1781,7 +1784,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 148.210 0.000 148.490 0.280 ;
+        RECT 135.330 0.000 135.610 0.280 ;
     END
   END SS4BEG[0]
   PIN SS4BEG[10]
@@ -1790,7 +1793,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 162.010 0.000 162.290 0.280 ;
+        RECT 149.130 0.000 149.410 0.280 ;
     END
   END SS4BEG[10]
   PIN SS4BEG[11]
@@ -1799,7 +1802,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 163.390 0.000 163.670 0.280 ;
+        RECT 150.510 0.000 150.790 0.280 ;
     END
   END SS4BEG[11]
   PIN SS4BEG[12]
@@ -1808,7 +1811,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 164.770 0.000 165.050 0.280 ;
+        RECT 151.890 0.000 152.170 0.280 ;
     END
   END SS4BEG[12]
   PIN SS4BEG[13]
@@ -1817,7 +1820,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 166.150 0.000 166.430 0.280 ;
+        RECT 153.270 0.000 153.550 0.280 ;
     END
   END SS4BEG[13]
   PIN SS4BEG[14]
@@ -1826,7 +1829,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 167.530 0.000 167.810 0.280 ;
+        RECT 154.650 0.000 154.930 0.280 ;
     END
   END SS4BEG[14]
   PIN SS4BEG[15]
@@ -1835,7 +1838,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 168.910 0.000 169.190 0.280 ;
+        RECT 156.030 0.000 156.310 0.280 ;
     END
   END SS4BEG[15]
   PIN SS4BEG[1]
@@ -1844,7 +1847,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 149.590 0.000 149.870 0.280 ;
+        RECT 136.710 0.000 136.990 0.280 ;
     END
   END SS4BEG[1]
   PIN SS4BEG[2]
@@ -1853,7 +1856,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 150.970 0.000 151.250 0.280 ;
+        RECT 138.090 0.000 138.370 0.280 ;
     END
   END SS4BEG[2]
   PIN SS4BEG[3]
@@ -1862,7 +1865,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 152.350 0.000 152.630 0.280 ;
+        RECT 139.470 0.000 139.750 0.280 ;
     END
   END SS4BEG[3]
   PIN SS4BEG[4]
@@ -1871,7 +1874,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 153.730 0.000 154.010 0.280 ;
+        RECT 140.850 0.000 141.130 0.280 ;
     END
   END SS4BEG[4]
   PIN SS4BEG[5]
@@ -1880,7 +1883,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 155.110 0.000 155.390 0.280 ;
+        RECT 142.230 0.000 142.510 0.280 ;
     END
   END SS4BEG[5]
   PIN SS4BEG[6]
@@ -1889,7 +1892,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 156.490 0.000 156.770 0.280 ;
+        RECT 143.610 0.000 143.890 0.280 ;
     END
   END SS4BEG[6]
   PIN SS4BEG[7]
@@ -1898,7 +1901,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 157.870 0.000 158.150 0.280 ;
+        RECT 144.990 0.000 145.270 0.280 ;
     END
   END SS4BEG[7]
   PIN SS4BEG[8]
@@ -1907,7 +1910,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 159.250 0.000 159.530 0.280 ;
+        RECT 146.370 0.000 146.650 0.280 ;
     END
   END SS4BEG[8]
   PIN SS4BEG[9]
@@ -1916,7 +1919,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.445500 ;
     PORT
       LAYER met2 ;
-        RECT 160.630 0.000 160.910 0.280 ;
+        RECT 147.750 0.000 148.030 0.280 ;
     END
   END SS4BEG[9]
   PIN UserCLK
@@ -1925,7 +1928,7 @@ MACRO N_term_DSP
     ANTENNAGATEAREA 0.159000 ;
     PORT
       LAYER met2 ;
-        RECT 170.290 0.000 170.570 0.280 ;
+        RECT 157.410 0.000 157.690 0.280 ;
     END
   END UserCLK
   PIN UserCLKo
@@ -1934,7 +1937,7 @@ MACRO N_term_DSP
     ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
-        RECT 6.530 55.970 6.810 56.250 ;
+        RECT 7.450 55.480 7.730 55.760 ;
     END
   END UserCLKo
   PIN VGND
@@ -1942,31 +1945,27 @@ MACRO N_term_DSP
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 15.020 0.000 16.620 56.250 ;
+        RECT 15.020 0.000 16.620 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 45.020 0.000 46.620 56.250 ;
+        RECT 45.020 0.000 46.620 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 75.020 0.000 76.620 56.250 ;
+        RECT 75.020 0.000 76.620 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 105.020 0.000 106.620 56.250 ;
+        RECT 105.020 0.000 106.620 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 135.020 0.000 136.620 56.250 ;
+        RECT 135.020 0.000 136.620 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 165.020 0.000 166.620 56.250 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 195.020 0.000 196.620 56.250 ;
+        RECT 165.020 0.000 166.620 55.760 ;
     END
   END VGND
   PIN VPWR
@@ -1974,194 +1973,193 @@ MACRO N_term_DSP
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 9.720 0.000 11.320 56.250 ;
+        RECT 9.720 0.000 11.320 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 39.720 0.000 41.320 56.250 ;
+        RECT 39.720 0.000 41.320 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 69.720 0.000 71.320 56.250 ;
+        RECT 69.720 0.000 71.320 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 99.720 0.000 101.320 56.250 ;
+        RECT 99.720 0.000 101.320 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 129.720 0.000 131.320 56.250 ;
+        RECT 129.720 0.000 131.320 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 159.720 0.000 161.320 56.250 ;
+        RECT 159.720 0.000 161.320 55.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 189.720 0.000 191.320 56.250 ;
+        RECT 189.720 0.000 191.320 55.760 ;
     END
   END VPWR
   OBS
       LAYER nwell ;
-        RECT 5.330 10.795 219.610 43.605 ;
+        RECT 5.330 10.795 194.310 43.605 ;
       LAYER li1 ;
-        RECT 5.520 10.795 219.420 43.605 ;
+        RECT 5.520 10.795 194.120 43.605 ;
       LAYER met1 ;
-        RECT 4.670 0.040 219.720 45.860 ;
+        RECT 2.830 0.040 195.890 46.540 ;
       LAYER met2 ;
-        RECT 4.690 55.690 6.250 55.970 ;
-        RECT 7.090 55.690 16.830 55.970 ;
-        RECT 17.670 55.690 27.410 55.970 ;
-        RECT 28.250 55.690 37.990 55.970 ;
-        RECT 38.830 55.690 48.570 55.970 ;
-        RECT 49.410 55.690 59.150 55.970 ;
-        RECT 59.990 55.690 69.730 55.970 ;
-        RECT 70.570 55.690 80.310 55.970 ;
-        RECT 81.150 55.690 90.890 55.970 ;
-        RECT 91.730 55.690 101.470 55.970 ;
-        RECT 102.310 55.690 112.050 55.970 ;
-        RECT 112.890 55.690 122.630 55.970 ;
-        RECT 123.470 55.690 133.210 55.970 ;
-        RECT 134.050 55.690 143.790 55.970 ;
-        RECT 144.630 55.690 154.370 55.970 ;
-        RECT 155.210 55.690 164.950 55.970 ;
-        RECT 165.790 55.690 175.530 55.970 ;
-        RECT 176.370 55.690 186.110 55.970 ;
-        RECT 186.950 55.690 196.690 55.970 ;
-        RECT 197.530 55.690 207.270 55.970 ;
-        RECT 208.110 55.690 217.850 55.970 ;
-        RECT 4.690 0.560 218.400 55.690 ;
-        RECT 4.690 0.010 26.490 0.560 ;
-        RECT 27.330 0.010 27.870 0.560 ;
-        RECT 28.710 0.010 29.250 0.560 ;
-        RECT 30.090 0.010 30.630 0.560 ;
-        RECT 31.470 0.010 32.010 0.560 ;
-        RECT 32.850 0.010 33.390 0.560 ;
-        RECT 34.230 0.010 34.770 0.560 ;
-        RECT 35.610 0.010 36.150 0.560 ;
-        RECT 36.990 0.010 37.530 0.560 ;
-        RECT 38.370 0.010 38.910 0.560 ;
-        RECT 39.750 0.010 40.290 0.560 ;
-        RECT 41.130 0.010 41.670 0.560 ;
-        RECT 42.510 0.010 43.050 0.560 ;
-        RECT 43.890 0.010 44.430 0.560 ;
-        RECT 45.270 0.010 45.810 0.560 ;
-        RECT 46.650 0.010 47.190 0.560 ;
-        RECT 48.030 0.010 48.570 0.560 ;
-        RECT 49.410 0.010 49.950 0.560 ;
-        RECT 50.790 0.010 51.330 0.560 ;
-        RECT 52.170 0.010 52.710 0.560 ;
-        RECT 53.550 0.010 54.090 0.560 ;
-        RECT 54.930 0.010 55.470 0.560 ;
-        RECT 56.310 0.010 56.850 0.560 ;
-        RECT 57.690 0.010 58.230 0.560 ;
-        RECT 59.070 0.010 59.610 0.560 ;
-        RECT 60.450 0.010 60.990 0.560 ;
-        RECT 61.830 0.010 62.370 0.560 ;
-        RECT 63.210 0.010 63.750 0.560 ;
-        RECT 64.590 0.010 65.130 0.560 ;
-        RECT 65.970 0.010 66.510 0.560 ;
-        RECT 67.350 0.010 67.890 0.560 ;
-        RECT 68.730 0.010 69.270 0.560 ;
-        RECT 70.110 0.010 70.650 0.560 ;
-        RECT 71.490 0.010 72.030 0.560 ;
-        RECT 72.870 0.010 73.410 0.560 ;
-        RECT 74.250 0.010 74.790 0.560 ;
-        RECT 75.630 0.010 76.170 0.560 ;
-        RECT 77.010 0.010 77.550 0.560 ;
-        RECT 78.390 0.010 78.930 0.560 ;
-        RECT 79.770 0.010 80.310 0.560 ;
-        RECT 81.150 0.010 81.690 0.560 ;
-        RECT 82.530 0.010 83.070 0.560 ;
-        RECT 83.910 0.010 84.450 0.560 ;
-        RECT 85.290 0.010 85.830 0.560 ;
-        RECT 86.670 0.010 87.210 0.560 ;
-        RECT 88.050 0.010 88.590 0.560 ;
-        RECT 89.430 0.010 89.970 0.560 ;
-        RECT 90.810 0.010 91.350 0.560 ;
-        RECT 92.190 0.010 92.730 0.560 ;
-        RECT 93.570 0.010 94.110 0.560 ;
-        RECT 94.950 0.010 95.490 0.560 ;
-        RECT 96.330 0.010 96.870 0.560 ;
-        RECT 97.710 0.010 98.250 0.560 ;
-        RECT 99.090 0.010 99.630 0.560 ;
-        RECT 100.470 0.010 101.010 0.560 ;
-        RECT 101.850 0.010 102.390 0.560 ;
-        RECT 103.230 0.010 103.770 0.560 ;
-        RECT 104.610 0.010 105.150 0.560 ;
-        RECT 105.990 0.010 106.530 0.560 ;
-        RECT 107.370 0.010 107.910 0.560 ;
-        RECT 108.750 0.010 109.290 0.560 ;
-        RECT 110.130 0.010 110.670 0.560 ;
-        RECT 111.510 0.010 112.050 0.560 ;
-        RECT 112.890 0.010 113.430 0.560 ;
-        RECT 114.270 0.010 114.810 0.560 ;
-        RECT 115.650 0.010 116.190 0.560 ;
-        RECT 117.030 0.010 117.570 0.560 ;
-        RECT 118.410 0.010 118.950 0.560 ;
-        RECT 119.790 0.010 120.330 0.560 ;
-        RECT 121.170 0.010 121.710 0.560 ;
-        RECT 122.550 0.010 123.090 0.560 ;
-        RECT 123.930 0.010 124.470 0.560 ;
-        RECT 125.310 0.010 125.850 0.560 ;
-        RECT 126.690 0.010 127.230 0.560 ;
-        RECT 128.070 0.010 128.610 0.560 ;
-        RECT 129.450 0.010 129.990 0.560 ;
-        RECT 130.830 0.010 131.370 0.560 ;
-        RECT 132.210 0.010 132.750 0.560 ;
-        RECT 133.590 0.010 134.130 0.560 ;
-        RECT 134.970 0.010 135.510 0.560 ;
-        RECT 136.350 0.010 136.890 0.560 ;
-        RECT 137.730 0.010 138.270 0.560 ;
-        RECT 139.110 0.010 139.650 0.560 ;
-        RECT 140.490 0.010 141.030 0.560 ;
-        RECT 141.870 0.010 142.410 0.560 ;
-        RECT 143.250 0.010 143.790 0.560 ;
-        RECT 144.630 0.010 145.170 0.560 ;
-        RECT 146.010 0.010 146.550 0.560 ;
-        RECT 147.390 0.010 147.930 0.560 ;
-        RECT 148.770 0.010 149.310 0.560 ;
-        RECT 150.150 0.010 150.690 0.560 ;
-        RECT 151.530 0.010 152.070 0.560 ;
-        RECT 152.910 0.010 153.450 0.560 ;
-        RECT 154.290 0.010 154.830 0.560 ;
-        RECT 155.670 0.010 156.210 0.560 ;
-        RECT 157.050 0.010 157.590 0.560 ;
-        RECT 158.430 0.010 158.970 0.560 ;
-        RECT 159.810 0.010 160.350 0.560 ;
-        RECT 161.190 0.010 161.730 0.560 ;
-        RECT 162.570 0.010 163.110 0.560 ;
-        RECT 163.950 0.010 164.490 0.560 ;
-        RECT 165.330 0.010 165.870 0.560 ;
-        RECT 166.710 0.010 167.250 0.560 ;
-        RECT 168.090 0.010 168.630 0.560 ;
-        RECT 169.470 0.010 170.010 0.560 ;
-        RECT 170.850 0.010 171.390 0.560 ;
-        RECT 172.230 0.010 172.770 0.560 ;
-        RECT 173.610 0.010 174.150 0.560 ;
-        RECT 174.990 0.010 175.530 0.560 ;
-        RECT 176.370 0.010 176.910 0.560 ;
-        RECT 177.750 0.010 178.290 0.560 ;
-        RECT 179.130 0.010 179.670 0.560 ;
-        RECT 180.510 0.010 181.050 0.560 ;
-        RECT 181.890 0.010 182.430 0.560 ;
-        RECT 183.270 0.010 183.810 0.560 ;
-        RECT 184.650 0.010 185.190 0.560 ;
-        RECT 186.030 0.010 186.570 0.560 ;
-        RECT 187.410 0.010 187.950 0.560 ;
-        RECT 188.790 0.010 189.330 0.560 ;
-        RECT 190.170 0.010 190.710 0.560 ;
-        RECT 191.550 0.010 192.090 0.560 ;
-        RECT 192.930 0.010 193.470 0.560 ;
-        RECT 194.310 0.010 194.850 0.560 ;
-        RECT 195.690 0.010 196.230 0.560 ;
-        RECT 197.070 0.010 197.610 0.560 ;
-        RECT 198.450 0.010 218.400 0.560 ;
+        RECT 2.850 55.200 7.170 55.480 ;
+        RECT 8.010 55.200 16.370 55.480 ;
+        RECT 17.210 55.200 25.570 55.480 ;
+        RECT 26.410 55.200 34.770 55.480 ;
+        RECT 35.610 55.200 43.970 55.480 ;
+        RECT 44.810 55.200 53.170 55.480 ;
+        RECT 54.010 55.200 62.370 55.480 ;
+        RECT 63.210 55.200 71.570 55.480 ;
+        RECT 72.410 55.200 80.770 55.480 ;
+        RECT 81.610 55.200 89.970 55.480 ;
+        RECT 90.810 55.200 99.170 55.480 ;
+        RECT 100.010 55.200 108.370 55.480 ;
+        RECT 109.210 55.200 117.570 55.480 ;
+        RECT 118.410 55.200 126.770 55.480 ;
+        RECT 127.610 55.200 135.970 55.480 ;
+        RECT 136.810 55.200 145.170 55.480 ;
+        RECT 146.010 55.200 154.370 55.480 ;
+        RECT 155.210 55.200 163.570 55.480 ;
+        RECT 164.410 55.200 172.770 55.480 ;
+        RECT 173.610 55.200 181.970 55.480 ;
+        RECT 182.810 55.200 191.170 55.480 ;
+        RECT 192.010 55.200 195.870 55.480 ;
+        RECT 2.850 0.560 195.870 55.200 ;
+        RECT 2.850 0.010 13.610 0.560 ;
+        RECT 14.450 0.010 14.990 0.560 ;
+        RECT 15.830 0.010 16.370 0.560 ;
+        RECT 17.210 0.010 17.750 0.560 ;
+        RECT 18.590 0.010 19.130 0.560 ;
+        RECT 19.970 0.010 20.510 0.560 ;
+        RECT 21.350 0.010 21.890 0.560 ;
+        RECT 22.730 0.010 23.270 0.560 ;
+        RECT 24.110 0.010 24.650 0.560 ;
+        RECT 25.490 0.010 26.030 0.560 ;
+        RECT 26.870 0.010 27.410 0.560 ;
+        RECT 28.250 0.010 28.790 0.560 ;
+        RECT 29.630 0.010 30.170 0.560 ;
+        RECT 31.010 0.010 31.550 0.560 ;
+        RECT 32.390 0.010 32.930 0.560 ;
+        RECT 33.770 0.010 34.310 0.560 ;
+        RECT 35.150 0.010 35.690 0.560 ;
+        RECT 36.530 0.010 37.070 0.560 ;
+        RECT 37.910 0.010 38.450 0.560 ;
+        RECT 39.290 0.010 39.830 0.560 ;
+        RECT 40.670 0.010 41.210 0.560 ;
+        RECT 42.050 0.010 42.590 0.560 ;
+        RECT 43.430 0.010 43.970 0.560 ;
+        RECT 44.810 0.010 45.350 0.560 ;
+        RECT 46.190 0.010 46.730 0.560 ;
+        RECT 47.570 0.010 48.110 0.560 ;
+        RECT 48.950 0.010 49.490 0.560 ;
+        RECT 50.330 0.010 50.870 0.560 ;
+        RECT 51.710 0.010 52.250 0.560 ;
+        RECT 53.090 0.010 53.630 0.560 ;
+        RECT 54.470 0.010 55.010 0.560 ;
+        RECT 55.850 0.010 56.390 0.560 ;
+        RECT 57.230 0.010 57.770 0.560 ;
+        RECT 58.610 0.010 59.150 0.560 ;
+        RECT 59.990 0.010 60.530 0.560 ;
+        RECT 61.370 0.010 61.910 0.560 ;
+        RECT 62.750 0.010 63.290 0.560 ;
+        RECT 64.130 0.010 64.670 0.560 ;
+        RECT 65.510 0.010 66.050 0.560 ;
+        RECT 66.890 0.010 67.430 0.560 ;
+        RECT 68.270 0.010 68.810 0.560 ;
+        RECT 69.650 0.010 70.190 0.560 ;
+        RECT 71.030 0.010 71.570 0.560 ;
+        RECT 72.410 0.010 72.950 0.560 ;
+        RECT 73.790 0.010 74.330 0.560 ;
+        RECT 75.170 0.010 75.710 0.560 ;
+        RECT 76.550 0.010 77.090 0.560 ;
+        RECT 77.930 0.010 78.470 0.560 ;
+        RECT 79.310 0.010 79.850 0.560 ;
+        RECT 80.690 0.010 81.230 0.560 ;
+        RECT 82.070 0.010 82.610 0.560 ;
+        RECT 83.450 0.010 83.990 0.560 ;
+        RECT 84.830 0.010 85.370 0.560 ;
+        RECT 86.210 0.010 86.750 0.560 ;
+        RECT 87.590 0.010 88.130 0.560 ;
+        RECT 88.970 0.010 89.510 0.560 ;
+        RECT 90.350 0.010 90.890 0.560 ;
+        RECT 91.730 0.010 92.270 0.560 ;
+        RECT 93.110 0.010 93.650 0.560 ;
+        RECT 94.490 0.010 95.030 0.560 ;
+        RECT 95.870 0.010 96.410 0.560 ;
+        RECT 97.250 0.010 97.790 0.560 ;
+        RECT 98.630 0.010 99.170 0.560 ;
+        RECT 100.010 0.010 100.550 0.560 ;
+        RECT 101.390 0.010 101.930 0.560 ;
+        RECT 102.770 0.010 103.310 0.560 ;
+        RECT 104.150 0.010 104.690 0.560 ;
+        RECT 105.530 0.010 106.070 0.560 ;
+        RECT 106.910 0.010 107.450 0.560 ;
+        RECT 108.290 0.010 108.830 0.560 ;
+        RECT 109.670 0.010 110.210 0.560 ;
+        RECT 111.050 0.010 111.590 0.560 ;
+        RECT 112.430 0.010 112.970 0.560 ;
+        RECT 113.810 0.010 114.350 0.560 ;
+        RECT 115.190 0.010 115.730 0.560 ;
+        RECT 116.570 0.010 117.110 0.560 ;
+        RECT 117.950 0.010 118.490 0.560 ;
+        RECT 119.330 0.010 119.870 0.560 ;
+        RECT 120.710 0.010 121.250 0.560 ;
+        RECT 122.090 0.010 122.630 0.560 ;
+        RECT 123.470 0.010 124.010 0.560 ;
+        RECT 124.850 0.010 125.390 0.560 ;
+        RECT 126.230 0.010 126.770 0.560 ;
+        RECT 127.610 0.010 128.150 0.560 ;
+        RECT 128.990 0.010 129.530 0.560 ;
+        RECT 130.370 0.010 130.910 0.560 ;
+        RECT 131.750 0.010 132.290 0.560 ;
+        RECT 133.130 0.010 133.670 0.560 ;
+        RECT 134.510 0.010 135.050 0.560 ;
+        RECT 135.890 0.010 136.430 0.560 ;
+        RECT 137.270 0.010 137.810 0.560 ;
+        RECT 138.650 0.010 139.190 0.560 ;
+        RECT 140.030 0.010 140.570 0.560 ;
+        RECT 141.410 0.010 141.950 0.560 ;
+        RECT 142.790 0.010 143.330 0.560 ;
+        RECT 144.170 0.010 144.710 0.560 ;
+        RECT 145.550 0.010 146.090 0.560 ;
+        RECT 146.930 0.010 147.470 0.560 ;
+        RECT 148.310 0.010 148.850 0.560 ;
+        RECT 149.690 0.010 150.230 0.560 ;
+        RECT 151.070 0.010 151.610 0.560 ;
+        RECT 152.450 0.010 152.990 0.560 ;
+        RECT 153.830 0.010 154.370 0.560 ;
+        RECT 155.210 0.010 155.750 0.560 ;
+        RECT 156.590 0.010 157.130 0.560 ;
+        RECT 157.970 0.010 158.510 0.560 ;
+        RECT 159.350 0.010 159.890 0.560 ;
+        RECT 160.730 0.010 161.270 0.560 ;
+        RECT 162.110 0.010 162.650 0.560 ;
+        RECT 163.490 0.010 164.030 0.560 ;
+        RECT 164.870 0.010 165.410 0.560 ;
+        RECT 166.250 0.010 166.790 0.560 ;
+        RECT 167.630 0.010 168.170 0.560 ;
+        RECT 169.010 0.010 169.550 0.560 ;
+        RECT 170.390 0.010 170.930 0.560 ;
+        RECT 171.770 0.010 172.310 0.560 ;
+        RECT 173.150 0.010 173.690 0.560 ;
+        RECT 174.530 0.010 175.070 0.560 ;
+        RECT 175.910 0.010 176.450 0.560 ;
+        RECT 177.290 0.010 177.830 0.560 ;
+        RECT 178.670 0.010 179.210 0.560 ;
+        RECT 180.050 0.010 180.590 0.560 ;
+        RECT 181.430 0.010 181.970 0.560 ;
+        RECT 182.810 0.010 183.350 0.560 ;
+        RECT 184.190 0.010 184.730 0.560 ;
+        RECT 185.570 0.010 195.870 0.560 ;
       LAYER met3 ;
-        RECT 1.000 6.440 224.000 49.465 ;
-        RECT 0.600 0.175 224.400 6.440 ;
-      LAYER met4 ;
-        RECT 172.335 12.415 172.665 29.065 ;
+        RECT 1.000 5.080 198.640 48.105 ;
+        RECT 0.600 0.175 199.040 5.080 ;
   END
 END N_term_DSP
 END LIBRARY

@@ -4,13 +4,11 @@ meta:
   substituting_steps:
     # IHP uses cumulative antenna rules
     # which aren't supported in repair yet
-    OpenROAD.RepairAntennas: null
+    #OpenROAD.RepairAntennas: null
     # KLayout runs density check, TODO disable
-    KLayout.DRC: null
+    #KLayout.DRC: null
 
 FABULOUS_TILE_DIR: dir::. #tiles/RegFile
-
-SYNTH_STRATEGY: "AREA 2" # "AREA 0" "AREA 1" "AREA 2" "AREA 3"
 
 # Basics
 DESIGN_NAME: RegFile
@@ -23,13 +21,11 @@ CLOCK_PERIOD: 20
 CLOCK_PORT: UserCLK
 
 # Area
+SYNTH_STRATEGY: "AREA 2" # "AREA 0" "AREA 1" "AREA 2" "AREA 3"
 FP_SIZING: absolute
 pdk::sky130A:
-    DIE_AREA: [0, 0, 245, 225]
-    PL_TARGET_DENSITY_PCT: 53
+    DIE_AREA: [0, 0, 230, 259.76]
+    PL_TARGET_DENSITY_PCT: 57
 pdk::ihp-sg13g2:
-    #DIE_AREA: [0, 0, 255.36, 250.32]
-    
     DIE_AREA: [0, 0, 266.4, 241.92]
-    
     PL_TARGET_DENSITY_PCT: 81

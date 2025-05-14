@@ -63,16 +63,6 @@ module RegFile
 );
  //signal declarations
  //BEL ports (e.g., slices)
-wire A_ADR0;
-wire A_ADR1;
-wire A_ADR2;
-wire A_ADR3;
-wire A_ADR4;
-wire B_ADR0;
-wire B_ADR1;
-wire B_ADR2;
-wire B_ADR3;
-wire B_ADR4;
 wire D0;
 wire D1;
 wire D2;
@@ -83,6 +73,16 @@ wire W_ADR2;
 wire W_ADR3;
 wire W_ADR4;
 wire W_en;
+wire A_ADR0;
+wire A_ADR1;
+wire A_ADR2;
+wire A_ADR3;
+wire A_ADR4;
+wire B_ADR0;
+wire B_ADR1;
+wire B_ADR2;
+wire B_ADR3;
+wire B_ADR4;
 wire AD0;
 wire AD1;
 wire AD2;
@@ -1621,11 +1621,11 @@ RegFile_ConfigMem
 
  //BEL component instantiations
 RegFile_32x4 Inst_RegFile_32x4 (
-    .A_ADR({A_ADR4, A_ADR3, A_ADR2, A_ADR1, A_ADR0}),
-    .B_ADR({B_ADR4, B_ADR3, B_ADR2, B_ADR1, B_ADR0}),
     .D({D3, D2, D1, D0}),
     .W_ADR({W_ADR4, W_ADR3, W_ADR2, W_ADR1, W_ADR0}),
     .W_en(W_en),
+    .A_ADR({A_ADR4, A_ADR3, A_ADR2, A_ADR1, A_ADR0}),
+    .B_ADR({B_ADR4, B_ADR3, B_ADR2, B_ADR1, B_ADR0}),
     .AD({AD3, AD2, AD1, AD0}),
     .BD({BD3, BD2, BD1, BD0}),
     .UserCLK(UserCLK),
@@ -1953,16 +1953,6 @@ RegFile_switch_matrix Inst_RegFile_switch_matrix (
     .WW4BEG3(WW4BEG[15]),
     .W6BEG0(W6BEG[10]),
     .W6BEG1(W6BEG[11]),
-    .A_ADR0(A_ADR0),
-    .A_ADR1(A_ADR1),
-    .A_ADR2(A_ADR2),
-    .A_ADR3(A_ADR3),
-    .A_ADR4(A_ADR4),
-    .B_ADR0(B_ADR0),
-    .B_ADR1(B_ADR1),
-    .B_ADR2(B_ADR2),
-    .B_ADR3(B_ADR3),
-    .B_ADR4(B_ADR4),
     .D0(D0),
     .D1(D1),
     .D2(D2),
@@ -1973,6 +1963,16 @@ RegFile_switch_matrix Inst_RegFile_switch_matrix (
     .W_ADR3(W_ADR3),
     .W_ADR4(W_ADR4),
     .W_en(W_en),
+    .A_ADR0(A_ADR0),
+    .A_ADR1(A_ADR1),
+    .A_ADR2(A_ADR2),
+    .A_ADR3(A_ADR3),
+    .A_ADR4(A_ADR4),
+    .B_ADR0(B_ADR0),
+    .B_ADR1(B_ADR1),
+    .B_ADR2(B_ADR2),
+    .B_ADR3(B_ADR3),
+    .B_ADR4(B_ADR4),
     .J2MID_ABa_BEG0(J2MID_ABa_BEG[0]),
     .J2MID_ABa_BEG1(J2MID_ABa_BEG[1]),
     .J2MID_ABa_BEG2(J2MID_ABa_BEG[2]),

@@ -2,20 +2,17 @@
 FP_PDN_MULTILAYER: false
 FP_PDN_CFG: dir::../../pdn_cfg.tcl
 
-# Routing
-pdk::sky130A:
-    RT_MAX_LAYER: met4
-pdk::ihp-sg13g2:
-    RT_MAX_LAYER: Metal5 #TopMetal1
-
 GRT_ALLOW_CONGESTION: true
 
 # Diode insertion
 #HEURISTIC_ANTENNA_THRESHOLD: 350
 GRT_ANTENNA_ITERS: 10
 
-# PDN
 pdk::sky130A:
+    # Routing
+    RT_MAX_LAYER: met4
+
+    # PDN
     FP_PDN_VOFFSET: 5
     FP_PDN_HOFFSET: 5
 
@@ -31,6 +28,10 @@ pdk::sky130A:
     FP_PDN_SKIPTRIM: true
 
 pdk::ihp-sg13g2:
+    # Routing
+    RT_MAX_LAYER: Metal5 #TopMetal1
+
+    # PDN
     TOP_MARGIN_MULT: 2
     BOTTOM_MARGIN_MULT: 2
 

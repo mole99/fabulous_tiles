@@ -11,7 +11,7 @@
         "FABulous": 1,
         "dynports": 1,
         "cells_not_processed": 1,
-        "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:23.1-152.10"
+        "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:23.1-152.10"
       },
       "parameter_default_values": {
         "NUM_BITS": 12,
@@ -60,7 +60,7 @@
         }
       },
       "cells": {
-        "$add$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112$7": {
+        "$add$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112$7": {
           "hide_name": 1,
           "type": "$add",
           "parameters": {
@@ -71,7 +71,7 @@
             "Y_WIDTH": 32
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112.31-112.51"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112.31-112.51"
           },
           "port_directions": {
             "A": "input",
@@ -84,7 +84,7 @@
             "Y": [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60 ]
           }
         },
-        "$and$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$20": {
+        "$and$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$20": {
           "hide_name": 1,
           "type": "$and",
           "parameters": {
@@ -95,7 +95,7 @@
             "Y_WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.23-139.53"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.23-139.53"
           },
           "port_directions": {
             "A": "input",
@@ -108,7 +108,7 @@
             "Y": [ 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111$6": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111$6": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -119,7 +119,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.13-111.34"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.13-111.34"
           },
           "port_directions": {
             "A": "input",
@@ -132,7 +132,7 @@
             "Y": [ 129 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118$8": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118$8": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -143,7 +143,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118.27-118.58"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118.27-118.58"
           },
           "port_directions": {
             "A": "input",
@@ -156,7 +156,7 @@
             "Y": [ 130 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122$10": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122$10": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -167,7 +167,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.13-122.39"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.13-122.39"
           },
           "port_directions": {
             "A": "input",
@@ -180,7 +180,7 @@
             "Y": [ 131 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$12": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$12": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -191,7 +191,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.24-130.39"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.24-130.39"
           },
           "port_directions": {
             "A": "input",
@@ -204,7 +204,7 @@
             "Y": [ 132 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134$16": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134$16": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -215,7 +215,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.13-134.33"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.13-134.33"
           },
           "port_directions": {
             "A": "input",
@@ -228,7 +228,7 @@
             "Y": [ 133 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136$17": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136$17": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -239,7 +239,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.22-136.43"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.22-136.43"
           },
           "port_directions": {
             "A": "input",
@@ -252,7 +252,7 @@
             "Y": [ 134 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138$18": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138$18": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -263,7 +263,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.22-138.48"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.22-138.48"
           },
           "port_directions": {
             "A": "input",
@@ -276,7 +276,7 @@
             "Y": [ 135 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$21": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$21": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -287,7 +287,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.25-144.47"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.25-144.47"
           },
           "port_directions": {
             "A": "input",
@@ -300,7 +300,7 @@
             "Y": [ 136 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$23": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$23": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -311,7 +311,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.53-144.74"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.53-144.74"
           },
           "port_directions": {
             "A": "input",
@@ -324,7 +324,7 @@
             "Y": [ 137 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$25": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$25": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -335,7 +335,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.25-145.46"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.25-145.46"
           },
           "port_directions": {
             "A": "input",
@@ -348,7 +348,7 @@
             "Y": [ 138 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$26": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$26": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -359,7 +359,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.52-145.73"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.52-145.73"
           },
           "port_directions": {
             "A": "input",
@@ -372,7 +372,7 @@
             "Y": [ 139 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150$28": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150$28": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -383,7 +383,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150.20-150.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150.20-150.40"
           },
           "port_directions": {
             "A": "input",
@@ -396,7 +396,7 @@
             "Y": [ 4 ]
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94$3": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94$3": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -407,7 +407,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.21-94.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.21-94.40"
           },
           "port_directions": {
             "A": "input",
@@ -420,7 +420,7 @@
             "Y": [ 152 ]
           }
         },
-        "$logic_or$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$24": {
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$24": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -431,7 +431,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.75"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.75"
           },
           "port_directions": {
             "A": "input",
@@ -444,7 +444,7 @@
             "Y": [ 19 ]
           }
         },
-        "$logic_or$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$27": {
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$27": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -455,7 +455,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.24-145.74"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.24-145.74"
           },
           "port_directions": {
             "A": "input",
@@ -468,7 +468,7 @@
             "Y": [ 20 ]
           }
         },
-        "$not$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$22": {
+        "$not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$22": {
           "hide_name": 1,
           "type": "$not",
           "parameters": {
@@ -477,7 +477,7 @@
             "Y_WIDTH": 1
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.48"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.48"
           },
           "port_directions": {
             "A": "input",
@@ -488,7 +488,7 @@
             "Y": [ 153 ]
           }
         },
-        "$not$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63$1": {
+        "$not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63$1": {
           "hide_name": 1,
           "type": "$not",
           "parameters": {
@@ -497,7 +497,7 @@
             "Y_WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63.29-63.41"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63.29-63.41"
           },
           "port_directions": {
             "A": "input",
@@ -508,7 +508,7 @@
             "Y": [ 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165 ]
           }
         },
-        "$or$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$19": {
+        "$or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$19": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -519,7 +519,7 @@
             "Y_WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.24-139.41"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.24-139.41"
           },
           "port_directions": {
             "A": "input",
@@ -540,7 +540,7 @@
             "WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:133.5-141.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:133.5-141.8"
           },
           "port_directions": {
             "CLK": "input",
@@ -561,7 +561,7 @@
             "WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:121.5-127.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:121.5-127.8"
           },
           "port_directions": {
             "CLK": "input",
@@ -582,7 +582,7 @@
             "WIDTH": 4
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:110.5-116.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:110.5-116.8"
           },
           "port_directions": {
             "CLK": "input",
@@ -604,7 +604,7 @@
           },
           "attributes": {
             "always_ff": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:101.5-107.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:101.5-107.8"
           },
           "port_directions": {
             "CLK": "input",
@@ -624,7 +624,7 @@
             "WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.22-138.48|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.18-140.12"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.22-138.48|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.18-140.12"
           },
           "port_directions": {
             "A": "input",
@@ -647,7 +647,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.22-136.43|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.18-140.12"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.22-136.43|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.18-140.12"
           },
           "port_directions": {
             "A": "input",
@@ -670,7 +670,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.13-134.33|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.9-140.12"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.13-134.33|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.9-140.12"
           },
           "port_directions": {
             "A": "input",
@@ -693,7 +693,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.13-122.39|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.9-126.12"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.13-122.39|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.9-126.12"
           },
           "port_directions": {
             "A": "input",
@@ -716,7 +716,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.13-111.34|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.9-115.12"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.13-111.34|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.9-115.12"
           },
           "port_directions": {
             "A": "input",
@@ -739,7 +739,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:102.13-102.18|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:102.9-106.12"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:102.13-102.18|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:102.9-106.12"
           },
           "port_directions": {
             "A": "input",
@@ -762,7 +762,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.21-94.40|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.17-94.62"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.21-94.40|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.17-94.62"
           },
           "port_directions": {
             "A": "input",
@@ -785,7 +785,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -812,7 +812,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -833,7 +833,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:89.21-89.32|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:89.17-89.55"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:89.21-89.32|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:89.17-89.55"
           },
           "port_directions": {
             "A": "input",
@@ -856,7 +856,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -883,7 +883,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -904,7 +904,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:85.21-85.26|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:85.17-85.50"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:85.21-85.26|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:85.17-85.50"
           },
           "port_directions": {
             "A": "input",
@@ -927,7 +927,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -954,7 +954,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -976,7 +976,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1003,7 +1003,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1028,7 +1028,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1053,7 +1053,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1078,7 +1078,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1103,7 +1103,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1128,7 +1128,7 @@
           },
           "attributes": {
             "full_case": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0|/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:83.9-97.16"
           },
           "port_directions": {
             "A": "input",
@@ -1141,7 +1141,7 @@
             "Y": [ 506 ]
           }
         },
-        "$shr$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123$11": {
+        "$shr$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123$11": {
           "hide_name": 1,
           "type": "$shr",
           "parameters": {
@@ -1152,7 +1152,7 @@
             "Y_WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123.28-123.44"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123.28-123.44"
           },
           "port_directions": {
             "A": "input",
@@ -1165,7 +1165,7 @@
             "Y": [ 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273 ]
           }
         },
-        "$shr$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131$14": {
+        "$shr$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131$14": {
           "hide_name": 1,
           "type": "$shr",
           "parameters": {
@@ -1176,7 +1176,7 @@
             "Y_WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131.23-131.39"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131.23-131.39"
           },
           "port_directions": {
             "A": "input",
@@ -1189,14 +1189,14 @@
             "Y": [ 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177 ]
           }
         },
-        "$ternary$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$13": {
+        "$ternary$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$13": {
           "hide_name": 1,
           "type": "$mux",
           "parameters": {
             "WIDTH": 12
           },
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.23-130.74"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.23-130.74"
           },
           "port_directions": {
             "A": "input",
@@ -1217,203 +1217,203 @@
           "hide_name": 1,
           "bits": [ 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:101.5-107.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:101.5-107.8"
           }
         },
         "$0\\next_state[31:0]": {
           "hide_name": 1,
           "bits": [ 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
           }
         },
         "$0\\result[11:0]": {
           "hide_name": 1,
           "bits": [ 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:133.5-141.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:133.5-141.8"
           }
         },
         "$0\\sample_counter[3:0]": {
           "hide_name": 1,
           "bits": [ 202, 203, 204, 205 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:110.5-116.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:110.5-116.8"
           }
         },
         "$0\\shift_value[11:0]": {
           "hide_name": 1,
           "bits": [ 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:121.5-127.8"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:121.5-127.8"
           }
         },
         "$1\\next_state[31:0]": {
           "hide_name": 1,
           "bits": [ 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
           }
         },
         "$2\\next_state[31:0]": {
           "hide_name": 1,
           "bits": [ 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
           }
         },
         "$3\\next_state[31:0]": {
           "hide_name": 1,
           "bits": [ 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
           }
         },
         "$4\\next_state[31:0]": {
           "hide_name": 1,
           "bits": [ 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:0.0-0.0"
           }
         },
-        "$add$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112$7_Y": {
+        "$add$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112$7_Y": {
           "hide_name": 1,
           "bits": [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112.31-112.51"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:112.31-112.51"
           }
         },
-        "$and$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$20_Y": {
+        "$and$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$20_Y": {
           "hide_name": 1,
           "bits": [ 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.23-139.53"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.23-139.53"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111$6_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111$6_Y": {
           "hide_name": 1,
           "bits": [ 129 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.13-111.34"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:111.13-111.34"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118$8_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118$8_Y": {
           "hide_name": 1,
           "bits": [ 130 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118.27-118.58"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:118.27-118.58"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122$10_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122$10_Y": {
           "hide_name": 1,
           "bits": [ 131 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.13-122.39"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:122.13-122.39"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$12_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$12_Y": {
           "hide_name": 1,
           "bits": [ 132 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.24-130.39"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.24-130.39"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134$16_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134$16_Y": {
           "hide_name": 1,
           "bits": [ 133 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.13-134.33"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:134.13-134.33"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136$17_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136$17_Y": {
           "hide_name": 1,
           "bits": [ 134 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.22-136.43"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:136.22-136.43"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138$18_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138$18_Y": {
           "hide_name": 1,
           "bits": [ 135 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.22-138.48"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:138.22-138.48"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$21_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$21_Y": {
           "hide_name": 1,
           "bits": [ 136 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.25-144.47"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.25-144.47"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$23_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$23_Y": {
           "hide_name": 1,
           "bits": [ 137 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.53-144.74"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.53-144.74"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$25_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$25_Y": {
           "hide_name": 1,
           "bits": [ 138 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.25-145.46"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.25-145.46"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$26_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$26_Y": {
           "hide_name": 1,
           "bits": [ 139 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.52-145.73"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.52-145.73"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150$28_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150$28_Y": {
           "hide_name": 1,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150.20-150.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:150.20-150.40"
           }
         },
-        "$eq$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94$3_Y": {
+        "$eq$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94$3_Y": {
           "hide_name": 1,
           "bits": [ 152 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.21-94.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:94.21-94.40"
           }
         },
-        "$logic_or$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$24_Y": {
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$24_Y": {
           "hide_name": 1,
           "bits": [ 19 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.75"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.75"
           }
         },
-        "$logic_or$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$27_Y": {
+        "$logic_or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145$27_Y": {
           "hide_name": 1,
           "bits": [ 20 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.24-145.74"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:145.24-145.74"
           }
         },
-        "$not$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$22_Y": {
+        "$not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144$22_Y": {
           "hide_name": 1,
           "bits": [ 153 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.48"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:144.23-144.48"
           }
         },
-        "$not$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63$1_Y": {
+        "$not$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63$1_Y": {
           "hide_name": 1,
           "bits": [ 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63.29-63.41"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:63.29-63.41"
           }
         },
-        "$or$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$19_Y": {
+        "$or$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139$19_Y": {
           "hide_name": 1,
           "bits": [ 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.24-139.41"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:139.24-139.41"
           }
         },
         "$procmux$29_Y": {
@@ -1602,25 +1602,25 @@
           "attributes": {
           }
         },
-        "$shr$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123$11_Y": {
+        "$shr$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123$11_Y": {
           "hide_name": 1,
           "bits": [ 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123.28-123.44"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:123.28-123.44"
           }
         },
-        "$shr$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131$14_Y": {
+        "$shr$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131$14_Y": {
           "hide_name": 1,
           "bits": [ 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131.23-131.39"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:131.23-131.39"
           }
         },
-        "$ternary$/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$13_Y": {
+        "$ternary$/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130$13_Y": {
           "hide_name": 1,
           "bits": [ 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.23-130.74"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:130.23-130.74"
           }
         },
         "CMP_top": {
@@ -1629,7 +1629,7 @@
           "attributes": {
             "EXTERNAL": 1,
             "FABulous": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:39.58-39.65"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:39.58-39.65"
           }
         },
         "ConfigBits": {
@@ -1638,7 +1638,7 @@
           "attributes": {
             "FABulous": 1,
             "GLOBAL": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:43.54-43.64"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:43.54-43.64"
           }
         },
         "HOLD_top": {
@@ -1647,14 +1647,14 @@
           "attributes": {
             "EXTERNAL": 1,
             "FABulous": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:40.58-40.66"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:40.58-40.66"
           }
         },
         "RESET": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:31.33-31.38"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:31.33-31.38"
           }
         },
         "RESET_top": {
@@ -1663,14 +1663,14 @@
           "attributes": {
             "EXTERNAL": 1,
             "FABulous": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:41.58-41.67"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:41.58-41.67"
           }
         },
         "START": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:30.33-30.38"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:30.33-30.38"
           }
         },
         "UserCLK": {
@@ -1680,21 +1680,21 @@
             "EXTERNAL": 1,
             "FABulous": 1,
             "SHARED_PORT": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:36.49-36.56"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:36.49-36.56"
           }
         },
         "VALID": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:32.33-32.38"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:32.33-32.38"
           }
         },
         "VALUE": {
           "hide_name": 0,
           "bits": [ 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:33.33-33.38"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:33.33-33.38"
           }
         },
         "VALUE_top": {
@@ -1703,21 +1703,21 @@
           "attributes": {
             "EXTERNAL": 1,
             "FABulous": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:38.58-38.67"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:38.58-38.67"
           }
         },
         "bit_mask": {
           "hide_name": 0,
           "bits": [ 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:52.26-52.34"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:52.26-52.34"
           }
         },
         "clear_bit_mask": {
           "hide_name": 0,
           "bits": [ 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:60.26-60.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:60.26-60.40"
           }
         },
         "curr_state": {
@@ -1731,7 +1731,7 @@
             "enum_value_00000000000000000000000000000011": "\\S_START",
             "enum_value_00000000000000000000000000000100": "\\S_CONVERSION",
             "enum_value_00000000000000000000000000000101": "\\S_DONE",
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:76.13-76.23",
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:76.13-76.23",
             "wiretype": "\\state_t"
           }
         },
@@ -1739,14 +1739,14 @@
           "hide_name": 0,
           "bits": [ "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1" ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:61.26-61.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:61.26-61.40"
           }
         },
         "next_bit": {
           "hide_name": 0,
           "bits": [ 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:53.26-53.34"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:53.26-53.34"
           }
         },
         "next_state": {
@@ -1760,7 +1760,7 @@
             "enum_value_00000000000000000000000000000011": "\\S_START",
             "enum_value_00000000000000000000000000000100": "\\S_CONVERSION",
             "enum_value_00000000000000000000000000000101": "\\S_DONE",
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:77.13-77.23",
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:77.13-77.23",
             "wiretype": "\\state_t"
           }
         },
@@ -1768,35 +1768,35 @@
           "hide_name": 0,
           "bits": [ 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:47.26-47.32"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:47.26-47.32"
           }
         },
         "sample_counter": {
           "hide_name": 0,
           "bits": [ 25, 26, 27, 28 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:49.26-49.40"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:49.26-49.40"
           }
         },
         "sample_cycles": {
           "hide_name": 0,
           "bits": [ 21, 22, 23, 24 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:56.17-56.30"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:56.17-56.30"
           }
         },
         "sample_done": {
           "hide_name": 0,
           "bits": [ 130 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:51.26-51.37"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:51.26-51.37"
           }
         },
         "shift_value": {
           "hide_name": 0,
           "bits": [ 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:48.26-48.37"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_ADC12/EF_ADC12.sv:48.26-48.37"
           }
         }
       }

@@ -1,7 +1,7 @@
- // NumberOfConfigBits: 48
+ // NumberOfConfigBits: 50
 module S_EF_DAC8_switch_matrix
     #(
-        parameter NoConfigBits=48
+        parameter NoConfigBits=50
     )
     (
         input S1END0,
@@ -117,6 +117,7 @@ module S_EF_DAC8_switch_matrix
         output VALUE5,
         output VALUE6,
         output VALUE7,
+        output ENABLE,
  //global
         input [NoConfigBits-1:0] ConfigBits,
         input [NoConfigBits-1:0] ConfigBits_N
@@ -152,31 +153,33 @@ wire[4-1:0] VALUE4_input;
 wire[4-1:0] VALUE5_input;
 wire[4-1:0] VALUE6_input;
 wire[4-1:0] VALUE7_input;
+wire[4-1:0] ENABLE_input;
 
-wire[2-1:0] DEBUG_select_N2BEG0;
-wire[2-1:0] DEBUG_select_N2BEG1;
-wire[2-1:0] DEBUG_select_N2BEG2;
-wire[2-1:0] DEBUG_select_N2BEG3;
-wire[2-1:0] DEBUG_select_N2BEG4;
-wire[2-1:0] DEBUG_select_N2BEG5;
-wire[2-1:0] DEBUG_select_N2BEG6;
-wire[2-1:0] DEBUG_select_N2BEG7;
-wire[2-1:0] DEBUG_select_N2BEGb0;
-wire[2-1:0] DEBUG_select_N2BEGb1;
-wire[2-1:0] DEBUG_select_N2BEGb2;
-wire[2-1:0] DEBUG_select_N2BEGb3;
-wire[2-1:0] DEBUG_select_N2BEGb4;
-wire[2-1:0] DEBUG_select_N2BEGb5;
-wire[2-1:0] DEBUG_select_N2BEGb6;
-wire[2-1:0] DEBUG_select_N2BEGb7;
-wire[2-1:0] DEBUG_select_VALUE0;
-wire[2-1:0] DEBUG_select_VALUE1;
-wire[2-1:0] DEBUG_select_VALUE2;
-wire[2-1:0] DEBUG_select_VALUE3;
-wire[2-1:0] DEBUG_select_VALUE4;
-wire[2-1:0] DEBUG_select_VALUE5;
-wire[2-1:0] DEBUG_select_VALUE6;
-wire[2-1:0] DEBUG_select_VALUE7;
+wire[1:0] DEBUG_select_N2BEG0;
+wire[1:0] DEBUG_select_N2BEG1;
+wire[1:0] DEBUG_select_N2BEG2;
+wire[1:0] DEBUG_select_N2BEG3;
+wire[1:0] DEBUG_select_N2BEG4;
+wire[1:0] DEBUG_select_N2BEG5;
+wire[1:0] DEBUG_select_N2BEG6;
+wire[1:0] DEBUG_select_N2BEG7;
+wire[1:0] DEBUG_select_N2BEGb0;
+wire[1:0] DEBUG_select_N2BEGb1;
+wire[1:0] DEBUG_select_N2BEGb2;
+wire[1:0] DEBUG_select_N2BEGb3;
+wire[1:0] DEBUG_select_N2BEGb4;
+wire[1:0] DEBUG_select_N2BEGb5;
+wire[1:0] DEBUG_select_N2BEGb6;
+wire[1:0] DEBUG_select_N2BEGb7;
+wire[1:0] DEBUG_select_VALUE0;
+wire[1:0] DEBUG_select_VALUE1;
+wire[1:0] DEBUG_select_VALUE2;
+wire[1:0] DEBUG_select_VALUE3;
+wire[1:0] DEBUG_select_VALUE4;
+wire[1:0] DEBUG_select_VALUE5;
+wire[1:0] DEBUG_select_VALUE6;
+wire[1:0] DEBUG_select_VALUE7;
+wire[1:0] DEBUG_select_ENABLE;
  //The configuration bits (if any) are just a long shift register
  //This shift register is padded to an even number of flops/latches
  //switch matrix multiplexer N1BEG0 MUX-1
@@ -626,6 +629,20 @@ cus_mux41_buf inst_cus_mux41_buf_VALUE7 (
     .X(VALUE7)
 );
 
+ //switch matrix multiplexer ENABLE MUX-4
+assign ENABLE_input = {VCC0,GND0,S1END1,S1END0};
+cus_mux41_buf inst_cus_mux41_buf_ENABLE (
+    .A0(ENABLE_input[0]),
+    .A1(ENABLE_input[1]),
+    .A2(ENABLE_input[2]),
+    .A3(ENABLE_input[3]),
+    .S0(ConfigBits[48+0]),
+    .S0N(ConfigBits_N[48+0]),
+    .S1(ConfigBits[48+1]),
+    .S1N(ConfigBits_N[48+1]),
+    .X(ENABLE)
+);
+
 
 assign DEBUG_select_N2BEG0          = ConfigBits[1:0];
 assign DEBUG_select_N2BEG1          = ConfigBits[3:2];
@@ -651,4 +668,5 @@ assign DEBUG_select_VALUE4          = ConfigBits[41:40];
 assign DEBUG_select_VALUE5          = ConfigBits[43:42];
 assign DEBUG_select_VALUE6          = ConfigBits[45:44];
 assign DEBUG_select_VALUE7          = ConfigBits[47:46];
+assign DEBUG_select_ENABLE          = ConfigBits[49:48];
 endmodule

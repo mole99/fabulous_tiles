@@ -122,8 +122,8 @@ module S_EF_ADC12_switch_matrix
         output NN4BEG14,
         output NN4BEG15,
         output Co0,
-        output RESET,
         output START,
+        output RESET,
  //global
         input [NoConfigBits-1:0] ConfigBits,
         input [NoConfigBits-1:0] ConfigBits_N
@@ -187,63 +187,63 @@ wire[2-1:0] NN4BEG12_input;
 wire[2-1:0] NN4BEG13_input;
 wire[2-1:0] NN4BEG14_input;
 wire[2-1:0] NN4BEG15_input;
-wire[8-1:0] RESET_input;
 wire[8-1:0] START_input;
+wire[8-1:0] RESET_input;
 
-wire[2-1:0] DEBUG_select_N1BEG0;
-wire[2-1:0] DEBUG_select_N1BEG1;
-wire[2-1:0] DEBUG_select_N1BEG2;
-wire[2-1:0] DEBUG_select_N1BEG3;
-wire[1-1:0] DEBUG_select_N2BEG0;
-wire[1-1:0] DEBUG_select_N2BEG1;
-wire[1-1:0] DEBUG_select_N2BEG2;
-wire[1-1:0] DEBUG_select_N2BEG3;
-wire[1-1:0] DEBUG_select_N2BEG4;
-wire[1-1:0] DEBUG_select_N2BEG5;
-wire[1-1:0] DEBUG_select_N2BEG6;
-wire[1-1:0] DEBUG_select_N2BEG7;
-wire[1-1:0] DEBUG_select_N2BEGb0;
-wire[1-1:0] DEBUG_select_N2BEGb1;
-wire[1-1:0] DEBUG_select_N2BEGb2;
-wire[1-1:0] DEBUG_select_N2BEGb3;
-wire[1-1:0] DEBUG_select_N2BEGb4;
-wire[1-1:0] DEBUG_select_N2BEGb5;
-wire[1-1:0] DEBUG_select_N2BEGb6;
-wire[1-1:0] DEBUG_select_N2BEGb7;
-wire[1-1:0] DEBUG_select_N4BEG0;
-wire[1-1:0] DEBUG_select_N4BEG1;
-wire[1-1:0] DEBUG_select_N4BEG2;
-wire[1-1:0] DEBUG_select_N4BEG3;
-wire[1-1:0] DEBUG_select_N4BEG4;
-wire[1-1:0] DEBUG_select_N4BEG5;
-wire[1-1:0] DEBUG_select_N4BEG6;
-wire[1-1:0] DEBUG_select_N4BEG7;
-wire[1-1:0] DEBUG_select_N4BEG8;
-wire[1-1:0] DEBUG_select_N4BEG9;
-wire[1-1:0] DEBUG_select_N4BEG10;
-wire[1-1:0] DEBUG_select_N4BEG11;
-wire[1-1:0] DEBUG_select_N4BEG12;
-wire[1-1:0] DEBUG_select_N4BEG13;
-wire[1-1:0] DEBUG_select_N4BEG14;
-wire[1-1:0] DEBUG_select_N4BEG15;
-wire[1-1:0] DEBUG_select_NN4BEG0;
-wire[1-1:0] DEBUG_select_NN4BEG1;
-wire[1-1:0] DEBUG_select_NN4BEG2;
-wire[1-1:0] DEBUG_select_NN4BEG3;
-wire[1-1:0] DEBUG_select_NN4BEG4;
-wire[1-1:0] DEBUG_select_NN4BEG5;
-wire[1-1:0] DEBUG_select_NN4BEG6;
-wire[1-1:0] DEBUG_select_NN4BEG7;
-wire[1-1:0] DEBUG_select_NN4BEG8;
-wire[1-1:0] DEBUG_select_NN4BEG9;
-wire[1-1:0] DEBUG_select_NN4BEG10;
-wire[1-1:0] DEBUG_select_NN4BEG11;
-wire[1-1:0] DEBUG_select_NN4BEG12;
-wire[1-1:0] DEBUG_select_NN4BEG13;
-wire[1-1:0] DEBUG_select_NN4BEG14;
-wire[1-1:0] DEBUG_select_NN4BEG15;
-wire[3-1:0] DEBUG_select_RESET;
-wire[3-1:0] DEBUG_select_START;
+wire[1:0] DEBUG_select_N1BEG0;
+wire[1:0] DEBUG_select_N1BEG1;
+wire[1:0] DEBUG_select_N1BEG2;
+wire[1:0] DEBUG_select_N1BEG3;
+wire[0:0] DEBUG_select_N2BEG0;
+wire[0:0] DEBUG_select_N2BEG1;
+wire[0:0] DEBUG_select_N2BEG2;
+wire[0:0] DEBUG_select_N2BEG3;
+wire[0:0] DEBUG_select_N2BEG4;
+wire[0:0] DEBUG_select_N2BEG5;
+wire[0:0] DEBUG_select_N2BEG6;
+wire[0:0] DEBUG_select_N2BEG7;
+wire[0:0] DEBUG_select_N2BEGb0;
+wire[0:0] DEBUG_select_N2BEGb1;
+wire[0:0] DEBUG_select_N2BEGb2;
+wire[0:0] DEBUG_select_N2BEGb3;
+wire[0:0] DEBUG_select_N2BEGb4;
+wire[0:0] DEBUG_select_N2BEGb5;
+wire[0:0] DEBUG_select_N2BEGb6;
+wire[0:0] DEBUG_select_N2BEGb7;
+wire[0:0] DEBUG_select_N4BEG0;
+wire[0:0] DEBUG_select_N4BEG1;
+wire[0:0] DEBUG_select_N4BEG2;
+wire[0:0] DEBUG_select_N4BEG3;
+wire[0:0] DEBUG_select_N4BEG4;
+wire[0:0] DEBUG_select_N4BEG5;
+wire[0:0] DEBUG_select_N4BEG6;
+wire[0:0] DEBUG_select_N4BEG7;
+wire[0:0] DEBUG_select_N4BEG8;
+wire[0:0] DEBUG_select_N4BEG9;
+wire[0:0] DEBUG_select_N4BEG10;
+wire[0:0] DEBUG_select_N4BEG11;
+wire[0:0] DEBUG_select_N4BEG12;
+wire[0:0] DEBUG_select_N4BEG13;
+wire[0:0] DEBUG_select_N4BEG14;
+wire[0:0] DEBUG_select_N4BEG15;
+wire[0:0] DEBUG_select_NN4BEG0;
+wire[0:0] DEBUG_select_NN4BEG1;
+wire[0:0] DEBUG_select_NN4BEG2;
+wire[0:0] DEBUG_select_NN4BEG3;
+wire[0:0] DEBUG_select_NN4BEG4;
+wire[0:0] DEBUG_select_NN4BEG5;
+wire[0:0] DEBUG_select_NN4BEG6;
+wire[0:0] DEBUG_select_NN4BEG7;
+wire[0:0] DEBUG_select_NN4BEG8;
+wire[0:0] DEBUG_select_NN4BEG9;
+wire[0:0] DEBUG_select_NN4BEG10;
+wire[0:0] DEBUG_select_NN4BEG11;
+wire[0:0] DEBUG_select_NN4BEG12;
+wire[0:0] DEBUG_select_NN4BEG13;
+wire[0:0] DEBUG_select_NN4BEG14;
+wire[0:0] DEBUG_select_NN4BEG15;
+wire[2:0] DEBUG_select_START;
+wire[2:0] DEBUG_select_RESET;
  //The configuration bits (if any) are just a long shift register
  //This shift register is padded to an even number of flops/latches
  //switch matrix multiplexer N1BEG0 MUX-4
@@ -737,26 +737,6 @@ cus_mux21 inst_cus_mux21_NN4BEG15 (
  //switch matrix multiplexer Co0 MUX-1
 assign Co0 = GND0;
 
- //switch matrix multiplexer RESET MUX-8
-assign RESET_input = {SS4END3,SS4END1,S4END3,S2END7,S2END5,S2MID3,S2MID1,S1END1};
-cus_mux81_buf inst_cus_mux81_buf_RESET (
-    .A0(RESET_input[0]),
-    .A1(RESET_input[1]),
-    .A2(RESET_input[2]),
-    .A3(RESET_input[3]),
-    .A4(RESET_input[4]),
-    .A5(RESET_input[5]),
-    .A6(RESET_input[6]),
-    .A7(RESET_input[7]),
-    .S0(ConfigBits[56+0]),
-    .S0N(ConfigBits_N[56+0]),
-    .S1(ConfigBits[56+1]),
-    .S1N(ConfigBits_N[56+1]),
-    .S2(ConfigBits[56+2]),
-    .S2N(ConfigBits_N[56+2]),
-    .X(RESET)
-);
-
  //switch matrix multiplexer START MUX-8
 assign START_input = {SS4END2,SS4END0,S4END2,S2END6,S2END4,S2MID2,S2MID0,S1END0};
 cus_mux81_buf inst_cus_mux81_buf_START (
@@ -768,13 +748,33 @@ cus_mux81_buf inst_cus_mux81_buf_START (
     .A5(START_input[5]),
     .A6(START_input[6]),
     .A7(START_input[7]),
+    .S0(ConfigBits[56+0]),
+    .S0N(ConfigBits_N[56+0]),
+    .S1(ConfigBits[56+1]),
+    .S1N(ConfigBits_N[56+1]),
+    .S2(ConfigBits[56+2]),
+    .S2N(ConfigBits_N[56+2]),
+    .X(START)
+);
+
+ //switch matrix multiplexer RESET MUX-8
+assign RESET_input = {SS4END3,SS4END1,S4END3,S2END7,S2END5,S2MID3,S2MID1,S1END1};
+cus_mux81_buf inst_cus_mux81_buf_RESET (
+    .A0(RESET_input[0]),
+    .A1(RESET_input[1]),
+    .A2(RESET_input[2]),
+    .A3(RESET_input[3]),
+    .A4(RESET_input[4]),
+    .A5(RESET_input[5]),
+    .A6(RESET_input[6]),
+    .A7(RESET_input[7]),
     .S0(ConfigBits[59+0]),
     .S0N(ConfigBits_N[59+0]),
     .S1(ConfigBits[59+1]),
     .S1N(ConfigBits_N[59+1]),
     .S2(ConfigBits[59+2]),
     .S2N(ConfigBits_N[59+2]),
-    .X(START)
+    .X(RESET)
 );
 
 
@@ -830,6 +830,6 @@ assign DEBUG_select_NN4BEG12        = ConfigBits[52:52];
 assign DEBUG_select_NN4BEG13        = ConfigBits[53:53];
 assign DEBUG_select_NN4BEG14        = ConfigBits[54:54];
 assign DEBUG_select_NN4BEG15        = ConfigBits[55:55];
-assign DEBUG_select_RESET           = ConfigBits[58:56];
-assign DEBUG_select_START           = ConfigBits[61:59];
+assign DEBUG_select_START           = ConfigBits[58:56];
+assign DEBUG_select_RESET           = ConfigBits[61:59];
 endmodule

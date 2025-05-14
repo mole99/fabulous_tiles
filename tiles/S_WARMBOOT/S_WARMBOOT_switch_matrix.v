@@ -110,11 +110,11 @@ module S_WARMBOOT_switch_matrix
         output NN4BEG14,
         output NN4BEG15,
         output Co0,
-        output BOOT,
         output SLOT0,
         output SLOT1,
         output SLOT2,
         output SLOT3,
+        output BOOT,
  //global
         input [NoConfigBits-1:0] ConfigBits,
         input [NoConfigBits-1:0] ConfigBits_N
@@ -130,21 +130,21 @@ wire[2-1:0] N1BEG0_input;
 wire[2-1:0] N1BEG1_input;
 wire[2-1:0] N1BEG2_input;
 wire[2-1:0] N1BEG3_input;
-wire[8-1:0] BOOT_input;
 wire[8-1:0] SLOT0_input;
 wire[8-1:0] SLOT1_input;
 wire[8-1:0] SLOT2_input;
 wire[8-1:0] SLOT3_input;
+wire[8-1:0] BOOT_input;
 
-wire[1-1:0] DEBUG_select_N1BEG0;
-wire[1-1:0] DEBUG_select_N1BEG1;
-wire[1-1:0] DEBUG_select_N1BEG2;
-wire[1-1:0] DEBUG_select_N1BEG3;
-wire[3-1:0] DEBUG_select_BOOT;
-wire[3-1:0] DEBUG_select_SLOT0;
-wire[3-1:0] DEBUG_select_SLOT1;
-wire[3-1:0] DEBUG_select_SLOT2;
-wire[3-1:0] DEBUG_select_SLOT3;
+wire[0:0] DEBUG_select_N1BEG0;
+wire[0:0] DEBUG_select_N1BEG1;
+wire[0:0] DEBUG_select_N1BEG2;
+wire[0:0] DEBUG_select_N1BEG3;
+wire[2:0] DEBUG_select_SLOT0;
+wire[2:0] DEBUG_select_SLOT1;
+wire[2:0] DEBUG_select_SLOT2;
+wire[2:0] DEBUG_select_SLOT3;
+wire[2:0] DEBUG_select_BOOT;
  //The configuration bits (if any) are just a long shift register
  //This shift register is padded to an even number of flops/latches
  //switch matrix multiplexer N1BEG0 MUX-2
@@ -330,26 +330,6 @@ assign NN4BEG15 = SS4END0;
  //switch matrix multiplexer Co0 MUX-1
 assign Co0 = GND0;
 
- //switch matrix multiplexer BOOT MUX-8
-assign BOOT_input = {SS4END7,SS4END3,S4END7,S4END3,S2END7,S2END3,S2MID3,S1END3};
-cus_mux81_buf inst_cus_mux81_buf_BOOT (
-    .A0(BOOT_input[0]),
-    .A1(BOOT_input[1]),
-    .A2(BOOT_input[2]),
-    .A3(BOOT_input[3]),
-    .A4(BOOT_input[4]),
-    .A5(BOOT_input[5]),
-    .A6(BOOT_input[6]),
-    .A7(BOOT_input[7]),
-    .S0(ConfigBits[4+0]),
-    .S0N(ConfigBits_N[4+0]),
-    .S1(ConfigBits[4+1]),
-    .S1N(ConfigBits_N[4+1]),
-    .S2(ConfigBits[4+2]),
-    .S2N(ConfigBits_N[4+2]),
-    .X(BOOT)
-);
-
  //switch matrix multiplexer SLOT0 MUX-8
 assign SLOT0_input = {SS4END4,SS4END0,S4END4,S4END0,S2END4,S2END0,S2MID0,S1END0};
 cus_mux81_buf inst_cus_mux81_buf_SLOT0 (
@@ -361,12 +341,12 @@ cus_mux81_buf inst_cus_mux81_buf_SLOT0 (
     .A5(SLOT0_input[5]),
     .A6(SLOT0_input[6]),
     .A7(SLOT0_input[7]),
-    .S0(ConfigBits[7+0]),
-    .S0N(ConfigBits_N[7+0]),
-    .S1(ConfigBits[7+1]),
-    .S1N(ConfigBits_N[7+1]),
-    .S2(ConfigBits[7+2]),
-    .S2N(ConfigBits_N[7+2]),
+    .S0(ConfigBits[4+0]),
+    .S0N(ConfigBits_N[4+0]),
+    .S1(ConfigBits[4+1]),
+    .S1N(ConfigBits_N[4+1]),
+    .S2(ConfigBits[4+2]),
+    .S2N(ConfigBits_N[4+2]),
     .X(SLOT0)
 );
 
@@ -381,12 +361,12 @@ cus_mux81_buf inst_cus_mux81_buf_SLOT1 (
     .A5(SLOT1_input[5]),
     .A6(SLOT1_input[6]),
     .A7(SLOT1_input[7]),
-    .S0(ConfigBits[10+0]),
-    .S0N(ConfigBits_N[10+0]),
-    .S1(ConfigBits[10+1]),
-    .S1N(ConfigBits_N[10+1]),
-    .S2(ConfigBits[10+2]),
-    .S2N(ConfigBits_N[10+2]),
+    .S0(ConfigBits[7+0]),
+    .S0N(ConfigBits_N[7+0]),
+    .S1(ConfigBits[7+1]),
+    .S1N(ConfigBits_N[7+1]),
+    .S2(ConfigBits[7+2]),
+    .S2N(ConfigBits_N[7+2]),
     .X(SLOT1)
 );
 
@@ -401,12 +381,12 @@ cus_mux81_buf inst_cus_mux81_buf_SLOT2 (
     .A5(SLOT2_input[5]),
     .A6(SLOT2_input[6]),
     .A7(SLOT2_input[7]),
-    .S0(ConfigBits[13+0]),
-    .S0N(ConfigBits_N[13+0]),
-    .S1(ConfigBits[13+1]),
-    .S1N(ConfigBits_N[13+1]),
-    .S2(ConfigBits[13+2]),
-    .S2N(ConfigBits_N[13+2]),
+    .S0(ConfigBits[10+0]),
+    .S0N(ConfigBits_N[10+0]),
+    .S1(ConfigBits[10+1]),
+    .S1N(ConfigBits_N[10+1]),
+    .S2(ConfigBits[10+2]),
+    .S2N(ConfigBits_N[10+2]),
     .X(SLOT2)
 );
 
@@ -421,13 +401,33 @@ cus_mux81_buf inst_cus_mux81_buf_SLOT3 (
     .A5(SLOT3_input[5]),
     .A6(SLOT3_input[6]),
     .A7(SLOT3_input[7]),
+    .S0(ConfigBits[13+0]),
+    .S0N(ConfigBits_N[13+0]),
+    .S1(ConfigBits[13+1]),
+    .S1N(ConfigBits_N[13+1]),
+    .S2(ConfigBits[13+2]),
+    .S2N(ConfigBits_N[13+2]),
+    .X(SLOT3)
+);
+
+ //switch matrix multiplexer BOOT MUX-8
+assign BOOT_input = {SS4END7,SS4END3,S4END7,S4END3,S2END7,S2END3,S2MID3,S1END3};
+cus_mux81_buf inst_cus_mux81_buf_BOOT (
+    .A0(BOOT_input[0]),
+    .A1(BOOT_input[1]),
+    .A2(BOOT_input[2]),
+    .A3(BOOT_input[3]),
+    .A4(BOOT_input[4]),
+    .A5(BOOT_input[5]),
+    .A6(BOOT_input[6]),
+    .A7(BOOT_input[7]),
     .S0(ConfigBits[16+0]),
     .S0N(ConfigBits_N[16+0]),
     .S1(ConfigBits[16+1]),
     .S1N(ConfigBits_N[16+1]),
     .S2(ConfigBits[16+2]),
     .S2N(ConfigBits_N[16+2]),
-    .X(SLOT3)
+    .X(BOOT)
 );
 
 
@@ -435,9 +435,9 @@ assign DEBUG_select_N1BEG0          = ConfigBits[0:0];
 assign DEBUG_select_N1BEG1          = ConfigBits[1:1];
 assign DEBUG_select_N1BEG2          = ConfigBits[2:2];
 assign DEBUG_select_N1BEG3          = ConfigBits[3:3];
-assign DEBUG_select_BOOT            = ConfigBits[6:4];
-assign DEBUG_select_SLOT0           = ConfigBits[9:7];
-assign DEBUG_select_SLOT1           = ConfigBits[12:10];
-assign DEBUG_select_SLOT2           = ConfigBits[15:13];
-assign DEBUG_select_SLOT3           = ConfigBits[18:16];
+assign DEBUG_select_SLOT0           = ConfigBits[6:4];
+assign DEBUG_select_SLOT1           = ConfigBits[9:7];
+assign DEBUG_select_SLOT2           = ConfigBits[12:10];
+assign DEBUG_select_SLOT3           = ConfigBits[15:13];
+assign DEBUG_select_BOOT            = ConfigBits[18:16];
 endmodule

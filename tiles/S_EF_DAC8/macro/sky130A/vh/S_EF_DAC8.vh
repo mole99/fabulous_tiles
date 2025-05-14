@@ -23,6 +23,7 @@ module S_EF_DAC8(
   output VALUE_top5,
   output VALUE_top6,
   output VALUE_top7,
+  output ENABLE_top,
   input UserCLK,
   output UserCLKo,
   input[31:0] FrameData,

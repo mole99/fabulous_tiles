@@ -3,7 +3,7 @@ meta:
   flow: FABulousTile
   substituting_steps:
     # KLayout runs density check, TODO disable
-    KLayout.DRC: null
+    #KLayout.DRC: null
 
 FABULOUS_TILE_DIR: dir::. #tiles/S_term_single2
 
@@ -20,6 +20,6 @@ CLOCK_PORT: UserCLK
 # Area
 FP_SIZING: absolute
 pdk::sky130A:
-    DIE_AREA: [0, 0, 205, 56.25]
+    DIE_AREA: [0, 0, 230, 55.76]
 pdk::ihp-sg13g2:
     DIE_AREA: [0, 0, 266.4, 59.22]

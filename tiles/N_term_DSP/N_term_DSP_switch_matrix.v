@@ -1,8 +1,5 @@
  // NumberOfConfigBits: 0
 module N_term_DSP_switch_matrix
-    #(
-        parameter NoConfigBits=0
-    )
     (
         input N1END0,
         input N1END1,

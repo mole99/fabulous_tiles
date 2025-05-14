@@ -5,7 +5,7 @@
       "attributes": {
         "dynports": 1,
         "cells_not_processed": 1,
-        "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:16.1-32.10"
+        "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:16.1-35.10"
       },
       "parameter_default_values": {
         "NoConfigBits": 0
@@ -15,15 +15,23 @@
           "direction": "input",
           "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
         },
+        "ENABLE": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
         "VALUE_top": {
           "direction": "output",
           "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        "ENABLE_top": {
+          "direction": "output",
+          "bits": [ 10 ]
         },
         "ConfigBits": {
           "direction": "input",
           "offset": -1,
           "upto": 1,
-          "bits": [ 10, 11 ]
+          "bits": [ 11, 12 ]
         }
       },
       "cells": {
@@ -31,20 +39,36 @@
       "netnames": {
         "ConfigBits": {
           "hide_name": 0,
-          "bits": [ 10, 11 ],
+          "bits": [ 11, 12 ],
           "offset": -1,
           "upto": 1,
           "attributes": {
             "FABulous": 1,
             "GLOBAL": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:27.54-27.64"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:29.54-29.64"
+          }
+        },
+        "ENABLE": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:23.26-23.32"
+          }
+        },
+        "ENABLE_top": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "EXTERNAL": 1,
+            "FABulous": 1,
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:27.51-27.61"
           }
         },
         "VALUE": {
           "hide_name": 0,
           "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
           "attributes": {
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:22.26-22.31"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:22.26-22.31"
           }
         },
         "VALUE_top": {
@@ -53,7 +77,7 @@
           "attributes": {
             "EXTERNAL": 1,
             "FABulous": 1,
-            "src": "/home/leo/Repositories/greyhound/ip/fabulous_fabric/fabric_ihp/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:25.51-25.60"
+            "src": "/home/leo/Repositories/panamax-fpga/ip/fabulous_fabric/fabric_sky130/../fabulous_tiles/tiles/S_EF_DAC8/EF_DAC8.v:26.51-26.60"
           }
         }
       }

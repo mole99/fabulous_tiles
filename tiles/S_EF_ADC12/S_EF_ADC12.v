@@ -21,8 +21,6 @@ module S_EF_ADC12
         input [15:0] S4END,        //Port(Name=S4END, IO=INPUT, XOffset=0, YOffset=4, WireCount=4, Side=NORTH)
         input [15:0] SS4END,        //Port(Name=SS4END, IO=INPUT, XOffset=0, YOffset=-4, WireCount=4, Side=NORTH)
         input CMP_top,
-        output HOLD_top,
-        output RESET_top,
         output VALUE_top0,
         output VALUE_top1,
         output VALUE_top2,
@@ -35,6 +33,8 @@ module S_EF_ADC12
         output VALUE_top9,
         output VALUE_top10,
         output VALUE_top11,
+        output HOLD_top,
+        output RESET_top,
     //Tile IO ports from BELs
         input UserCLK,
         output UserCLKo,
@@ -46,8 +46,8 @@ module S_EF_ADC12
 );
  //signal declarations
  //BEL ports (e.g., slices)
-wire RESET;
 wire START;
+wire RESET;
 wire VALID;
 wire VALUE0;
 wire VALUE1;
@@ -619,14 +619,14 @@ S_EF_ADC12_ConfigMem
 
  //BEL component instantiations
 EF_ADC12 Inst_EF_ADC12 (
-    .RESET(RESET),
     .START(START),
+    .RESET(RESET),
     .VALID(VALID),
     .VALUE({VALUE11, VALUE10, VALUE9, VALUE8, VALUE7, VALUE6, VALUE5, VALUE4, VALUE3, VALUE2, VALUE1, VALUE0}),
     .CMP_top(CMP_top),
+    .VALUE_top({VALUE_top11, VALUE_top10, VALUE_top9, VALUE_top8, VALUE_top7, VALUE_top6, VALUE_top5, VALUE_top4, VALUE_top3, VALUE_top2, VALUE_top1, VALUE_top0}),
     .HOLD_top(HOLD_top),
     .RESET_top(RESET_top),
-    .VALUE_top({VALUE_top11, VALUE_top10, VALUE_top9, VALUE_top8, VALUE_top7, VALUE_top6, VALUE_top5, VALUE_top4, VALUE_top3, VALUE_top2, VALUE_top1, VALUE_top0}),
     .UserCLK(UserCLK),
     .ConfigBits(ConfigBits[4-1:0])
 );
@@ -750,8 +750,8 @@ S_EF_ADC12_switch_matrix Inst_S_EF_ADC12_switch_matrix (
     .NN4BEG14(NN4BEG[14]),
     .NN4BEG15(NN4BEG[15]),
     .Co0(Co[0]),
-    .RESET(RESET),
     .START(START),
+    .RESET(RESET),
     .ConfigBits(ConfigBits[66-1:4]),
     .ConfigBits_N(ConfigBits_N[66-1:4])
 );

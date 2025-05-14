@@ -20,13 +20,13 @@ module S_WARMBOOT
         input [7:0] S2END,        //Port(Name=S2END, IO=INPUT, XOffset=0, YOffset=1, WireCount=8, Side=NORTH)
         input [15:0] S4END,        //Port(Name=S4END, IO=INPUT, XOffset=0, YOffset=4, WireCount=4, Side=NORTH)
         input [15:0] SS4END,        //Port(Name=SS4END, IO=INPUT, XOffset=0, YOffset=4, WireCount=4, Side=NORTH)
-        input CONFIGURED_top,
         input RESET_top,
-        output BOOT_top,
+        input CONFIGURED_top,
         output SLOT_top0,
         output SLOT_top1,
         output SLOT_top2,
         output SLOT_top3,
+        output BOOT_top,
     //Tile IO ports from BELs
         input UserCLK,
         output UserCLKo,
@@ -38,11 +38,11 @@ module S_WARMBOOT
 );
  //signal declarations
  //BEL ports (e.g., slices)
-wire BOOT;
 wire SLOT0;
 wire SLOT1;
 wire SLOT2;
 wire SLOT3;
+wire BOOT;
 wire RESET;
  //Jump wires
  //internal configuration data signal to daisy-chain all BELs (if any and in the order they are listed in the fabric.csv)
@@ -602,13 +602,13 @@ S_WARMBOOT_ConfigMem
 
  //BEL component instantiations
 WARMBOOT Inst_WARMBOOT (
-    .BOOT(BOOT),
     .SLOT({SLOT3, SLOT2, SLOT1, SLOT0}),
+    .BOOT(BOOT),
     .RESET(RESET),
-    .CONFIGURED_top(CONFIGURED_top),
     .RESET_top(RESET_top),
-    .BOOT_top(BOOT_top),
-    .SLOT_top({SLOT_top3, SLOT_top2, SLOT_top1, SLOT_top0})
+    .CONFIGURED_top(CONFIGURED_top),
+    .SLOT_top({SLOT_top3, SLOT_top2, SLOT_top1, SLOT_top0}),
+    .BOOT_top(BOOT_top)
 );
 
 S_WARMBOOT_switch_matrix Inst_S_WARMBOOT_switch_matrix (
@@ -718,11 +718,11 @@ S_WARMBOOT_switch_matrix Inst_S_WARMBOOT_switch_matrix (
     .NN4BEG14(NN4BEG[14]),
     .NN4BEG15(NN4BEG[15]),
     .Co0(Co[0]),
-    .BOOT(BOOT),
     .SLOT0(SLOT0),
     .SLOT1(SLOT1),
     .SLOT2(SLOT2),
     .SLOT3(SLOT3),
+    .BOOT(BOOT),
     .ConfigBits(ConfigBits[19-1:0]),
     .ConfigBits_N(ConfigBits_N[19-1:0])
 );
